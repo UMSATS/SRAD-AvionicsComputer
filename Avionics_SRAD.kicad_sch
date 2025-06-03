@@ -3402,7 +3402,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "untitled.kicad_sch"
+		(property "Sheetfile" "accelerometer_sketch.kicad_sch"
 			(at 43.18 95.8346 0)
 			(effects
 				(font
