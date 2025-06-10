@@ -250,6 +250,26 @@
 			(embedded_fonts no)
 		)
 	)
+	(no_connect
+		(at 114.3 86.36)
+		(uuid "20800a62-0221-40bf-82ea-8627118ecb76")
+	)
+	(no_connect
+		(at 127 93.98)
+		(uuid "85c72229-8bf9-4bde-b62f-3241e6ea4246")
+	)
+	(no_connect
+		(at 134.62 81.28)
+		(uuid "cae64f88-ccc4-45ce-9ba0-188d8fccd27c")
+	)
+	(no_connect
+		(at 114.3 83.82)
+		(uuid "dc58b8a0-3da9-46bb-8a53-6a7b7b19b02a")
+	)
+	(no_connect
+		(at 114.3 88.9)
+		(uuid "e911cc6b-f575-4959-bfb4-c57ecb9f1aea")
+	)
 	(wire
 		(pts
 			(xy 97.79 76.2) (xy 114.3 76.2)

@@ -346,7 +346,7 @@
 				)
 			)
 		)
-		(property "Footprint" "AS5F31G04SND-08LIN:SON127P600X800X80-8N"
+		(property "Footprint" "footprints:SON127P600X800X80-8N"
 			(at 127 83.82 0)
 			(effects
 				(font

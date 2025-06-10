@@ -938,7 +938,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LGA-14L_2P5X3X0P83_STM"
+		(property "Footprint" "footprints:LGA-14L_2P5X3X0P83_STM"
 			(at 106.68 68.58 0)
 			(effects
 				(font

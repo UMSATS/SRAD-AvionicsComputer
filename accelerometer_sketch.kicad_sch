@@ -848,7 +848,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LGA12_2X2X0P9_ROM"
+		(property "Footprint" "footprints:LGA12_2X2X0P9_ROM"
 			(at 105.41 66.04 0)
 			(effects
 				(font
