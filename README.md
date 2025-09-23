@@ -19,22 +19,22 @@ The schematic is organized into blocks for clarity:
   Handles voltage regulation and distribution. Goal is to provide stable power to all avionics subsystems.
 
 - **MCU (Microcontroller Unit)**  
-  Central controller that interfaces with all sensors and peripherals. Will run the flight software and handles communication.
+  Central controller that interfaces with all sensors and peripherals. Will run the flight software and handle communication.
 
 - **IMU & Motion Sensors**  
-  - **Accelerometer** (KX134-1211)   
-  - **Gyroscope** (ASM330LHH)
-  - **Magnetometer** (MMC5983MA) 
+  - **Accelerometer** KX134-1211   
+  - **Gyroscope** ASM330LHH
+  - **Magnetometer** MMC5983MA 
 
 - **Environmental Sensors**  
-  - **Barometer** (MS5607-02BA)
-  - **Temperature Sensor** (MCP9808) 
+  - **Barometer** MS5607-02BA
+  - **Temperature Sensor** MCP9808 
 
 - **GPS**  
-  (MAX-M10S) 
+  MAX-M10S 
 
 - **Data Storage**  
-  (AT25SFQ64)
+  AT25SFQ64
 
 ---
 
