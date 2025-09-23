@@ -22,19 +22,17 @@ The schematic is organized into blocks for clarity:
   Central controller that interfaces with all sensors and peripherals. Will run the flight software and handle communication.
 
 - **IMU & Motion Sensors**  
-  - **Accelerometer** KX134-1211   
-  - **Gyroscope** ASM330LHH
-  - **Magnetometer** MMC5983MA 
+  - **Accelerometer** -> KX134-1211   
+  - **Gyroscope** -> ASM330LHH
+  - **Magnetometer** -> MMC5983MA 
 
 - **Environmental Sensors**  
-  - **Barometer** MS5607-02BA
-  - **Temperature Sensor** MCP9808 
+  - **Barometer** -> MS5607-02BA
+  - **Temperature Sensor** -> MCP9808 
 
-- **GPS**  
-  MAX-M10S 
+- **GPS** -> MAX-M10S 
 
-- **Data Storage**  
-  AT25SFQ64
+- **Data Storage** -> AT25SFQ64
 
 ---
 
