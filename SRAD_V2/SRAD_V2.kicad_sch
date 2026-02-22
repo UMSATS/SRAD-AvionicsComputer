@@ -4,9 +4,14 @@
 	(generator_version "9.0")
 	(uuid "016ea6e5-09c6-43d4-b6cc-3404e2d65458")
 	(paper "A4")
+	(title_block
+		(title "SRAD Flight Computer 2026")
+		(date "2026-02-22")
+		(rev "V2.0")
+	)
 	(lib_symbols)
 	(sheet
-		(at 132.334 73.152)
+		(at 124.206 70.866)
 		(size 43.18 34.29)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -22,21 +27,111 @@
 		)
 		(uuid "51825e43-6d17-42cc-86d0-a82f84dc8a84")
 		(property "Sheetname" "MCU_STM32"
-			(at 132.334 72.4404 0)
+			(at 124.206 69.8369 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.905 1.905)
 				)
 				(justify left bottom)
 			)
 		)
 		(property "Sheetfile" "stm32.kicad_sch"
-			(at 132.334 108.0266 0)
+			(at 124.206 105.7406 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left top)
+			)
+		)
+		(pin "Enable_Signal1" input
+			(at 124.206 81.28 180)
+			(uuid "47e8486c-a791-441e-98af-9464f1d4c818")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "Enable_Signal2" input
+			(at 124.206 85.09 180)
+			(uuid "71642a23-1fe1-4d8c-b743-4e1df4b3fa52")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "Enable_Signal3" input
+			(at 124.206 88.9 180)
+			(uuid "22c32b5d-b88e-491a-9ae5-e09eac33045a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "Enable_Signal4" input
+			(at 124.206 92.71 180)
+			(uuid "af7b0913-6d75-4ca7-8179-dfef2ef5315b")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "Sensor_Output" input
+			(at 167.386 81.28 0)
+			(uuid "b3e09746-e4b8-4339-a18a-9caf5b6e5f50")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "Trigger_Signal1" input
+			(at 167.386 83.82 0)
+			(uuid "6856f24f-2b23-473b-8d36-7655db34f58d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "Trigger_Signal2" input
+			(at 167.386 86.36 0)
+			(uuid "b76deb93-18c8-4e8f-b537-60e7529fe949")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "Trigger_Signal3" input
+			(at 167.386 88.9 0)
+			(uuid "ae259a4f-b611-48da-a5c3-e23073b156b6")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "Trigger_Signal4" input
+			(at 167.386 91.44 0)
+			(uuid "b6663c42-c04c-4131-9fb3-57d007ffdbb3")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 			)
 		)
 		(instances
@@ -48,13 +143,12 @@
 		)
 	)
 	(sheet
-		(at 42.418 26.67)
-		(size 45.212 35.052)
+		(at 46.99 37.084)
+		(size 45.212 27.178)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
 			(type solid)
@@ -64,21 +158,41 @@
 		)
 		(uuid "9c8bbba4-8714-49e8-941c-914b77648ac5")
 		(property "Sheetname" "Power Delivery System"
-			(at 42.418 25.9584 0)
+			(at 52.578 45.974 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.905 1.905)
 				)
 				(justify left bottom)
 			)
 		)
 		(property "Sheetfile" "PDS.kicad_sch"
-			(at 42.418 62.3066 0)
+			(at 59.944 61.722 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left top)
+			)
+		)
+		(pin "V3V3" output
+			(at 92.202 53.34 0)
+			(uuid "84445aad-294b-4aad-b8b8-b5fa20dd1e24")
+			(effects
+				(font
+					(size 1.905 1.905)
+				)
+				(justify right)
+			)
+		)
+		(pin "VIN" input
+			(at 46.99 53.34 180)
+			(uuid "b2870f34-3912-46f5-bcc7-ab3774175428")
+			(effects
+				(font
+					(size 1.905 1.905)
+				)
+				(justify left)
 			)
 		)
 		(instances
@@ -90,8 +204,8 @@
 		)
 	)
 	(sheet
-		(at 22.86 120.142)
-		(size 113.538 71.12)
+		(at 38.862 116.586)
+		(size 71.628 60.452)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -106,21 +220,111 @@
 		)
 		(uuid "a2059f4c-c92f-483b-9b86-061767cb943d")
 		(property "Sheetname" "E-match Firing Circuit"
-			(at 22.86 119.4304 0)
+			(at 38.862 115.5569 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.905 1.905)
 				)
 				(justify left bottom)
 			)
 		)
 		(property "Sheetfile" "e-match.kicad_sch"
-			(at 22.86 191.8466 0)
+			(at 38.862 177.6226 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left top)
+			)
+		)
+		(pin "Enable_Signal1" input
+			(at 38.862 130.81 180)
+			(uuid "6dc28627-789c-4d1c-af80-0a6c62794cef")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "Enable_Signal2" input
+			(at 38.862 135.89 180)
+			(uuid "6fb8e511-fbc7-4b10-ab9e-75ec0f0ce1ba")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "Enable_Signal3" input
+			(at 38.862 142.24 180)
+			(uuid "818e919f-3011-4f45-802d-70a155204597")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "Enable_Signal4" input
+			(at 38.862 149.86 180)
+			(uuid "7ae910fc-e0d9-4060-b0b2-5567ee8325f4")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "Sensor_Output" output
+			(at 110.49 130.81 0)
+			(uuid "4a7653b3-c865-445d-94b9-e9717e9eb163")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "Trigger_Signal1" input
+			(at 110.49 137.16 0)
+			(uuid "7d98f4a0-9508-43d1-aab5-d00b8460b17a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "Trigger_Signal2" input
+			(at 110.49 140.97 0)
+			(uuid "26d3f6f2-715c-4950-aec9-13769cbe4490")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "Trigger_Signal3" input
+			(at 110.49 144.78 0)
+			(uuid "92559975-e1da-44ba-9d21-9a9eea9070f8")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "Trigger_Signal4" input
+			(at 110.49 147.32 0)
+			(uuid "c98935e0-28e0-46eb-b18d-4d98d7f250e7")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 			)
 		)
 		(instances
@@ -148,10 +352,10 @@
 		)
 		(uuid "ac92d8dd-ef30-4ac9-90eb-deb18ea006aa")
 		(property "Sheetname" "Different Sensors and Flash Memory"
-			(at 202.692 71.9324 0)
+			(at 202.692 71.6149 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.905 1.905)
 				)
 				(justify left bottom)
 			)

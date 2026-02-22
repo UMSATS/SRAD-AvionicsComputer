@@ -5655,94 +5655,6 @@
 		)
 		(uuid "fe81d318-6dcb-46b4-b7e9-8b1c44b39508")
 	)
-	(global_label "Sensor_Output"
-		(shape input)
-		(at 81.28 52.07 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.016 1.016)
-			)
-			(justify left)
-		)
-		(uuid "04bfa8de-df71-40e8-8f27-653a971ae808")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 94.5536 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "Trigger_Signal1"
-		(shape input)
-		(at 232.7997 92.7451 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.016 1.016)
-			)
-			(justify right)
-		)
-		(uuid "0c85551a-39f3-4f99-bd96-2051b9435039")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 218.7037 92.7451 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "Trigger_Signal2"
-		(shape input)
-		(at 232.7997 97.8251 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.016 1.016)
-			)
-			(justify right)
-		)
-		(uuid "18f2ceb1-d6fc-4e60-a35f-57a442fb8a55")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 218.7037 97.8251 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "Enable_Signal3"
-		(shape input)
-		(at 232.41 44.45 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.016 1.016)
-			)
-			(justify right)
-		)
-		(uuid "225d10c3-e974-46d3-8fe2-02103c98e63c")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 218.4593 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "Gate_Drive4"
 		(shape output)
 		(at 256.54 49.53 0)
@@ -5787,72 +5699,6 @@
 			)
 		)
 	)
-	(global_label "Trigger_Signal1"
-		(shape input)
-		(at 172.72 76.2 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "2cac6cc4-4f9e-40df-b97d-5d20f877345f")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 190.3402 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "Trigger_Signal3"
-		(shape input)
-		(at 232.41 46.99 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.016 1.016)
-			)
-			(justify right)
-		)
-		(uuid "2d338773-3a09-45d1-be8c-5bc13c4f9da6")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 218.314 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "Sensor_Output"
-		(shape input)
-		(at 147.32 73.66 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "2fbbda3b-eaf5-445c-82e3-dfb491f63f2d")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 130.7279 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "VBAT"
 		(shape input)
 		(at 271.78 90.17 0)
@@ -5866,28 +5712,6 @@
 		(uuid "339cf15d-9ee0-4faa-9f95-4694934575ed")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 277.6998 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "Trigger_Signal2"
-		(shape input)
-		(at 172.72 78.74 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "35be247c-2959-44b7-8f19-ad10b14adc06")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 190.3402 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5941,50 +5765,6 @@
 			)
 		)
 	)
-	(global_label "Enable_Signal3"
-		(shape input)
-		(at 172.72 66.04 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "3c148e20-26d7-4bab-a176-18a86bb3c9f6")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 190.1586 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "Enable_Signal1"
-		(shape input)
-		(at 232.7997 90.2051 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.016 1.016)
-			)
-			(justify right)
-		)
-		(uuid "40ac660b-8b88-40fb-b5b0-8260da1df8d4")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 218.849 90.2051 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "Gate_Drive4"
 		(shape output)
 		(at 96.52 121.92 270)
@@ -6020,28 +5800,6 @@
 		(uuid "602442fc-e331-4829-b9fe-e481d496ae37")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 38.1 38.32 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "Trigger_Signal3"
-		(shape input)
-		(at 172.72 81.28 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "73ab5d1c-40d9-433d-939f-bb898c710649")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 190.3402 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6117,28 +5875,6 @@
 			)
 		)
 	)
-	(global_label "Enable_Signal2"
-		(shape input)
-		(at 232.7997 95.2851 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.016 1.016)
-			)
-			(justify right)
-		)
-		(uuid "92193057-862a-4089-858d-93504b8c8762")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 218.849 95.2851 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "5V"
 		(shape input)
 		(at 154.94 100.33 270)
@@ -6161,50 +5897,6 @@
 			)
 		)
 	)
-	(global_label "Trigger_Signal4"
-		(shape input)
-		(at 172.72 83.82 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "9d0247d6-a99b-45f4-a736-5ddeaf22e47a")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 190.3402 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "Enable_Signal4"
-		(shape input)
-		(at 172.72 68.58 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "a59f289e-7544-4984-a6e7-97f54717c5a7")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 190.1586 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "5V"
 		(shape input)
 		(at 91.44 180.34 180)
@@ -6218,72 +5910,6 @@
 		(uuid "aec824f3-f665-49d6-8872-d9a7020c6115")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 86.1567 180.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "Enable_Signal2"
-		(shape input)
-		(at 172.72 63.5 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "b25786de-9e47-4ad1-9431-bd14eb8cbc80")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 190.1586 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "Enable_Signal1"
-		(shape input)
-		(at 172.72 60.96 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "b8f24a2f-b954-4985-8bfc-39ac484d91ef")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 190.1586 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "Trigger_Signal4"
-		(shape input)
-		(at 232.41 52.07 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.016 1.016)
-			)
-			(justify right)
-		)
-		(uuid "c75fa470-9c32-45a4-8293-06206ba880e9")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 218.314 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6337,27 +5963,203 @@
 			)
 		)
 	)
-	(global_label "Enable_Signal4"
+	(hierarchical_label "Enable_Signal3"
 		(shape input)
-		(at 232.41 49.53 180)
-		(fields_autoplaced yes)
+		(at 172.72 66.04 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "07ef047f-90c9-4668-bd50-6c64093060d7")
+	)
+	(hierarchical_label "Trigger_Signal3"
+		(shape input)
+		(at 172.72 81.28 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "0b7252e2-0b4d-4376-8c8d-31e712503284")
+	)
+	(hierarchical_label "Trigger_Signal1"
+		(shape input)
+		(at 232.7997 92.7451 180)
 		(effects
 			(font
 				(size 1.016 1.016)
 			)
 			(justify right)
 		)
-		(uuid "f88283ce-77d7-428e-96f5-13fd08920a8b")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 218.4593 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
+		(uuid "0fb0e446-4cd0-4207-a107-e107fb2d3b0e")
+	)
+	(hierarchical_label "Enable_Signal2"
+		(shape input)
+		(at 172.72 63.5 0)
+		(effects
+			(font
+				(size 1.27 1.27)
 			)
+			(justify left)
 		)
+		(uuid "1593ac93-602d-4789-98d0-901384ae31f1")
+	)
+	(hierarchical_label "Trigger_Signal2"
+		(shape input)
+		(at 232.7997 97.8251 180)
+		(effects
+			(font
+				(size 1.016 1.016)
+			)
+			(justify right)
+		)
+		(uuid "28743cf7-699e-48f2-93bb-329fb9d7b822")
+	)
+	(hierarchical_label "Enable_Signal2"
+		(shape input)
+		(at 232.7997 95.2851 180)
+		(effects
+			(font
+				(size 1.016 1.016)
+			)
+			(justify right)
+		)
+		(uuid "2edf6529-db0b-4b0e-a42d-b9ca6718141b")
+	)
+	(hierarchical_label "Enable_Signal4"
+		(shape input)
+		(at 232.41 49.53 180)
+		(effects
+			(font
+				(size 1.016 1.016)
+			)
+			(justify right)
+		)
+		(uuid "3dc04dbd-2863-4339-ab4b-713da1169369")
+	)
+	(hierarchical_label "Trigger_Signal4"
+		(shape input)
+		(at 172.72 83.82 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "447cab67-efbe-448b-8d5c-60a666329ab5")
+	)
+	(hierarchical_label "Sensor_Output"
+		(shape input)
+		(at 147.32 73.66 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "4f69b01a-f780-447b-be12-bd4782c6d592")
+	)
+	(hierarchical_label "Enable_Signal4"
+		(shape input)
+		(at 172.72 68.58 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "72ece920-fa2c-4b23-9b65-fb9211373d26")
+	)
+	(hierarchical_label "Sensor_Output"
+		(shape input)
+		(at 81.28 52.07 0)
+		(effects
+			(font
+				(size 1.016 1.016)
+			)
+			(justify left)
+		)
+		(uuid "7e13b5b0-b4d7-43da-b12e-4467f0fea893")
+	)
+	(hierarchical_label "Enable_Signal1"
+		(shape input)
+		(at 172.72 60.96 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "9f857b27-23c3-4e12-8b33-1aea781d0ef1")
+	)
+	(hierarchical_label "Trigger_Signal1"
+		(shape input)
+		(at 172.72 76.2 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "9fb82a9c-3161-4d69-8354-95b74e552e43")
+	)
+	(hierarchical_label "Enable_Signal1"
+		(shape input)
+		(at 232.7997 90.2051 180)
+		(effects
+			(font
+				(size 1.016 1.016)
+			)
+			(justify right)
+		)
+		(uuid "c4076f4f-fbbf-4bea-b0f7-74dc37440100")
+	)
+	(hierarchical_label "Enable_Signal3"
+		(shape input)
+		(at 232.41 44.45 180)
+		(effects
+			(font
+				(size 1.016 1.016)
+			)
+			(justify right)
+		)
+		(uuid "ddbc4271-5a8b-4b2d-ba49-c2e4d11297ed")
+	)
+	(hierarchical_label "Trigger_Signal3"
+		(shape input)
+		(at 232.41 46.99 180)
+		(effects
+			(font
+				(size 1.016 1.016)
+			)
+			(justify right)
+		)
+		(uuid "ebaf80d4-173d-4292-8fc2-bec2fb32eccf")
+	)
+	(hierarchical_label "Trigger_Signal4"
+		(shape input)
+		(at 232.41 52.07 180)
+		(effects
+			(font
+				(size 1.016 1.016)
+			)
+			(justify right)
+		)
+		(uuid "fa908290-89a0-454e-8b1b-4d7f7ee0214e")
+	)
+	(hierarchical_label "Trigger_Signal2"
+		(shape input)
+		(at 172.72 78.74 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "ff2d9969-c0a1-45d6-ae47-692d40fd45f3")
 	)
 	(symbol
 		(lib_id "power:GND")
@@ -6368,7 +6170,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "03683fb1-ff64-453c-98fd-326736914560")
-		(property "Reference" "#PWR042"
+		(property "Reference" "#PWR014"
 			(at 257.81 72.39 0)
 			(effects
 				(font
@@ -6419,7 +6221,7 @@
 		(instances
 			(project "SRAD_V2"
 				(path "/016ea6e5-09c6-43d4-b6cc-3404e2d65458/a2059f4c-c92f-483b-9b86-061767cb943d"
-					(reference "#PWR042")
+					(reference "#PWR014")
 					(unit 1)
 				)
 			)
@@ -6434,7 +6236,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "07e434c4-4a73-4e05-ba04-a8db70ab9b69")
-		(property "Reference" "R12"
+		(property "Reference" "R6"
 			(at 94.234 118.11 90)
 			(effects
 				(font
@@ -6486,7 +6288,7 @@
 		(instances
 			(project "SRAD_V2"
 				(path "/016ea6e5-09c6-43d4-b6cc-3404e2d65458/a2059f4c-c92f-483b-9b86-061767cb943d"
-					(reference "R12")
+					(reference "R6")
 					(unit 1)
 				)
 			)
@@ -6501,7 +6303,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "0ae683f9-d922-4bc2-b23e-b825e9aed37d")
-		(property "Reference" "CR6"
+		(property "Reference" "CR2"
 			(at 51.435 77.47 0)
 			(effects
 				(font
@@ -6555,7 +6357,7 @@
 		(instances
 			(project "SRAD_V2"
 				(path "/016ea6e5-09c6-43d4-b6cc-3404e2d65458/a2059f4c-c92f-483b-9b86-061767cb943d"
-					(reference "CR6")
+					(reference "CR2")
 					(unit 1)
 				)
 			)
@@ -6570,7 +6372,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "19247cb9-9af3-4ded-8040-830efbef7186")
-		(property "Reference" "U21"
+		(property "Reference" "U3"
 			(at 67.056 39.878 0)
 			(effects
 				(font
@@ -6642,7 +6444,7 @@
 		(instances
 			(project "SRAD_V2"
 				(path "/016ea6e5-09c6-43d4-b6cc-3404e2d65458/a2059f4c-c92f-483b-9b86-061767cb943d"
-					(reference "U21")
+					(reference "U3")
 					(unit 1)
 				)
 			)
@@ -6658,7 +6460,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2108cd31-0790-433f-84e9-c0aa9727217a")
-		(property "Reference" "Q8"
+		(property "Reference" "Q3"
 			(at 80.01 101.5999 90)
 			(effects
 				(font
@@ -6732,7 +6534,7 @@
 		(instances
 			(project "SRAD_V2"
 				(path "/016ea6e5-09c6-43d4-b6cc-3404e2d65458/a2059f4c-c92f-483b-9b86-061767cb943d"
-					(reference "Q8")
+					(reference "Q3")
 					(unit 1)
 				)
 			)
@@ -6748,7 +6550,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "235ecb89-d030-4446-b833-80ad04310104")
-		(property "Reference" "#PWR020"
+		(property "Reference" "#PWR012"
 			(at 263.2797 97.8251 0)
 			(effects
 				(font
@@ -6799,7 +6601,7 @@
 		(instances
 			(project "SRAD_V2"
 				(path "/016ea6e5-09c6-43d4-b6cc-3404e2d65458/a2059f4c-c92f-483b-9b86-061767cb943d"
-					(reference "#PWR020")
+					(reference "#PWR012")
 					(unit 1)
 				)
 			)
@@ -6814,7 +6616,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "270bba85-f355-4620-834e-3531cbee60eb")
-		(property "Reference" "J10"
+		(property "Reference" "J4"
 			(at 67.056 73.66 90)
 			(effects
 				(font
@@ -6938,7 +6740,7 @@
 		(instances
 			(project "SRAD_V2"
 				(path "/016ea6e5-09c6-43d4-b6cc-3404e2d65458/a2059f4c-c92f-483b-9b86-061767cb943d"
-					(reference "J10")
+					(reference "J4")
 					(unit 1)
 				)
 			)
@@ -6953,7 +6755,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "2b39c253-6a8b-4fc1-bba0-8597bcd4690e")
-		(property "Reference" "#PWR038"
+		(property "Reference" "#PWR08"
 			(at 91.44 133.35 0)
 			(effects
 				(font
@@ -7003,7 +6805,7 @@
 		(instances
 			(project "SRAD_V2"
 				(path "/016ea6e5-09c6-43d4-b6cc-3404e2d65458/a2059f4c-c92f-483b-9b86-061767cb943d"
-					(reference "#PWR038")
+					(reference "#PWR08")
 					(unit 1)
 				)
 			)
@@ -7018,7 +6820,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "2d985eed-bbbf-4812-9173-f9c170c4cbe2")
-		(property "Reference" "R11"
+		(property "Reference" "R5"
 			(at 73.914 118.11 90)
 			(effects
 				(font
@@ -7070,7 +6872,7 @@
 		(instances
 			(project "SRAD_V2"
 				(path "/016ea6e5-09c6-43d4-b6cc-3404e2d65458/a2059f4c-c92f-483b-9b86-061767cb943d"
-					(reference "R11")
+					(reference "R5")
 					(unit 1)
 				)
 			)
@@ -7085,7 +6887,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "2e57946b-68f1-4960-ab6d-197b7ea58de9")
-		(property "Reference" "#PWR041"
+		(property "Reference" "#PWR013"
 			(at 257.81 26.67 0)
 			(effects
 				(font
@@ -7136,7 +6938,7 @@
 		(instances
 			(project "SRAD_V2"
 				(path "/016ea6e5-09c6-43d4-b6cc-3404e2d65458/a2059f4c-c92f-483b-9b86-061767cb943d"
-					(reference "#PWR041")
+					(reference "#PWR013")
 					(unit 1)
 				)
 			)
@@ -7152,7 +6954,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "44ac1005-b6c9-40f4-858b-45f5cb430fde")
-		(property "Reference" "#PWR019"
+		(property "Reference" "#PWR010"
 			(at 158.75 36.83 0)
 			(effects
 				(font
@@ -7202,7 +7004,7 @@
 		(instances
 			(project "SRAD_V2"
 				(path "/016ea6e5-09c6-43d4-b6cc-3404e2d65458/a2059f4c-c92f-483b-9b86-061767cb943d"
-					(reference "#PWR019")
+					(reference "#PWR010")
 					(unit 1)
 				)
 			)
@@ -7218,7 +7020,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4764efaa-f795-440f-95a1-15c57e5c012b")
-		(property "Reference" "Q9"
+		(property "Reference" "Q4"
 			(at 100.33 101.5999 90)
 			(effects
 				(font
@@ -7292,7 +7094,7 @@
 		(instances
 			(project "SRAD_V2"
 				(path "/016ea6e5-09c6-43d4-b6cc-3404e2d65458/a2059f4c-c92f-483b-9b86-061767cb943d"
-					(reference "Q9")
+					(reference "Q4")
 					(unit 1)
 				)
 			)
@@ -7308,7 +7110,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4f4ed9cd-6586-407b-a069-eed3592082b3")
-		(property "Reference" "C23"
+		(property "Reference" "C4"
 			(at 83.82 38.1062 0)
 			(effects
 				(font
@@ -7362,7 +7164,7 @@
 		(instances
 			(project "SRAD_V2"
 				(path "/016ea6e5-09c6-43d4-b6cc-3404e2d65458/a2059f4c-c92f-483b-9b86-061767cb943d"
-					(reference "C23")
+					(reference "C4")
 					(unit 1)
 				)
 			)
@@ -7378,7 +7180,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "50b27995-0090-48d1-897e-64fb7e21d671")
-		(property "Reference" "LED3"
+		(property "Reference" "LED1"
 			(at 119.38 170.18 0)
 			(effects
 				(font
@@ -7432,7 +7234,7 @@
 		(instances
 			(project "SRAD_V2"
 				(path "/016ea6e5-09c6-43d4-b6cc-3404e2d65458/a2059f4c-c92f-483b-9b86-061767cb943d"
-					(reference "LED3")
+					(reference "LED1")
 					(unit 1)
 				)
 			)
@@ -7448,7 +7250,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "51179d56-f3b2-4b52-953e-d6431f2c7f13")
-		(property "Reference" "J7"
+		(property "Reference" "J1"
 			(at 23.1803 41.91 0)
 			(effects
 				(font
@@ -7624,7 +7426,7 @@
 		(instances
 			(project "SRAD_V2"
 				(path "/016ea6e5-09c6-43d4-b6cc-3404e2d65458/a2059f4c-c92f-483b-9b86-061767cb943d"
-					(reference "J7")
+					(reference "J1")
 					(unit 1)
 				)
 			)
@@ -7639,7 +7441,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "57342d45-10f0-4ec1-b975-2ce6922c59a3")
-		(property "Reference" "#PWR037"
+		(property "Reference" "#PWR06"
 			(at 81.28 30.48 0)
 			(effects
 				(font
@@ -7690,7 +7492,7 @@
 		(instances
 			(project "SRAD_V2"
 				(path "/016ea6e5-09c6-43d4-b6cc-3404e2d65458/a2059f4c-c92f-483b-9b86-061767cb943d"
-					(reference "#PWR037")
+					(reference "#PWR06")
 					(unit 1)
 				)
 			)
@@ -7705,7 +7507,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "6d4a073b-84e7-412b-9232-30a46a1b84d4")
-		(property "Reference" "#PWR018"
+		(property "Reference" "#PWR07"
 			(at 88.9 62.23 0)
 			(effects
 				(font
@@ -7756,7 +7558,7 @@
 		(instances
 			(project "SRAD_V2"
 				(path "/016ea6e5-09c6-43d4-b6cc-3404e2d65458/a2059f4c-c92f-483b-9b86-061767cb943d"
-					(reference "#PWR018")
+					(reference "#PWR07")
 					(unit 1)
 				)
 			)
@@ -7771,7 +7573,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "6ed49db0-418b-4144-b9a3-175d3fa82da5")
-		(property "Reference" "#PWR017"
+		(property "Reference" "#PWR05"
 			(at 71.12 133.35 0)
 			(effects
 				(font
@@ -7821,7 +7623,7 @@
 		(instances
 			(project "SRAD_V2"
 				(path "/016ea6e5-09c6-43d4-b6cc-3404e2d65458/a2059f4c-c92f-483b-9b86-061767cb943d"
-					(reference "#PWR017")
+					(reference "#PWR05")
 					(unit 1)
 				)
 			)
@@ -7837,7 +7639,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "71b9cb28-3b76-4c71-8695-4086f303b403")
-		(property "Reference" "#PWR036"
+		(property "Reference" "#PWR02"
 			(at 39.37 52.07 0)
 			(effects
 				(font
@@ -7888,7 +7690,7 @@
 		(instances
 			(project "SRAD_V2"
 				(path "/016ea6e5-09c6-43d4-b6cc-3404e2d65458/a2059f4c-c92f-483b-9b86-061767cb943d"
-					(reference "#PWR036")
+					(reference "#PWR02")
 					(unit 1)
 				)
 			)
@@ -7903,7 +7705,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "7c6b7e06-74f9-4ac8-9a8c-9d4f69abf40b")
-		(property "Reference" "J8"
+		(property "Reference" "J2"
 			(at 30.226 73.66 90)
 			(effects
 				(font
@@ -8027,7 +7829,7 @@
 		(instances
 			(project "SRAD_V2"
 				(path "/016ea6e5-09c6-43d4-b6cc-3404e2d65458/a2059f4c-c92f-483b-9b86-061767cb943d"
-					(reference "J8")
+					(reference "J2")
 					(unit 1)
 				)
 			)
@@ -8043,7 +7845,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7f735f28-d18f-4e65-99b4-f02a0b98ecca")
-		(property "Reference" "M2"
+		(property "Reference" "M1"
 			(at 154.94 114.3 0)
 			(effects
 				(font
@@ -8109,7 +7911,7 @@
 		(instances
 			(project "SRAD_V2"
 				(path "/016ea6e5-09c6-43d4-b6cc-3404e2d65458/a2059f4c-c92f-483b-9b86-061767cb943d"
-					(reference "M2")
+					(reference "M1")
 					(unit 1)
 				)
 			)
@@ -8124,7 +7926,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "8bba1f20-8685-44ea-b705-8f1043bb8f35")
-		(property "Reference" "CR7"
+		(property "Reference" "CR3"
 			(at 70.485 77.47 0)
 			(effects
 				(font
@@ -8178,7 +7980,7 @@
 		(instances
 			(project "SRAD_V2"
 				(path "/016ea6e5-09c6-43d4-b6cc-3404e2d65458/a2059f4c-c92f-483b-9b86-061767cb943d"
-					(reference "CR7")
+					(reference "CR3")
 					(unit 1)
 				)
 			)
@@ -8193,7 +7995,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "8e8c255e-bfad-46d7-947d-190cd8e07ace")
-		(property "Reference" "Q6"
+		(property "Reference" "Q1"
 			(at 25.4 102.87 0)
 			(effects
 				(font
@@ -8265,7 +8067,7 @@
 		(instances
 			(project "SRAD_V2"
 				(path "/016ea6e5-09c6-43d4-b6cc-3404e2d65458/a2059f4c-c92f-483b-9b86-061767cb943d"
-					(reference "Q6")
+					(reference "Q1")
 					(unit 1)
 				)
 			)
@@ -8280,7 +8082,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "91684299-7739-47a5-adfd-54a69f8bad12")
-		(property "Reference" "CR8"
+		(property "Reference" "CR4"
 			(at 88.265 77.47 0)
 			(effects
 				(font
@@ -8334,7 +8136,7 @@
 		(instances
 			(project "SRAD_V2"
 				(path "/016ea6e5-09c6-43d4-b6cc-3404e2d65458/a2059f4c-c92f-483b-9b86-061767cb943d"
-					(reference "CR8")
+					(reference "CR4")
 					(unit 1)
 				)
 			)
@@ -8350,7 +8152,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "949cc360-747c-411d-a624-db4b4a731dc3")
-		(property "Reference" "IC6"
+		(property "Reference" "IC2"
 			(at 244.8647 83.82 0)
 			(effects
 				(font
@@ -8495,7 +8297,7 @@
 		(instances
 			(project "SRAD_V2"
 				(path "/016ea6e5-09c6-43d4-b6cc-3404e2d65458/a2059f4c-c92f-483b-9b86-061767cb943d"
-					(reference "IC6")
+					(reference "IC2")
 					(unit 1)
 				)
 			)
@@ -8510,7 +8312,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "a6b2821e-bb86-48ef-bd0b-384fd0f49e78")
-		(property "Reference" "IC5"
+		(property "Reference" "IC1"
 			(at 237.744 38.608 0)
 			(effects
 				(font
@@ -8667,7 +8469,7 @@
 		(instances
 			(project "SRAD_V2"
 				(path "/016ea6e5-09c6-43d4-b6cc-3404e2d65458/a2059f4c-c92f-483b-9b86-061767cb943d"
-					(reference "IC5")
+					(reference "IC1")
 					(unit 1)
 				)
 			)
@@ -8683,7 +8485,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b6d6d9aa-f226-4ad1-b81e-41321ebff8ec")
-		(property "Reference" "Q7"
+		(property "Reference" "Q2"
 			(at 60.96 101.5999 90)
 			(effects
 				(font
@@ -8757,7 +8559,7 @@
 		(instances
 			(project "SRAD_V2"
 				(path "/016ea6e5-09c6-43d4-b6cc-3404e2d65458/a2059f4c-c92f-483b-9b86-061767cb943d"
-					(reference "Q7")
+					(reference "Q2")
 					(unit 1)
 				)
 			)
@@ -8773,7 +8575,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b7338976-d999-444c-9756-0798b56d3f06")
-		(property "Reference" "#PWR039"
+		(property "Reference" "#PWR09"
 			(at 129.54 180.34 0)
 			(effects
 				(font
@@ -8824,7 +8626,7 @@
 		(instances
 			(project "SRAD_V2"
 				(path "/016ea6e5-09c6-43d4-b6cc-3404e2d65458/a2059f4c-c92f-483b-9b86-061767cb943d"
-					(reference "#PWR039")
+					(reference "#PWR09")
 					(unit 1)
 				)
 			)
@@ -8839,7 +8641,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "b76527dd-918b-43d2-9a4f-a046cdf592d9")
-		(property "Reference" "R8"
+		(property "Reference" "R4"
 			(at 54.9352 116.9112 90)
 			(effects
 				(font
@@ -8891,7 +8693,7 @@
 		(instances
 			(project "SRAD_V2"
 				(path "/016ea6e5-09c6-43d4-b6cc-3404e2d65458/a2059f4c-c92f-483b-9b86-061767cb943d"
-					(reference "R8")
+					(reference "R4")
 					(unit 1)
 				)
 			)
@@ -8907,7 +8709,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "bcc9bf49-cd36-4c97-af59-d35a01f36336")
-		(property "Reference" "C24"
+		(property "Reference" "C5"
 			(at 260.35 34.2962 0)
 			(effects
 				(font
@@ -8961,7 +8763,7 @@
 		(instances
 			(project "SRAD_V2"
 				(path "/016ea6e5-09c6-43d4-b6cc-3404e2d65458/a2059f4c-c92f-483b-9b86-061767cb943d"
-					(reference "C24")
+					(reference "C5")
 					(unit 1)
 				)
 			)
@@ -8976,7 +8778,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "be6b9a11-a254-4137-993d-b437d96fc33a")
-		(property "Reference" "#PWR015"
+		(property "Reference" "#PWR03"
 			(at 35.56 133.35 0)
 			(effects
 				(font
@@ -9026,7 +8828,7 @@
 		(instances
 			(project "SRAD_V2"
 				(path "/016ea6e5-09c6-43d4-b6cc-3404e2d65458/a2059f4c-c92f-483b-9b86-061767cb943d"
-					(reference "#PWR015")
+					(reference "#PWR03")
 					(unit 1)
 				)
 			)
@@ -9042,7 +8844,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c06e50d4-7982-4362-9c89-61a0b17fcdf9")
-		(property "Reference" "Q10"
+		(property "Reference" "Q5"
 			(at 251.46 129.5399 0)
 			(effects
 				(font
@@ -9101,7 +8903,7 @@
 		(instances
 			(project "SRAD_V2"
 				(path "/016ea6e5-09c6-43d4-b6cc-3404e2d65458/a2059f4c-c92f-483b-9b86-061767cb943d"
-					(reference "Q10")
+					(reference "Q5")
 					(unit 1)
 				)
 			)
@@ -9116,7 +8918,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "c4ac6c40-1861-41ac-93fc-35a807d9ccd6")
-		(property "Reference" "J11"
+		(property "Reference" "J5"
 			(at 84.836 73.66 90)
 			(effects
 				(font
@@ -9240,7 +9042,7 @@
 		(instances
 			(project "SRAD_V2"
 				(path "/016ea6e5-09c6-43d4-b6cc-3404e2d65458/a2059f4c-c92f-483b-9b86-061767cb943d"
-					(reference "J11")
+					(reference "J5")
 					(unit 1)
 				)
 			)
@@ -9255,7 +9057,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "d380c293-152b-4f0f-ad74-5a9a6fa193be")
-		(property "Reference" "#PWR016"
+		(property "Reference" "#PWR04"
 			(at 52.07 133.35 0)
 			(effects
 				(font
@@ -9305,7 +9107,7 @@
 		(instances
 			(project "SRAD_V2"
 				(path "/016ea6e5-09c6-43d4-b6cc-3404e2d65458/a2059f4c-c92f-483b-9b86-061767cb943d"
-					(reference "#PWR016")
+					(reference "#PWR04")
 					(unit 1)
 				)
 			)
@@ -9321,7 +9123,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "dd00e76e-4ef9-4262-810b-95761d181e1f")
-		(property "Reference" "C25"
+		(property "Reference" "C6"
 			(at 260.35 80.0162 0)
 			(effects
 				(font
@@ -9375,7 +9177,7 @@
 		(instances
 			(project "SRAD_V2"
 				(path "/016ea6e5-09c6-43d4-b6cc-3404e2d65458/a2059f4c-c92f-483b-9b86-061767cb943d"
-					(reference "C25")
+					(reference "C6")
 					(unit 1)
 				)
 			)
@@ -9390,7 +9192,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "e469f790-e02f-47de-a1bc-1dea754510e0")
-		(property "Reference" "CR5"
+		(property "Reference" "CR1"
 			(at 33.655 77.47 0)
 			(effects
 				(font
@@ -9444,7 +9246,7 @@
 		(instances
 			(project "SRAD_V2"
 				(path "/016ea6e5-09c6-43d4-b6cc-3404e2d65458/a2059f4c-c92f-483b-9b86-061767cb943d"
-					(reference "CR5")
+					(reference "CR1")
 					(unit 1)
 				)
 			)
@@ -9460,7 +9262,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ea1a6c38-9a69-448a-9972-9861d45add94")
-		(property "Reference" "#PWR040"
+		(property "Reference" "#PWR011"
 			(at 261.62 52.07 0)
 			(effects
 				(font
@@ -9511,7 +9313,7 @@
 		(instances
 			(project "SRAD_V2"
 				(path "/016ea6e5-09c6-43d4-b6cc-3404e2d65458/a2059f4c-c92f-483b-9b86-061767cb943d"
-					(reference "#PWR040")
+					(reference "#PWR011")
 					(unit 1)
 				)
 			)
@@ -9527,7 +9329,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f033463e-ef5f-4b80-a305-f2d3f8c2957f")
-		(property "Reference" "R13"
+		(property "Reference" "R7"
 			(at 101.6 173.99 0)
 			(effects
 				(font
@@ -9650,7 +9452,7 @@
 		(instances
 			(project "SRAD_V2"
 				(path "/016ea6e5-09c6-43d4-b6cc-3404e2d65458/a2059f4c-c92f-483b-9b86-061767cb943d"
-					(reference "R13")
+					(reference "R7")
 					(unit 1)
 				)
 			)
@@ -9665,7 +9467,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "f9652e2e-7195-492b-8f8e-1394dea72e31")
-		(property "Reference" "J9"
+		(property "Reference" "J3"
 			(at 48.006 73.66 90)
 			(effects
 				(font
@@ -9789,7 +9591,7 @@
 		(instances
 			(project "SRAD_V2"
 				(path "/016ea6e5-09c6-43d4-b6cc-3404e2d65458/a2059f4c-c92f-483b-9b86-061767cb943d"
-					(reference "J9")
+					(reference "J3")
 					(unit 1)
 				)
 			)
@@ -9804,7 +9606,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "ffbede90-94cc-468d-a3e1-b6a2e546d8d9")
-		(property "Reference" "R7"
+		(property "Reference" "R3"
 			(at 38.354 118.11 90)
 			(effects
 				(font
@@ -9856,7 +9658,7 @@
 		(instances
 			(project "SRAD_V2"
 				(path "/016ea6e5-09c6-43d4-b6cc-3404e2d65458/a2059f4c-c92f-483b-9b86-061767cb943d"
-					(reference "R7")
+					(reference "R3")
 					(unit 1)
 				)
 			)
