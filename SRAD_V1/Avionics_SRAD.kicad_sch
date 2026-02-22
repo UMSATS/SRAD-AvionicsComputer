@@ -2093,55 +2093,21 @@
 					(hide yes)
 				)
 			)
+			(symbol "STM32F767ZIT6_0_1"
+				(rectangle
+					(start 7.62 7.62)
+					(end 38.1 -93.98)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type color)
+						(color 255 255 194 1)
+					)
+				)
+			)
 			(symbol "STM32F767ZIT6_1_1"
-				(polyline
-					(pts
-						(xy 7.62 7.62) (xy 7.62 -93.98)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 7.62 -93.98) (xy 38.1 -93.98)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 38.1 7.62) (xy 7.62 7.62)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 38.1 -93.98) (xy 38.1 7.62)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
 				(pin unspecified line
 					(at 0 0 0)
 					(length 7.62)
@@ -9234,7 +9200,7 @@
 				)
 			)
 		)
-		(property "Footprint" "STM32F767ZIT6:LQFP144-20x20mm_STM"
+		(property "Footprint" "LQFP144-20x20mm_STM"
 			(at 63.5 148.59 0)
 			(effects
 				(font
