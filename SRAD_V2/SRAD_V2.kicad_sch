@@ -11,7 +11,7 @@
 	)
 	(lib_symbols)
 	(sheet
-		(at 124.206 70.866)
+		(at 124.46 71.12)
 		(size 43.18 34.29)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -27,7 +27,7 @@
 		)
 		(uuid "51825e43-6d17-42cc-86d0-a82f84dc8a84")
 		(property "Sheetname" "MCU_STM32"
-			(at 124.206 69.8369 0)
+			(at 124.46 70.0909 0)
 			(effects
 				(font
 					(size 1.905 1.905)
@@ -36,7 +36,7 @@
 			)
 		)
 		(property "Sheetfile" "stm32.kicad_sch"
-			(at 124.206 105.7406 0)
+			(at 124.46 105.9946 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -45,7 +45,7 @@
 			)
 		)
 		(pin "Enable_Signal1" input
-			(at 124.206 81.28 180)
+			(at 124.46 81.28 180)
 			(uuid "47e8486c-a791-441e-98af-9464f1d4c818")
 			(effects
 				(font
@@ -55,7 +55,7 @@
 			)
 		)
 		(pin "Enable_Signal2" input
-			(at 124.206 85.09 180)
+			(at 124.46 85.09 180)
 			(uuid "71642a23-1fe1-4d8c-b743-4e1df4b3fa52")
 			(effects
 				(font
@@ -65,7 +65,7 @@
 			)
 		)
 		(pin "Enable_Signal3" input
-			(at 124.206 88.9 180)
+			(at 124.46 88.9 180)
 			(uuid "22c32b5d-b88e-491a-9ae5-e09eac33045a")
 			(effects
 				(font
@@ -75,7 +75,7 @@
 			)
 		)
 		(pin "Enable_Signal4" input
-			(at 124.206 92.71 180)
+			(at 124.46 92.71 180)
 			(uuid "af7b0913-6d75-4ca7-8179-dfef2ef5315b")
 			(effects
 				(font
@@ -85,7 +85,7 @@
 			)
 		)
 		(pin "Sensor_Output" input
-			(at 167.386 81.28 0)
+			(at 167.64 81.28 0)
 			(uuid "b3e09746-e4b8-4339-a18a-9caf5b6e5f50")
 			(effects
 				(font
@@ -95,7 +95,7 @@
 			)
 		)
 		(pin "Trigger_Signal1" input
-			(at 167.386 83.82 0)
+			(at 167.64 83.82 0)
 			(uuid "6856f24f-2b23-473b-8d36-7655db34f58d")
 			(effects
 				(font
@@ -105,7 +105,7 @@
 			)
 		)
 		(pin "Trigger_Signal2" input
-			(at 167.386 86.36 0)
+			(at 167.64 86.36 0)
 			(uuid "b76deb93-18c8-4e8f-b537-60e7529fe949")
 			(effects
 				(font
@@ -115,7 +115,7 @@
 			)
 		)
 		(pin "Trigger_Signal3" input
-			(at 167.386 88.9 0)
+			(at 167.64 88.9 0)
 			(uuid "ae259a4f-b611-48da-a5c3-e23073b156b6")
 			(effects
 				(font
@@ -125,7 +125,7 @@
 			)
 		)
 		(pin "Trigger_Signal4" input
-			(at 167.386 91.44 0)
+			(at 167.64 91.44 0)
 			(uuid "b6663c42-c04c-4131-9fb3-57d007ffdbb3")
 			(effects
 				(font
@@ -143,8 +143,8 @@
 		)
 	)
 	(sheet
-		(at 46.99 37.084)
-		(size 45.212 27.178)
+		(at 46.99 27.94)
+		(size 45.72 27.94)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -158,7 +158,7 @@
 		)
 		(uuid "9c8bbba4-8714-49e8-941c-914b77648ac5")
 		(property "Sheetname" "Power Delivery System"
-			(at 52.578 45.974 0)
+			(at 52.578 36.83 0)
 			(effects
 				(font
 					(size 1.905 1.905)
@@ -167,7 +167,7 @@
 			)
 		)
 		(property "Sheetfile" "PDS.kicad_sch"
-			(at 59.944 61.722 0)
+			(at 59.944 52.578 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -176,7 +176,7 @@
 			)
 		)
 		(pin "V3V3" output
-			(at 92.202 53.34 0)
+			(at 92.71 44.45 0)
 			(uuid "84445aad-294b-4aad-b8b8-b5fa20dd1e24")
 			(effects
 				(font
@@ -186,7 +186,7 @@
 			)
 		)
 		(pin "VIN" input
-			(at 46.99 53.34 180)
+			(at 46.99 44.45 180)
 			(uuid "b2870f34-3912-46f5-bcc7-ab3774175428")
 			(effects
 				(font
@@ -204,8 +204,8 @@
 		)
 	)
 	(sheet
-		(at 38.862 116.586)
-		(size 71.628 60.452)
+		(at 39.37 116.84)
+		(size 71.12 59.69)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -220,7 +220,7 @@
 		)
 		(uuid "a2059f4c-c92f-483b-9b86-061767cb943d")
 		(property "Sheetname" "E-match Firing Circuit"
-			(at 38.862 115.5569 0)
+			(at 39.37 115.8109 0)
 			(effects
 				(font
 					(size 1.905 1.905)
@@ -229,7 +229,7 @@
 			)
 		)
 		(property "Sheetfile" "e-match.kicad_sch"
-			(at 38.862 177.6226 0)
+			(at 39.37 177.8766 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -238,7 +238,7 @@
 			)
 		)
 		(pin "Enable_Signal1" input
-			(at 38.862 130.81 180)
+			(at 39.37 130.81 180)
 			(uuid "6dc28627-789c-4d1c-af80-0a6c62794cef")
 			(effects
 				(font
@@ -248,7 +248,7 @@
 			)
 		)
 		(pin "Enable_Signal2" input
-			(at 38.862 135.89 180)
+			(at 39.37 135.89 180)
 			(uuid "6fb8e511-fbc7-4b10-ab9e-75ec0f0ce1ba")
 			(effects
 				(font
@@ -258,7 +258,7 @@
 			)
 		)
 		(pin "Enable_Signal3" input
-			(at 38.862 142.24 180)
+			(at 39.37 142.24 180)
 			(uuid "818e919f-3011-4f45-802d-70a155204597")
 			(effects
 				(font
@@ -268,7 +268,7 @@
 			)
 		)
 		(pin "Enable_Signal4" input
-			(at 38.862 149.86 180)
+			(at 39.37 149.86 180)
 			(uuid "7ae910fc-e0d9-4060-b0b2-5567ee8325f4")
 			(effects
 				(font
@@ -336,8 +336,8 @@
 		)
 	)
 	(sheet
-		(at 202.692 72.644)
-		(size 59.182 37.846)
+		(at 203.2 72.39)
+		(size 58.42 38.1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -352,7 +352,7 @@
 		)
 		(uuid "ac92d8dd-ef30-4ac9-90eb-deb18ea006aa")
 		(property "Sheetname" "Different Sensors and Flash Memory"
-			(at 202.692 71.6149 0)
+			(at 203.2 71.3609 0)
 			(effects
 				(font
 					(size 1.905 1.905)
@@ -361,7 +361,7 @@
 			)
 		)
 		(property "Sheetfile" "untitled.kicad_sch"
-			(at 202.692 111.0746 0)
+			(at 203.2 110.8206 0)
 			(effects
 				(font
 					(size 1.27 1.27)

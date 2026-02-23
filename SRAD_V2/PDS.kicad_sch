@@ -1452,7 +1452,7 @@
 				)
 			)
 		)
-		(property "Footprint" "VLS6045EX-2R2N:IND_VLS6045EX-2R2N"
+		(property "Footprint" "Inductor:IND_VLS6045EX-2R2N"
 			(at 166.37 81.28 0)
 			(effects
 				(font

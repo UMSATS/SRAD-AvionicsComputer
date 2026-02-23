@@ -4510,7 +4510,7 @@
 				)
 			)
 		)
-		(property "Footprint" "AS5F31G04SND-08LIN:SON127P600X800X80-8N"
+		(property "Footprint" "NAND_Flash:SON127P600X800X80-8N"
 			(at 250.19 213.36 0)
 			(effects
 				(font
