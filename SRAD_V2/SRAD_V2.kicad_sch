@@ -10,9 +10,119 @@
 		(rev "V2.0")
 	)
 	(lib_symbols)
+	(wire
+		(pts
+			(xy 109.22 100.33) (xy 124.46 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1ef3b6a6-b9c7-4c0c-8230-d4e44bdb5880")
+	)
+	(wire
+		(pts
+			(xy 115.57 78.74) (xy 115.57 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "263ea238-a5c0-49b1-adc1-dbb0594f02fc")
+	)
+	(wire
+		(pts
+			(xy 114.3 95.25) (xy 124.46 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2c3f4050-f90e-4c8b-a7e8-7d2c75ff01b4")
+	)
+	(wire
+		(pts
+			(xy 115.57 86.36) (xy 115.57 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "81c3a7fd-7aed-4c8f-bea3-57150eb3817d")
+	)
+	(wire
+		(pts
+			(xy 109.22 107.95) (xy 124.46 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a1f82098-e561-4bf2-94e5-cc9805d3bfae")
+	)
+	(wire
+		(pts
+			(xy 109.22 93.98) (xy 114.3 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b47e2220-5d59-4748-b307-1f302e3028c6")
+	)
+	(wire
+		(pts
+			(xy 114.3 93.98) (xy 114.3 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ca1ce41f-7c8e-41a6-a1bf-310e08a495a6")
+	)
+	(wire
+		(pts
+			(xy 115.57 80.01) (xy 124.46 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dd86d207-ed59-44b1-bd94-c5f71a068a82")
+	)
+	(wire
+		(pts
+			(xy 109.22 78.74) (xy 115.57 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e304d447-c84d-41b3-b3f9-8f35520587eb")
+	)
+	(wire
+		(pts
+			(xy 109.22 86.36) (xy 115.57 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ec413710-fd82-4485-b97a-b17f76c6cc4b")
+	)
+	(wire
+		(pts
+			(xy 115.57 90.17) (xy 124.46 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f16f1ba8-d45f-40ce-96e1-d7b883da68ec")
+	)
 	(sheet
 		(at 124.46 71.12)
-		(size 43.18 34.29)
+		(size 43.18 42.164)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -36,7 +146,7 @@
 			)
 		)
 		(property "Sheetfile" "stm32.kicad_sch"
-			(at 124.46 105.9946 0)
+			(at 124.46 113.8686 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -44,94 +154,54 @@
 				(justify left top)
 			)
 		)
-		(pin "Enable_Signal1" input
-			(at 124.46 81.28 180)
-			(uuid "47e8486c-a791-441e-98af-9464f1d4c818")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "Enable_Signal2" input
-			(at 124.46 85.09 180)
-			(uuid "71642a23-1fe1-4d8c-b743-4e1df4b3fa52")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "Enable_Signal3" input
-			(at 124.46 88.9 180)
-			(uuid "22c32b5d-b88e-491a-9ae5-e09eac33045a")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "Enable_Signal4" input
-			(at 124.46 92.71 180)
-			(uuid "af7b0913-6d75-4ca7-8179-dfef2ef5315b")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "Sensor_Output" input
-			(at 167.64 81.28 0)
+		(pin "IVAL" input
+			(at 124.46 107.95 180)
 			(uuid "b3e09746-e4b8-4339-a18a-9caf5b6e5f50")
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.905 1.905)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
-		(pin "Trigger_Signal1" input
-			(at 167.64 83.82 0)
+		(pin "CH1" output
+			(at 124.46 100.33 180)
 			(uuid "6856f24f-2b23-473b-8d36-7655db34f58d")
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.905 1.905)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
-		(pin "Trigger_Signal2" input
-			(at 167.64 86.36 0)
+		(pin "CH2" output
+			(at 124.46 95.25 180)
 			(uuid "b76deb93-18c8-4e8f-b537-60e7529fe949")
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.905 1.905)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
-		(pin "Trigger_Signal3" input
-			(at 167.64 88.9 0)
+		(pin "CH3" output
+			(at 124.46 90.17 180)
 			(uuid "ae259a4f-b611-48da-a5c3-e23073b156b6")
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.905 1.905)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
-		(pin "Trigger_Signal4" input
-			(at 167.64 91.44 0)
+		(pin "CH4" output
+			(at 124.46 80.01 180)
 			(uuid "b6663c42-c04c-4131-9fb3-57d007ffdbb3")
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.905 1.905)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(instances
@@ -175,7 +245,7 @@
 				(justify left top)
 			)
 		)
-		(pin "V3V3" output
+		(pin "+3V3" output
 			(at 92.71 44.45 0)
 			(uuid "84445aad-294b-4aad-b8b8-b5fa20dd1e24")
 			(effects
@@ -204,13 +274,12 @@
 		)
 	)
 	(sheet
-		(at 39.37 116.84)
-		(size 71.12 59.69)
+		(at 38.1 73.66)
+		(size 71.12 39.624)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
 			(type solid)
@@ -220,7 +289,7 @@
 		)
 		(uuid "a2059f4c-c92f-483b-9b86-061767cb943d")
 		(property "Sheetname" "E-match Firing Circuit"
-			(at 39.37 115.8109 0)
+			(at 57.658 90.17 0)
 			(effects
 				(font
 					(size 1.905 1.905)
@@ -229,7 +298,7 @@
 			)
 		)
 		(property "Sheetfile" "e-match.kicad_sch"
-			(at 39.37 177.8766 0)
+			(at 63.5 102.108 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -237,94 +306,64 @@
 				(justify left top)
 			)
 		)
-		(pin "Enable_Signal1" input
-			(at 39.37 130.81 180)
-			(uuid "6dc28627-789c-4d1c-af80-0a6c62794cef")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "Enable_Signal2" input
-			(at 39.37 135.89 180)
-			(uuid "6fb8e511-fbc7-4b10-ab9e-75ec0f0ce1ba")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "Enable_Signal3" input
-			(at 39.37 142.24 180)
-			(uuid "818e919f-3011-4f45-802d-70a155204597")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "Enable_Signal4" input
-			(at 39.37 149.86 180)
-			(uuid "7ae910fc-e0d9-4060-b0b2-5567ee8325f4")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "Sensor_Output" output
-			(at 110.49 130.81 0)
+		(pin "IVAL" output
+			(at 109.22 107.95 0)
 			(uuid "4a7653b3-c865-445d-94b9-e9717e9eb163")
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.905 1.905)
 				)
 				(justify right)
 			)
 		)
-		(pin "Trigger_Signal1" input
-			(at 110.49 137.16 0)
+		(pin "CH1" input
+			(at 109.22 100.33 0)
 			(uuid "7d98f4a0-9508-43d1-aab5-d00b8460b17a")
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.905 1.905)
 				)
 				(justify right)
 			)
 		)
-		(pin "Trigger_Signal2" input
-			(at 110.49 140.97 0)
+		(pin "CH2" input
+			(at 109.22 93.98 0)
 			(uuid "26d3f6f2-715c-4950-aec9-13769cbe4490")
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.905 1.905)
 				)
 				(justify right)
 			)
 		)
-		(pin "Trigger_Signal3" input
-			(at 110.49 144.78 0)
+		(pin "CH3" input
+			(at 109.22 86.36 0)
 			(uuid "92559975-e1da-44ba-9d21-9a9eea9070f8")
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.905 1.905)
 				)
 				(justify right)
 			)
 		)
-		(pin "Trigger_Signal4" input
-			(at 110.49 147.32 0)
+		(pin "CH4" input
+			(at 109.22 78.74 0)
 			(uuid "c98935e0-28e0-46eb-b18d-4d98d7f250e7")
+			(effects
+				(font
+					(size 1.905 1.905)
+				)
+				(justify right)
+			)
+		)
+		(pin "VBAT" input
+			(at 38.1 91.44 180)
+			(uuid "c671acad-b001-42bf-a9a8-5452e1bfa964")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(instances

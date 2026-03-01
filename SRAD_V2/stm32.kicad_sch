@@ -2794,19 +2794,8 @@
 			(embedded_fonts no)
 		)
 	)
-	(hierarchical_label "Enable_Signal1"
-		(shape input)
-		(at 222.25 58.42 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "1eb31cba-9d90-4f8c-a30f-0701c641951c")
-	)
-	(hierarchical_label "Trigger_Signal1"
-		(shape input)
+	(hierarchical_label "CH1"
+		(shape output)
 		(at 222.25 73.66 0)
 		(effects
 			(font
@@ -2816,8 +2805,8 @@
 		)
 		(uuid "434168f4-3b59-425a-a4e1-14bbc9aecb3f")
 	)
-	(hierarchical_label "Trigger_Signal4"
-		(shape input)
+	(hierarchical_label "CH4"
+		(shape output)
 		(at 222.25 81.28 0)
 		(effects
 			(font
@@ -2827,7 +2816,7 @@
 		)
 		(uuid "7459b274-18b0-40f5-b555-01496161905b")
 	)
-	(hierarchical_label "Sensor_Output"
+	(hierarchical_label "IVAL"
 		(shape input)
 		(at 196.85 71.12 180)
 		(effects
@@ -2838,8 +2827,8 @@
 		)
 		(uuid "77be358b-0e4f-440c-b115-54219f4c86b3")
 	)
-	(hierarchical_label "Trigger_Signal3"
-		(shape input)
+	(hierarchical_label "CH3"
+		(shape output)
 		(at 222.25 78.74 0)
 		(effects
 			(font
@@ -2849,8 +2838,8 @@
 		)
 		(uuid "785024e5-bdd4-4247-b3b3-3e3ddc09c88a")
 	)
-	(hierarchical_label "Trigger_Signal2"
-		(shape input)
+	(hierarchical_label "CH2"
+		(shape output)
 		(at 222.25 76.2 0)
 		(effects
 			(font
@@ -2859,39 +2848,6 @@
 			(justify left)
 		)
 		(uuid "810c9076-261a-42c4-b84a-b89284a03174")
-	)
-	(hierarchical_label "Enable_Signal2"
-		(shape input)
-		(at 222.25 60.96 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "a2bb5ad7-9938-460c-b5e2-5fe5fa8ebe50")
-	)
-	(hierarchical_label "Enable_Signal3"
-		(shape input)
-		(at 222.25 63.5 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "cdd7ef57-bd0c-4918-b282-f6a686d6db43")
-	)
-	(hierarchical_label "Enable_Signal4"
-		(shape input)
-		(at 222.25 66.04 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "cf26f782-a435-4c0a-a148-60f7be21f1d9")
 	)
 	(symbol
 		(lib_id "STM32F767ZIT6:STM32F767ZIT6")

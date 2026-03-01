@@ -5637,28 +5637,6 @@
 			)
 		)
 	)
-	(global_label "VBAT"
-		(shape input)
-		(at 271.78 90.17 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.016 1.016)
-			)
-			(justify left)
-		)
-		(uuid "339cf15d-9ee0-4faa-9f95-4694934575ed")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 277.6998 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "Gate_Drive1"
 		(shape output)
 		(at 40.64 121.92 270)
@@ -5721,28 +5699,6 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "VBAT"
-		(shape input)
-		(at 38.1 45.72 90)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "602442fc-e331-4829-b9fe-e481d496ae37")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 38.1 38.32 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
 				(hide yes)
 			)
 		)
@@ -5835,28 +5791,6 @@
 			)
 		)
 	)
-	(global_label "VBAT"
-		(shape input)
-		(at 269.24 44.45 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.016 1.016)
-			)
-			(justify left)
-		)
-		(uuid "da11e91b-6acc-46c8-ba50-0f1582fc91c9")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 275.1598 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "Gate_Drive2"
 		(shape output)
 		(at 57.15 120.65 270)
@@ -5879,7 +5813,7 @@
 			)
 		)
 	)
-	(hierarchical_label "Trigger_Signal1"
+	(hierarchical_label "CH1"
 		(shape input)
 		(at 232.7997 92.7451 180)
 		(effects
@@ -5890,7 +5824,7 @@
 		)
 		(uuid "0fb0e446-4cd0-4207-a107-e107fb2d3b0e")
 	)
-	(hierarchical_label "Trigger_Signal2"
+	(hierarchical_label "CH2"
 		(shape input)
 		(at 232.7997 97.8251 180)
 		(effects
@@ -5901,30 +5835,19 @@
 		)
 		(uuid "28743cf7-699e-48f2-93bb-329fb9d7b822")
 	)
-	(hierarchical_label "Enable_Signal2"
+	(hierarchical_label "VBAT"
 		(shape input)
-		(at 232.7997 95.2851 180)
+		(at 271.78 90.17 0)
 		(effects
 			(font
 				(size 1.016 1.016)
 			)
-			(justify right)
+			(justify left)
 		)
-		(uuid "2edf6529-db0b-4b0e-a42d-b9ca6718141b")
+		(uuid "441225b0-a7fb-4447-bb92-cc25a292f9ae")
 	)
-	(hierarchical_label "Enable_Signal4"
-		(shape input)
-		(at 232.41 49.53 180)
-		(effects
-			(font
-				(size 1.016 1.016)
-			)
-			(justify right)
-		)
-		(uuid "3dc04dbd-2863-4339-ab4b-713da1169369")
-	)
-	(hierarchical_label "Sensor_Output"
-		(shape input)
+	(hierarchical_label "IVAL"
+		(shape output)
 		(at 81.28 52.07 0)
 		(effects
 			(font
@@ -5934,29 +5857,29 @@
 		)
 		(uuid "7e13b5b0-b4d7-43da-b12e-4467f0fea893")
 	)
-	(hierarchical_label "Enable_Signal1"
+	(hierarchical_label "VBAT"
 		(shape input)
-		(at 232.7997 90.2051 180)
+		(at 38.1 45.72 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "7e2345ed-7864-47cc-8a9f-f14054b398f5")
+	)
+	(hierarchical_label "VBAT"
+		(shape input)
+		(at 269.24 44.45 0)
 		(effects
 			(font
 				(size 1.016 1.016)
 			)
-			(justify right)
+			(justify left)
 		)
-		(uuid "c4076f4f-fbbf-4bea-b0f7-74dc37440100")
+		(uuid "c4e6d25d-ff81-4111-bd48-c2c165defaa0")
 	)
-	(hierarchical_label "Enable_Signal3"
-		(shape input)
-		(at 232.41 44.45 180)
-		(effects
-			(font
-				(size 1.016 1.016)
-			)
-			(justify right)
-		)
-		(uuid "ddbc4271-5a8b-4b2d-ba49-c2e4d11297ed")
-	)
-	(hierarchical_label "Trigger_Signal3"
+	(hierarchical_label "CH3"
 		(shape input)
 		(at 232.41 46.99 180)
 		(effects
@@ -5967,7 +5890,7 @@
 		)
 		(uuid "ebaf80d4-173d-4292-8fc2-bec2fb32eccf")
 	)
-	(hierarchical_label "Trigger_Signal4"
+	(hierarchical_label "CH4"
 		(shape input)
 		(at 232.41 52.07 180)
 		(effects
