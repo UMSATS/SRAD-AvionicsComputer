@@ -630,20 +630,12 @@
       "Root"
     ],
     [
-      "51825e43-6d17-42cc-86d0-a82f84dc8a84",
-      "MCU_STM32"
-    ],
-    [
       "9c8bbba4-8714-49e8-941c-914b77648ac5",
       "Power Delivery System"
     ],
     [
       "a2059f4c-c92f-483b-9b86-061767cb943d",
       "E-match Firing Circuit"
-    ],
-    [
-      "ac92d8dd-ef30-4ac9-90eb-deb18ea006aa",
-      "Different Sensors and Flash Memory"
     ]
   ],
   "text_variables": {}
