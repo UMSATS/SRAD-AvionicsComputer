@@ -5454,10 +5454,10 @@
 		)
 		(uuid "fb277c9a-1d84-4338-a4f4-b44125a33f03")
 	)
-	(text_box "Current sensor: ADC\n\n4 gpio pins for e-match circuit -- that do not coincide with spi/i2c pins.\n\nrest are just spi/i2c protocols\n\n"
+	(text_box "1 ADC for Current sensor\n\n4 gpio pins for e-match circuit -- that do not coincide with spi/i2c pins.\n\nNand Flash - \n\nGPS - \n\nBarometer - \n\nIMU(Temperature, Accelerometer, Gyro) -\n\nMagnometer - \n\n\n"
 		(exclude_from_sim no)
-		(at 136.652 228.854 0)
-		(size 71.882 46.228)
+		(at 170.688 224.282 0)
+		(size 128.27 59.182)
 		(margins 0.9525 0.9525 0.9525 0.9525)
 		(stroke
 			(width 0)
@@ -5469,7 +5469,7 @@
 		)
 		(effects
 			(font
-				(size 1.27 1.27)
+				(size 2 2)
 			)
 			(justify left top)
 		)
