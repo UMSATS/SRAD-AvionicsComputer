@@ -1,4 +1,4 @@
-25266027970767360
+25271347946988297
 AOSP36326C
 SO8SOP-8L_AOS
 
@@ -398,6 +398,20 @@ battery CR-3032 coin cell vertical
 0
 2
 2
+Battery
+Untitled
+
+
+0
+0
+0
+Battery
+Untitled_1
+
+
+0
+0
+0
 Button_Switch_Keyboard
 SW_Cherry_MX_1.00u_PCB
 Cherry MX keyswitch, 1.00u, PCB mount, http://cherryamericas.com/wp-content/uploads/2014/12/mx_cat.pdf
@@ -101443,6 +101457,13 @@ Varistor VF
 0
 2
 2
+pad
+single_pad
+
+
+0
+1
+1
 trim
 BFC280811339_VIS
 

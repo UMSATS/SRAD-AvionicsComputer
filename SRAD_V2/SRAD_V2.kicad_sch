@@ -5454,6 +5454,27 @@
 		)
 		(uuid "fb277c9a-1d84-4338-a4f4-b44125a33f03")
 	)
+	(text_box "Current sensor: ADC\n\n4 gpio pins for e-match circuit -- that do not coincide with spi/i2c pins.\n\nrest are just spi/i2c protocols\n\n"
+		(exclude_from_sim no)
+		(at 136.652 228.854 0)
+		(size 71.882 46.228)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(type color)
+			(color 255 255 194 1)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "09920c78-b551-47e5-9b7e-85b45671416d")
+	)
 	(junction
 		(at 327.66 55.88)
 		(diameter 0)
