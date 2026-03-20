@@ -738,6 +738,12 @@
 		(uuid "4e4a2f10-7b1d-43b5-bdcd-72f68301fc55")
 	)
 	(junction
+		(at 86.36 81.28)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5b729e4d-894d-4f32-912c-4d819585fe46")
+	)
+	(junction
 		(at 181.61 96.52)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -780,6 +786,12 @@
 		(uuid "ba10c696-251a-488d-a89b-1dbe917c627c")
 	)
 	(junction
+		(at 104.14 107.95)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ce2a35e0-ed5d-4f9d-8111-0c33bbeff2a4")
+	)
+	(junction
 		(at 104.14 88.9)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -816,6 +828,16 @@
 			(type default)
 		)
 		(uuid "08e83da9-ace0-4866-a696-c3bce980dec0")
+	)
+	(wire
+		(pts
+			(xy 86.36 107.95) (xy 104.14 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0c3c3da9-d97c-4b88-90de-370aee05f7f3")
 	)
 	(wire
 		(pts
@@ -979,6 +1001,26 @@
 	)
 	(wire
 		(pts
+			(xy 86.36 81.28) (xy 104.14 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6ede2877-5130-4960-aaa0-6915c6413f73")
+	)
+	(wire
+		(pts
+			(xy 86.36 96.52) (xy 86.36 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "79649179-0958-4ce1-8aab-76c30f888270")
+	)
+	(wire
+		(pts
 			(xy 204.47 97.79) (xy 204.47 107.95)
 		)
 		(stroke
@@ -1119,7 +1161,7 @@
 	)
 	(wire
 		(pts
-			(xy 92.71 81.28) (xy 104.14 81.28)
+			(xy 77.47 81.28) (xy 86.36 81.28)
 		)
 		(stroke
 			(width 0)
@@ -1136,6 +1178,16 @@
 			(type default)
 		)
 		(uuid "ee28c263-83a3-41b4-a720-e54357c8fafe")
+	)
+	(wire
+		(pts
+			(xy 86.36 81.28) (xy 86.36 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f0226edf-ca67-4b66-b8de-60c94abc1b9a")
 	)
 	(wire
 		(pts
@@ -1159,7 +1211,7 @@
 	)
 	(hierarchical_label "VIN"
 		(shape input)
-		(at 92.71 81.28 180)
+		(at 77.47 81.28 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1878,6 +1930,76 @@
 			(project "SRAD_V2"
 				(path "/016ea6e5-09c6-43d4-b6cc-3404e2d65458/9c8bbba4-8714-49e8-941c-914b77648ac5"
 					(reference "Cout2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 86.36 92.71 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "fb2c3674-6801-4921-85b7-060009f71c23")
+		(property "Reference" "Cout4"
+			(at 90.17 91.4399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "0.1uF"
+			(at 90.17 93.9799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 87.3252 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 86.36 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 86.36 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d6ce599e-f8f5-42fa-b051-436df3b184f5")
+		)
+		(pin "2"
+			(uuid "6a140b72-7bc3-46bf-8e51-4aee1aeb5005")
+		)
+		(instances
+			(project "SRAD_V2"
+				(path "/016ea6e5-09c6-43d4-b6cc-3404e2d65458/9c8bbba4-8714-49e8-941c-914b77648ac5"
+					(reference "Cout4")
 					(unit 1)
 				)
 			)
