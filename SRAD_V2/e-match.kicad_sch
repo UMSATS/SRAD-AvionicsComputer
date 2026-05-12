@@ -4685,7 +4685,7 @@
 	)
 	(global_label "Gate_Drive4"
 		(shape output)
-		(at 157.48 48.26 0)
+		(at 157.48 77.47 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4695,7 +4695,7 @@
 		)
 		(uuid "2287bdfe-43a0-4f85-ba50-28ee219d29bf")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 168.7701 48.26 0)
+			(at 168.7701 77.47 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4709,7 +4709,7 @@
 	)
 	(global_label "Gate_Drive3"
 		(shape output)
-		(at 157.48 45.72 0)
+		(at 157.48 74.93 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4719,7 +4719,7 @@
 		)
 		(uuid "268a1102-63e2-41ab-9c6f-b1b6455e7b02")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 168.7701 45.72 0)
+			(at 168.7701 74.93 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4757,7 +4757,7 @@
 	)
 	(global_label "Gate_Drive2"
 		(shape output)
-		(at 157.48 77.47 0)
+		(at 157.48 48.26 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4767,7 +4767,7 @@
 		)
 		(uuid "37f9677d-25fe-489c-bfe2-100d1e88c04b")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 168.7701 77.47 0)
+			(at 168.7701 48.26 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4829,7 +4829,7 @@
 	)
 	(global_label "Gate_Drive1"
 		(shape output)
-		(at 157.48 74.93 0)
+		(at 157.48 45.72 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4839,7 +4839,7 @@
 		)
 		(uuid "7e07ef3f-4e10-4c12-beae-22e74bcdab8c")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 168.7701 74.93 0)
+			(at 168.7701 45.72 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4925,7 +4925,7 @@
 	)
 	(hierarchical_label "CH1"
 		(shape input)
-		(at 133.35 74.93 180)
+		(at 133.35 45.72 180)
 		(effects
 			(font
 				(size 1.016 1.016)
@@ -4936,7 +4936,7 @@
 	)
 	(hierarchical_label "CH2"
 		(shape input)
-		(at 133.35 80.01 180)
+		(at 133.35 50.8 180)
 		(effects
 			(font
 				(size 1.016 1.016)
@@ -4991,7 +4991,7 @@
 	)
 	(hierarchical_label "CH3"
 		(shape input)
-		(at 133.35 45.72 180)
+		(at 133.35 74.93 180)
 		(effects
 			(font
 				(size 1.016 1.016)
@@ -5002,7 +5002,7 @@
 	)
 	(hierarchical_label "CH4"
 		(shape input)
-		(at 133.35 50.8 180)
+		(at 133.35 80.01 180)
 		(effects
 			(font
 				(size 1.016 1.016)
