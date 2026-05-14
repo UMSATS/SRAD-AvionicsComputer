@@ -10250,7 +10250,7 @@
 				)
 			)
 		)
-		(property "Footprint" "QFN_LSM6DSV80XTR_STM"
+		(property "Footprint" "MMC5983MA:MMC5983MA_MEM"
 			(at 193.294 138.938 0)
 			(hide yes)
 			(show_name no)
@@ -10876,7 +10876,7 @@
 				)
 			)
 		)
-		(property "Footprint" "footprints:MMC5983MA_MEM"
+		(property "Footprint" "MMC5983MA:MMC5983MA_MEM"
 			(at 194.564 91.186 0)
 			(hide yes)
 			(show_name no)
