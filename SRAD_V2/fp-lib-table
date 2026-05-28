@@ -15,4 +15,5 @@
 	(lib (name "STM32F767ZIT6") (type "KiCad") (uri "${KIPRJMOD}/Custom E-CAD Models/Footprints/STM32F767ZIT6.pretty") (options "") (descr ""))
 	(lib (name "IMU") (type "KiCad") (uri "${KIPRJMOD}/Custom E-CAD Models/Footprints/IMU.pretty") (options "") (descr ""))
 	(lib (name "MMC5983MA") (type "KiCad") (uri "${KIPRJMOD}/Custom E-CAD Models/Footprints/MMC5983MA.pretty") (options "") (descr ""))
+	(lib (name "buzzer") (type "KiCad") (uri "${KIPRJMOD}/Custom E-CAD Models/Footprints/buzzer.pretty") (options "") (descr ""))
 )
