@@ -10913,7 +10913,7 @@
 			)
 		)
 	)
-	(global_label "IMU_SPI_SDO"
+	(global_label "MAG_SPI_SDO"
 		(shape input)
 		(at 118.11 205.74 0)
 		(fields_autoplaced yes)
@@ -10925,7 +10925,7 @@
 		)
 		(uuid "7c92e748-48f2-46ec-8c5e-829143a9bb84")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 133.3114 205.74 0)
+			(at 133.7347 205.74 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)

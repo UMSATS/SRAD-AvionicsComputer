@@ -3620,26 +3620,6 @@
 		)
 		(uuid "3b6b9543-c58b-4901-b368-096adefe02bd")
 	)
-	(text "Drain"
-		(exclude_from_sim no)
-		(at 61.8422 97.5285 90)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "418dc7ae-bb10-4e7c-b87e-21a6366ba09e")
-	)
-	(text "Drain"
-		(exclude_from_sim no)
-		(at 42.418 97.79 90)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "555e443e-4155-4c4b-911d-2609ec7df1c6")
-	)
 	(text "Source"
 		(exclude_from_sim no)
 		(at 61.722 118.618 90)
@@ -3711,16 +3691,6 @@
 		)
 		(uuid "95fb009c-9bd2-4c54-89b2-c4c7d686acc1")
 	)
-	(text "Drain"
-		(exclude_from_sim no)
-		(at 80.7974 97.5285 90)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "c5423c6a-3425-4864-b031-2a50e4dff9b7")
-	)
 	(text "Source"
 		(exclude_from_sim no)
 		(at 99.822 117.856 90)
@@ -3730,16 +3700,6 @@
 			)
 		)
 		(uuid "e0a98747-0574-4e0e-84e6-91b3142758bc")
-	)
-	(text "Drain"
-		(exclude_from_sim no)
-		(at 100.33 97.79 90)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "f5353145-692a-4140-8f19-f1e5ec0b8d22")
 	)
 	(junction
 		(at 86.36 55.88)
@@ -3808,12 +3768,6 @@
 		(uuid "68b27468-8ddc-490a-91f5-7735be1ae9c0")
 	)
 	(junction
-		(at 34.29 57.15)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "6fd3da0e-0591-4c47-985d-a52356ad7d08")
-	)
-	(junction
 		(at 76.2 82.55)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3830,6 +3784,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "74a39a4c-93cd-4582-ba1c-deb938137425")
+	)
+	(junction
+		(at 34.29 57.15)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "76d6ab07-d77b-44de-815a-5367ab9d5f66")
 	)
 	(junction
 		(at 86.36 71.12)
@@ -4185,6 +4145,16 @@
 	)
 	(wire
 		(pts
+			(xy 30.48 57.15) (xy 34.29 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "53c71b48-2de7-4692-b938-1525d5212ea4")
+	)
+	(wire
+		(pts
 			(xy 76.2 82.55) (xy 82.55 82.55)
 		)
 		(stroke
@@ -4192,16 +4162,6 @@
 			(type default)
 		)
 		(uuid "57740079-9c48-4888-92c7-c1435b56ae9f")
-	)
-	(wire
-		(pts
-			(xy 34.29 55.88) (xy 34.29 57.15)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5fe706b0-5312-44b2-9cda-1f08802d1233")
 	)
 	(wire
 		(pts
@@ -4405,16 +4365,6 @@
 	)
 	(wire
 		(pts
-			(xy 31.75 54.61) (xy 31.75 55.88)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a1bff33c-2294-442f-800a-50472702b3ac")
-	)
-	(wire
-		(pts
 			(xy 157.48 43.18) (xy 173.99 43.18)
 		)
 		(stroke
@@ -4522,16 +4472,6 @@
 			(type default)
 		)
 		(uuid "cb9038a6-5eba-42a5-9be2-f2bfade5bb43")
-	)
-	(wire
-		(pts
-			(xy 31.75 55.88) (xy 34.29 55.88)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "cefd7e10-c219-4e35-84f4-cbc0ea887f0a")
 	)
 	(wire
 		(pts
@@ -4682,6 +4622,66 @@
 			(type default)
 		)
 		(uuid "fe81d318-6dcb-46b4-b7e9-8b1c44b39508")
+	)
+	(label "IN(-)"
+		(at 46.99 76.2 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "576d749b-f429-4dea-a2a4-9933ad2ed15b")
+	)
+	(label "IN(+)"
+		(at 31.75 57.15 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "75c51368-4456-4870-86e3-ca5d583a48a1")
+	)
+	(label "Drain"
+		(at 44.45 97.79 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "7ae1ab0b-042b-46d8-96ed-bcd5929c07c3")
+	)
+	(label "Drain"
+		(at 101.6 97.79 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "91b353e8-752c-46f6-9b07-4be03dc69cb3")
+	)
+	(label "Drain"
+		(at 82.55 97.79 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "b6af4c9e-fa81-4499-a2c6-9d675b56ec0c")
+	)
+	(label "Drain"
+		(at 63.5 97.79 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "d1b4d1c0-7664-4827-85fe-ce14233993a7")
 	)
 	(global_label "Gate_Drive4"
 		(shape output)
@@ -4969,12 +4969,12 @@
 	)
 	(hierarchical_label "VBAT"
 		(shape input)
-		(at 31.75 54.61 90)
+		(at 30.48 57.15 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify right)
 		)
 		(uuid "7e2345ed-7864-47cc-8a9f-f14054b398f5")
 	)
