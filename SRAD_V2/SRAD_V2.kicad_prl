@@ -9,11 +9,11 @@
     "net_color_mode": 1,
     "opacity": {
       "images": 1.0,
-      "pads": 0.9800000190734863,
-      "shapes": 0.9900000095367432,
+      "pads": 1.0,
+      "shapes": 1.0,
       "tracks": 1.0,
       "vias": 1.0,
-      "zones": 0.18000000715255737
+      "zones": 0.9399999976158142
     },
     "prototype_zone_fills": false,
     "selection_filter": {
@@ -32,9 +32,7 @@
     "visible_items": [
       "vias",
       "footprint_text",
-      "footprint_anchors",
       "ratsnest",
-      "grid",
       "footprints_front",
       "footprints_back",
       "footprint_values",
@@ -50,7 +48,7 @@
       "conflict_shadows",
       "shapes"
     ],
-    "visible_layers": "ffffffff_ffffffff_fffffff5_ffffffff",
+    "visible_layers": "ffffffff_ffffffff_fffffff5_ffffffdf",
     "zone_display_mode": 0
   },
   "git": {
@@ -104,7 +102,7 @@
       103,
       103,
       103,
-      103
+      239
     ],
     "custom_group_rules": [],
     "expanded_rows": [],
