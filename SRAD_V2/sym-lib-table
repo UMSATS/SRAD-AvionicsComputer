@@ -13,4 +13,5 @@
 	(lib (name "FDD1600N10ALZ") (type "KiCad") (uri "${KIPRJMOD}/Custom E-CAD Models/Symbols/Mosfets/FDD1600N10ALZ.kicad_sym") (options "") (descr ""))
 	(lib (name "STM32F767ZIT6") (type "KiCad") (uri "${KIPRJMOD}/Custom E-CAD Models/STM32F767ZIT6/STM32F767ZIT6.kicad_sym") (options "") (descr ""))
 	(lib (name "LSM6DSV80XTR") (type "KiCad") (uri "${KIPRJMOD}/Custom E-CAD Models/IMU/LSM6DSV80XTR/2026-05-07_19-40-20.kicad_sym") (options "") (descr ""))
+	(lib (name "6.8uH Inductor") (type "KiCad") (uri "${KIPRJMOD}/Custom E-CAD Models/6.8uH Inductor/IHLP4040DZER6R8M01/2026-07-16_14-36-54.kicad_sym") (options "") (descr ""))
 )

@@ -39,9 +39,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 1.9,
-          "height": 3.5,
-          "width": 3.5
+          "drill": 0.5,
+          "height": 0.85,
+          "width": 0.85
         },
         "silk_line_width": 0.1,
         "silk_text_italic": false,
@@ -198,7 +198,9 @@
         0.254,
         0.4064,
         0.635,
-        1.27
+        1.27,
+        2.54,
+        5.08
       ],
       "tuning_pattern_settings": {
         "diff_pair_defaults": {
@@ -782,7 +784,7 @@
         "uuid": "016ea6e5-09c6-43d4-b6cc-3404e2d65458"
       }
     ],
-    "used_designators": "",
+    "used_designators": "L3",
     "variants": []
   },
   "sheets": [

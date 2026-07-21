@@ -11433,7 +11433,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 225.044 272.288 0)
+		(at 281.432 272.034 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -11444,7 +11444,7 @@
 		(fields_autoplaced yes)
 		(uuid "40382c2a-fe22-4935-b1fc-fc3d0a837969")
 		(property "Reference" "#PWR037"
-			(at 225.044 278.638 0)
+			(at 281.432 278.384 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11455,7 +11455,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 225.044 277.368 0)
+			(at 281.432 277.114 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11465,7 +11465,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 225.044 272.288 0)
+			(at 281.432 272.034 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11476,7 +11476,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 225.044 272.288 0)
+			(at 281.432 272.034 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11487,7 +11487,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 225.044 272.288 0)
+			(at 281.432 272.034 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12631,84 +12631,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 203.454 272.288 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "6623cb30-376b-436c-8b6e-c36748d9706b")
-		(property "Reference" "#PWR036"
-			(at 203.454 278.638 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 203.454 277.368 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 203.454 272.288 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 203.454 272.288 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 203.454 272.288 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "d62ea90f-8da6-4c52-add0-50579b72e080")
-		)
-		(instances
-			(project "SRAD_V2"
-				(path "/016ea6e5-09c6-43d4-b6cc-3404e2d65458"
-					(reference "#PWR036")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C_Small")
 		(at 114.3 46.99 0)
 		(unit 1)
@@ -13754,7 +13676,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Polarized")
-		(at 225.044 268.478 0)
+		(at 281.432 268.224 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -13765,7 +13687,7 @@
 		(fields_autoplaced yes)
 		(uuid "98ed07f9-5fbb-42df-86cb-71c3d637b951")
 		(property "Reference" "C41"
-			(at 228.854 266.3189 0)
+			(at 285.242 266.0649 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13776,7 +13698,7 @@
 			)
 		)
 		(property "Value" "C_Polarized"
-			(at 228.854 268.8589 0)
+			(at 285.242 268.6049 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13787,7 +13709,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 226.0092 272.288 0)
+			(at 282.3972 272.034 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13798,7 +13720,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 225.044 268.478 0)
+			(at 281.432 268.224 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13809,7 +13731,7 @@
 			)
 		)
 		(property "Description" "Polarized capacitor"
-			(at 225.044 268.478 0)
+			(at 281.432 268.224 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13836,7 +13758,7 @@
 	)
 	(symbol
 		(lib_id "power:+BATT")
-		(at 225.044 264.668 0)
+		(at 281.432 264.414 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -13847,7 +13769,7 @@
 		(fields_autoplaced yes)
 		(uuid "9b9aedc8-2703-4bef-8acc-8d281e0fbd47")
 		(property "Reference" "#PWR035"
-			(at 225.044 268.478 0)
+			(at 281.432 268.224 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13858,7 +13780,7 @@
 			)
 		)
 		(property "Value" "+BATT"
-			(at 225.044 259.588 0)
+			(at 281.432 259.334 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13868,7 +13790,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 225.044 264.668 0)
+			(at 281.432 264.414 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13879,7 +13801,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 225.044 264.668 0)
+			(at 281.432 264.414 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13890,7 +13812,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+BATT\""
-			(at 225.044 264.668 0)
+			(at 281.432 264.414 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14235,88 +14157,6 @@
 			(project "SRAD_V2"
 				(path "/016ea6e5-09c6-43d4-b6cc-3404e2d65458"
 					(reference "SW1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C_Polarized")
-		(at 203.454 268.478 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "a4652df3-018a-47bd-b612-82eecbfc8572")
-		(property "Reference" "C40"
-			(at 207.264 266.3189 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "C_Polarized"
-			(at 207.264 268.8589 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 204.4192 272.288 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 203.454 268.478 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Polarized capacitor"
-			(at 203.454 268.478 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "997bb383-0b17-4ad3-83f4-e8479c636489")
-		)
-		(pin "2"
-			(uuid "252dcbc2-ad06-4e96-907a-9e5da7f8e399")
-		)
-		(instances
-			(project "SRAD_V2"
-				(path "/016ea6e5-09c6-43d4-b6cc-3404e2d65458"
-					(reference "C40")
 					(unit 1)
 				)
 			)
@@ -15644,84 +15484,6 @@
 			(project "SRAD_V2"
 				(path "/016ea6e5-09c6-43d4-b6cc-3404e2d65458"
 					(reference "C37")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+BATT")
-		(at 203.454 264.668 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "d9c19495-a857-4fa5-9fce-ab4d5ed013b9")
-		(property "Reference" "#PWR017"
-			(at 203.454 268.478 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "+BATT"
-			(at 203.454 259.588 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 203.454 264.668 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 203.454 264.668 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+BATT\""
-			(at 203.454 264.668 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "a755ed89-521e-472a-a3e3-06e5722a9a55")
-		)
-		(instances
-			(project "SRAD_V2"
-				(path "/016ea6e5-09c6-43d4-b6cc-3404e2d65458"
-					(reference "#PWR017")
 					(unit 1)
 				)
 			)
