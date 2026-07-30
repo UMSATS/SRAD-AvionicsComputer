@@ -1433,7 +1433,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Inductor:IND_VLS6045EX-2R2N"
+		(property "Footprint" "Inductor:IND_BOURNS_SRN8040"
 			(at 166.37 81.28 0)
 			(hide yes)
 			(show_name no)
