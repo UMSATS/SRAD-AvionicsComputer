@@ -4247,377 +4247,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Transistor_FET:RQ6E080AJ"
-			(pin_names
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "Q"
-				(at 5.08 1.905 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "RQ6E080AJ"
-				(at 5.08 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" "Package_TO_SOT_SMD:TSOT-23-6"
-				(at 5.08 -1.905 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(italic yes)
-					)
-					(justify left)
-				)
-			)
-			(property "Datasheet" "https://fscdn.rohm.com/en/products/databook/datasheet/discrete/transistor/mosfet/rq6e080ajtcr-e.pdf"
-				(at 5.08 -3.81 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Description" "8A Id, 30V Vds, 16.5 mOhm RdsOn, N-Channel Small-Signal MOSFET, TSOT-23-6"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "N-Channel MOSFET Low-Threshold sot-457t sc-95 tsmt6"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_fp_filters" "TSOT?23*"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "RQ6E080AJ_0_1"
-				(polyline
-					(pts
-						(xy 0.254 1.905) (xy 0.254 -1.905)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.254 0) (xy -2.54 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.762 2.286) (xy 0.762 1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.762 0.508) (xy 0.762 -0.508)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.762 -1.27) (xy 0.762 -2.286)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.762 -1.778) (xy 3.302 -1.778) (xy 3.302 1.778) (xy 0.762 1.778)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.016 0) (xy 2.032 0.381) (xy 2.032 -0.381) (xy 1.016 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(circle
-					(center 1.651 0)
-					(radius 2.794)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 2.54) (xy 2.54 1.778)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 2.54 1.778)
-					(radius 0.254)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(circle
-					(center 2.54 -1.778)
-					(radius 0.254)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 -2.54) (xy 2.54 0) (xy 0.762 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.794 0.508) (xy 2.921 0.381) (xy 3.683 0.381) (xy 3.81 0.254)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 3.302 0.381) (xy 2.921 -0.254) (xy 3.683 -0.254) (xy 3.302 0.381)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "RQ6E080AJ_1_1"
-				(pin passive line
-					(at 2.54 5.08 270)
-					(length 2.54)
-					(name "D"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 2.54 5.08 270)
-					(length 2.54)
-					(hide yes)
-					(name "D"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -5.08 0 0)
-					(length 2.54)
-					(name "G"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 2.54 -5.08 90)
-					(length 2.54)
-					(name "S"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 2.54 5.08 270)
-					(length 2.54)
-					(hide yes)
-					(name "D"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 2.54 5.08 270)
-					(length 2.54)
-					(hide yes)
-					(name "D"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "power:+3.3V"
 			(power global)
 			(pin_numbers
@@ -4924,7 +4553,7 @@
 	)
 	(text "Source"
 		(exclude_from_sim no)
-		(at 81.9846 158.8157 90)
+		(at 81.9846 161.3557 90)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4994,7 +4623,7 @@
 	)
 	(text "Resistors to limit gate driving current to around 1 Ampere"
 		(exclude_from_sim no)
-		(at 68.834 174.752 0)
+		(at 69.088 180.848 0)
 		(effects
 			(font
 				(size 1.016 1.016)
@@ -5055,7 +4684,7 @@
 	)
 	(text "Source"
 		(exclude_from_sim no)
-		(at 101.092 158.496 90)
+		(at 101.092 161.036 90)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5086,6 +4715,12 @@
 		(uuid "06aeb357-9498-4353-a5e8-a01f1f8c5dca")
 	)
 	(junction
+		(at 83.82 154.94)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "18dd88f3-9c49-4d76-9653-139408af2a48")
+	)
+	(junction
 		(at 182.88 43.18)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5102,6 +4737,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "2cc26155-f0bb-4236-8056-2de4aad7ffe6")
+	)
+	(junction
+		(at 102.87 154.94)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "37f73b98-d07c-4066-8613-7016d7e2238b")
 	)
 	(junction
 		(at 97.282 104.648)
@@ -5279,6 +4920,16 @@
 	)
 	(wire
 		(pts
+			(xy 102.87 154.94) (xy 105.41 154.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0051fbac-73d0-46bc-a27b-e23992a84356")
+	)
+	(wire
+		(pts
 			(xy 97.282 104.648) (xy 97.282 108.458)
 		)
 		(stroke
@@ -5296,6 +4947,16 @@
 			(type default)
 		)
 		(uuid "0417fc45-749a-4944-83bb-6cecbbc5e312")
+	)
+	(wire
+		(pts
+			(xy 76.454 149.86) (xy 78.74 149.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0847645c-1fe1-4a8f-95b8-fa0171afbddb")
 	)
 	(wire
 		(pts
@@ -5419,6 +5080,16 @@
 	)
 	(wire
 		(pts
+			(xy 95.504 149.86) (xy 97.79 149.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1ea87977-c106-453a-a01c-e9ca6c477dbf")
+	)
+	(wire
+		(pts
 			(xy 181.61 74.93) (xy 181.61 72.39)
 		)
 		(stroke
@@ -5439,7 +5110,7 @@
 	)
 	(wire
 		(pts
-			(xy 102.87 166.37) (xy 102.87 152.4)
+			(xy 102.87 168.91) (xy 102.87 154.94)
 		)
 		(stroke
 			(width 0)
@@ -5479,7 +5150,7 @@
 	)
 	(wire
 		(pts
-			(xy 83.82 152.4) (xy 83.82 166.37)
+			(xy 83.82 154.94) (xy 83.82 168.91)
 		)
 		(stroke
 			(width 0)
@@ -5646,6 +5317,16 @@
 			(type default)
 		)
 		(uuid "45a21cfb-4ace-4918-8019-dd52c222a6f1")
+	)
+	(wire
+		(pts
+			(xy 100.33 154.94) (xy 102.87 154.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "47599de0-761e-459a-a671-ffa78886a052")
 	)
 	(wire
 		(pts
@@ -5839,13 +5520,13 @@
 	)
 	(wire
 		(pts
-			(xy 76.2 147.32) (xy 76.2 148.59)
+			(xy 76.454 149.86) (xy 76.454 154.686)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "7b7d74f4-9b0e-42c8-8a6e-931cd8ae1ba7")
+		(uuid "8159223e-94fc-4e2c-805c-01dddcbc7eb7")
 	)
 	(wire
 		(pts
@@ -5939,6 +5620,16 @@
 	)
 	(wire
 		(pts
+			(xy 81.28 154.94) (xy 83.82 154.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a4e3ba1a-d241-4bc8-990d-25f8e1eebdba")
+	)
+	(wire
+		(pts
 			(xy 157.48 43.18) (xy 173.99 43.18)
 		)
 		(stroke
@@ -5969,7 +5660,7 @@
 	)
 	(wire
 		(pts
-			(xy 95.25 147.32) (xy 95.25 148.59)
+			(xy 95.504 149.86) (xy 95.504 154.686)
 		)
 		(stroke
 			(width 0)
@@ -6166,6 +5857,16 @@
 			(type default)
 		)
 		(uuid "ee83b118-66d2-4d4b-8893-d4efa8623e37")
+	)
+	(wire
+		(pts
+			(xy 83.82 154.94) (xy 86.36 154.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f2f79dc6-60e5-4560-a137-2c02233e438a")
 	)
 	(wire
 		(pts
@@ -6994,7 +6695,7 @@
 	)
 	(global_label "Gate_Drive4"
 		(shape output)
-		(at 95.25 156.21 270)
+		(at 95.504 162.306 270)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7004,7 +6705,7 @@
 		)
 		(uuid "49481dcf-ed79-4042-959b-28e5adeb96ca")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 95.25 167.5001 90)
+			(at 95.504 173.5961 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7018,7 +6719,7 @@
 	)
 	(global_label "Gate_Drive3"
 		(shape output)
-		(at 76.2 156.21 270)
+		(at 76.454 162.306 270)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7028,7 +6729,7 @@
 		)
 		(uuid "7736eaa7-fbb5-4fe0-9e5b-426f3844104d")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 76.2 167.5001 90)
+			(at 76.454 173.5961 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7259,7 +6960,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 95.25 152.4 0)
+		(at 95.504 158.496 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -7269,7 +6970,7 @@
 		(dnp no)
 		(uuid "07e434c4-4a73-4e05-ba04-a8db70ab9b69")
 		(property "Reference" "R6"
-			(at 92.964 152.4 90)
+			(at 93.218 158.496 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7279,7 +6980,7 @@
 			)
 		)
 		(property "Value" "10R"
-			(at 98.298 152.146 90)
+			(at 98.552 158.242 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7289,7 +6990,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 93.472 152.4 90)
+			(at 93.726 158.496 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7300,7 +7001,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 95.25 152.4 0)
+			(at 95.504 158.496 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7311,7 +7012,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 95.25 152.4 0)
+			(at 95.504 158.496 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8185,7 +7886,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 102.87 166.37 0)
+		(at 102.87 168.91 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -8195,7 +7896,7 @@
 		(dnp no)
 		(uuid "2b39c253-6a8b-4fc1-bba0-8597bcd4690e")
 		(property "Reference" "#PWR08"
-			(at 102.87 172.72 0)
+			(at 102.87 175.26 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8206,7 +7907,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 102.87 170.688 0)
+			(at 102.87 173.228 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8216,7 +7917,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 102.87 166.37 0)
+			(at 102.87 168.91 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8227,7 +7928,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 102.87 166.37 0)
+			(at 102.87 168.91 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8238,7 +7939,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 102.87 166.37 0)
+			(at 102.87 168.91 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8425,7 +8126,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 76.2 152.4 0)
+		(at 76.454 158.496 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -8435,7 +8136,7 @@
 		(dnp no)
 		(uuid "2d985eed-bbbf-4812-9173-f9c170c4cbe2")
 		(property "Reference" "R5"
-			(at 73.914 152.4 90)
+			(at 74.168 158.496 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8445,7 +8146,7 @@
 			)
 		)
 		(property "Value" "10R"
-			(at 79.248 152.4 90)
+			(at 79.502 158.496 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8455,7 +8156,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 74.422 152.4 90)
+			(at 74.676 158.496 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8466,7 +8167,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 76.2 152.4 0)
+			(at 76.454 158.496 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8477,7 +8178,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 76.2 152.4 0)
+			(at 76.454 158.496 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8599,6 +8300,169 @@
 			(project "SRAD_V2"
 				(path "/016ea6e5-09c6-43d4-b6cc-3404e2d65458/a2059f4c-c92f-483b-9b86-061767cb943d"
 					(reference "Q2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "NTMFS5C673NT1G:NTMFS5C673NT1G")
+		(at 100.33 147.32 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "3bb49a1d-7edf-4c73-a53e-7bf931799d6b")
+		(property "Reference" "Q4"
+			(at 107.188 147.1185 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "NTMFS5C673NT1G"
+			(at 93.218 141.986 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "NTMFS5C673NT1G-2:TRANS_NTMFS5C673NT1G"
+			(at 100.33 147.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Datasheet" ""
+			(at 100.33 147.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 100.33 147.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" "1.1mm"
+			(at 100.33 147.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "CREATOR" "ASHISH"
+			(at 100.33 147.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "STANDARD" "Manufacturer Recommendations"
+			(at 100.33 147.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "PARTREV" "0"
+			(at 100.33 147.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "VERIFIER" ""
+			(at 100.33 147.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "MANUFACTURER" "Onsemi"
+			(at 100.33 147.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(pin "1"
+			(uuid "f137de05-3a38-4c98-abe2-b8e7ca3145e6")
+		)
+		(pin "2"
+			(uuid "8a09bfb9-070c-4fb7-aca2-f9230b88ceb8")
+		)
+		(pin "3"
+			(uuid "56ee6e71-4304-47b2-b228-2ff9aa9e0687")
+		)
+		(pin "4"
+			(uuid "25470f45-4c11-464e-a275-125f81de124a")
+		)
+		(pin "5"
+			(uuid "2abf01ce-a6f3-458f-a051-a96d4f21a279")
+		)
+		(instances
+			(project "SRAD_V2"
+				(path "/016ea6e5-09c6-43d4-b6cc-3404e2d65458/a2059f4c-c92f-483b-9b86-061767cb943d"
+					(reference "Q4")
 					(unit 1)
 				)
 			)
@@ -8933,7 +8797,7 @@
 	)
 	(symbol
 		(lib_id "NTMFS5C673NT1G:NTMFS5C673NT1G")
-		(at 224.282 110.49 0)
+		(at 81.28 147.32 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -8941,10 +8805,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "55879a21-6002-46ab-9ccf-684830145c01")
-		(property "Reference" "Q5"
-			(at 231.14 110.2885 0)
+		(property "Reference" "Q3"
+			(at 88.138 147.1185 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8955,7 +8818,7 @@
 			)
 		)
 		(property "Value" "NTMFS5C673NT1G"
-			(at 231.14 112.8285 0)
+			(at 72.644 141.986 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8966,7 +8829,7 @@
 			)
 		)
 		(property "Footprint" "NTMFS5C673NT1G-2:TRANS_NTMFS5C673NT1G"
-			(at 224.282 110.49 0)
+			(at 81.28 147.32 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8978,7 +8841,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 224.282 110.49 0)
+			(at 81.28 147.32 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8989,7 +8852,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 224.282 110.49 0)
+			(at 81.28 147.32 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9000,7 +8863,7 @@
 			)
 		)
 		(property "MAXIMUM_PACKAGE_HEIGHT" "1.1mm"
-			(at 224.282 110.49 0)
+			(at 81.28 147.32 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9012,7 +8875,7 @@
 			)
 		)
 		(property "CREATOR" "ASHISH"
-			(at 224.282 110.49 0)
+			(at 81.28 147.32 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9024,7 +8887,7 @@
 			)
 		)
 		(property "STANDARD" "Manufacturer Recommendations"
-			(at 224.282 110.49 0)
+			(at 81.28 147.32 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9036,7 +8899,7 @@
 			)
 		)
 		(property "PARTREV" "0"
-			(at 224.282 110.49 0)
+			(at 81.28 147.32 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9048,7 +8911,7 @@
 			)
 		)
 		(property "VERIFIER" ""
-			(at 224.282 110.49 0)
+			(at 81.28 147.32 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9060,7 +8923,7 @@
 			)
 		)
 		(property "MANUFACTURER" "Onsemi"
-			(at 224.282 110.49 0)
+			(at 81.28 147.32 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9089,7 +8952,7 @@
 		(instances
 			(project "SRAD_V2"
 				(path "/016ea6e5-09c6-43d4-b6cc-3404e2d65458/a2059f4c-c92f-483b-9b86-061767cb943d"
-					(reference "Q5")
+					(reference "Q3")
 					(unit 1)
 				)
 			)
@@ -9253,7 +9116,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 83.82 166.37 0)
+		(at 83.82 168.91 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -9263,7 +9126,7 @@
 		(dnp no)
 		(uuid "6ed49db0-418b-4144-b9a3-175d3fa82da5")
 		(property "Reference" "#PWR05"
-			(at 83.82 172.72 0)
+			(at 83.82 175.26 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9274,7 +9137,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 83.82 170.688 0)
+			(at 83.82 173.228 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9284,7 +9147,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 83.82 166.37 0)
+			(at 83.82 168.91 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9295,7 +9158,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 83.82 166.37 0)
+			(at 83.82 168.91 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9306,7 +9169,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 83.82 166.37 0)
+			(at 83.82 168.91 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10000,102 +9863,6 @@
 			(project "SRAD_V2"
 				(path "/016ea6e5-09c6-43d4-b6cc-3404e2d65458/a2059f4c-c92f-483b-9b86-061767cb943d"
 					(reference "IC2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Transistor_FET:RQ6E080AJ")
-		(at 81.28 147.32 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "99702327-6941-4c00-bd1d-b53949ef7ee8")
-		(property "Reference" "Q3"
-			(at 87.63 146.0499 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "FDC8878"
-			(at 70.866 143.764 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-6"
-			(at 86.36 149.225 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify left)
-			)
-		)
-		(property "Datasheet" "https://fscdn.rohm.com/en/products/databook/datasheet/discrete/transistor/mosfet/rq6e080ajtcr-e.pdf"
-			(at 86.36 151.13 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Description" "8A Id, 30V Vds, 16.5 mOhm RdsOn, N-Channel Small-Signal MOSFET, TSOT-23-6"
-			(at 81.28 147.32 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "5"
-			(uuid "429a5601-b441-424f-8859-50512510ac5d")
-		)
-		(pin "3"
-			(uuid "12ad14df-c33d-479c-8de4-d9ffbb360455")
-		)
-		(pin "2"
-			(uuid "38f5f2cd-ac07-45e4-9bfa-ff780950d386")
-		)
-		(pin "1"
-			(uuid "4ef10379-5143-44e9-a3a5-858c08a20d85")
-		)
-		(pin "6"
-			(uuid "561a52c6-6710-493e-aa6e-77554f02649f")
-		)
-		(pin "4"
-			(uuid "b74d54cd-adb1-4816-9554-f738810ffaa3")
-		)
-		(instances
-			(project "SRAD_V2"
-				(path "/016ea6e5-09c6-43d4-b6cc-3404e2d65458/a2059f4c-c92f-483b-9b86-061767cb943d"
-					(reference "Q3")
 					(unit 1)
 				)
 			)
@@ -11421,102 +11188,6 @@
 			(project "SRAD_V2"
 				(path "/016ea6e5-09c6-43d4-b6cc-3404e2d65458/a2059f4c-c92f-483b-9b86-061767cb943d"
 					(reference "L3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Transistor_FET:RQ6E080AJ")
-		(at 100.33 147.32 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "dba739a5-e91f-476c-b9f8-e29d085ab9c5")
-		(property "Reference" "Q4"
-			(at 106.68 146.0499 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "FDC8878"
-			(at 89.662 143.51 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-6"
-			(at 105.41 149.225 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify left)
-			)
-		)
-		(property "Datasheet" "https://fscdn.rohm.com/en/products/databook/datasheet/discrete/transistor/mosfet/rq6e080ajtcr-e.pdf"
-			(at 105.41 151.13 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Description" "8A Id, 30V Vds, 16.5 mOhm RdsOn, N-Channel Small-Signal MOSFET, TSOT-23-6"
-			(at 100.33 147.32 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "5"
-			(uuid "918fff42-2704-4f9b-ba29-309876f1b286")
-		)
-		(pin "3"
-			(uuid "a40c7818-ed79-4546-bf56-292f38c32877")
-		)
-		(pin "2"
-			(uuid "f60a7826-17a3-47cf-8ca7-6a14c6ff37f7")
-		)
-		(pin "1"
-			(uuid "8b3631ae-32ca-4387-9caa-66d8fba0e58e")
-		)
-		(pin "6"
-			(uuid "b078a878-d8dd-4fe9-8ee8-b5f5ed844df7")
-		)
-		(pin "4"
-			(uuid "8455eb5c-85cc-46b1-94e3-7115923c0798")
-		)
-		(instances
-			(project "SRAD_V2"
-				(path "/016ea6e5-09c6-43d4-b6cc-3404e2d65458/a2059f4c-c92f-483b-9b86-061767cb943d"
-					(reference "Q4")
 					(unit 1)
 				)
 			)
