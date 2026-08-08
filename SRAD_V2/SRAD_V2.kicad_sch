@@ -8001,12 +8001,6 @@
 		(uuid "42326c3a-228c-4d00-ba6e-93f8492018a5")
 	)
 	(junction
-		(at 193.04 193.04)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "4870b1eb-e93c-437e-8c7d-cfbc2f66bbd8")
-	)
-	(junction
 		(at 177.8 106.68)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -8079,6 +8073,12 @@
 		(uuid "8fa6c6e7-8a16-4442-8d31-dd58730fc8e3")
 	)
 	(junction
+		(at 191.77 193.04)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "900bc12f-0db9-416c-bcc0-00b3d766d954")
+	)
+	(junction
 		(at 95.25 44.45)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -8149,12 +8149,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "bea56e85-6623-4162-b098-9982a3b02b82")
-	)
-	(junction
-		(at 193.04 196.85)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "bfc6294c-467b-465d-b992-7f9323bdb074")
 	)
 	(junction
 		(at 300.228 35.56)
@@ -8428,16 +8422,6 @@
 	)
 	(wire
 		(pts
-			(xy 191.77 196.85) (xy 193.04 196.85)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "27933a0b-345f-49a1-9504-9ac7951500c3")
-	)
-	(wire
-		(pts
 			(xy 168.91 106.68) (xy 168.91 110.49)
 		)
 		(stroke
@@ -8585,16 +8569,6 @@
 			(type default)
 		)
 		(uuid "414c2807-3633-42c3-a88f-77904d5b0eb5")
-	)
-	(wire
-		(pts
-			(xy 193.04 193.04) (xy 193.04 196.85)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "42118537-8ba8-4181-bf46-19781434f2cd")
 	)
 	(wire
 		(pts
@@ -9058,16 +9032,6 @@
 	)
 	(wire
 		(pts
-			(xy 229.87 193.04) (xy 193.04 193.04)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a04c91ea-4adb-48bc-b2eb-cdd8493872cf")
-	)
-	(wire
-		(pts
 			(xy 92.71 81.28) (xy 95.25 81.28)
 		)
 		(stroke
@@ -9178,16 +9142,6 @@
 	)
 	(wire
 		(pts
-			(xy 193.04 196.85) (xy 194.31 196.85)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b380dd85-d5c1-4b02-b700-2c5ef2655b77")
-	)
-	(wire
-		(pts
 			(xy 27.94 76.2) (xy 29.21 76.2)
 		)
 		(stroke
@@ -9205,6 +9159,16 @@
 			(type default)
 		)
 		(uuid "b8b4ced8-4321-4f2f-a2e3-f363650e5b37")
+	)
+	(wire
+		(pts
+			(xy 191.77 193.04) (xy 191.77 196.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b99853a1-e1b7-4800-bd0a-29a86d6ac5e1")
 	)
 	(wire
 		(pts
@@ -9358,6 +9322,16 @@
 	)
 	(wire
 		(pts
+			(xy 191.77 193.04) (xy 229.87 193.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ce28aef4-09ba-48ee-840c-959b906af409")
+	)
+	(wire
+		(pts
 			(xy 297.434 35.56) (xy 300.228 35.56)
 		)
 		(stroke
@@ -9498,7 +9472,7 @@
 	)
 	(wire
 		(pts
-			(xy 193.04 193.04) (xy 189.23 193.04)
+			(xy 189.23 193.04) (xy 191.77 193.04)
 		)
 		(stroke
 			(width 0)
@@ -9984,7 +9958,7 @@
 			)
 		)
 	)
-	(global_label "+3V3"
+	(global_label "+3.3V"
 		(shape input)
 		(at 386.08 96.52 0)
 		(fields_autoplaced yes)
@@ -10008,7 +9982,7 @@
 			)
 		)
 	)
-	(global_label "+3V3"
+	(global_label "+3.3V"
 		(shape input)
 		(at 381 210.82 0)
 		(fields_autoplaced yes)
@@ -10104,7 +10078,7 @@
 			)
 		)
 	)
-	(global_label "+3V3"
+	(global_label "+3.3V"
 		(shape input)
 		(at 177.8 160.02 180)
 		(fields_autoplaced yes)
@@ -10176,7 +10150,7 @@
 			)
 		)
 	)
-	(global_label "+3V3"
+	(global_label "+3.3V"
 		(shape input)
 		(at 233.68 165.1 0)
 		(fields_autoplaced yes)
@@ -10272,7 +10246,7 @@
 			)
 		)
 	)
-	(global_label "+3V3"
+	(global_label "+3.3V"
 		(shape input)
 		(at 246.38 110.49 0)
 		(fields_autoplaced yes)
@@ -10872,7 +10846,7 @@
 			)
 		)
 	)
-	(global_label "+3V3"
+	(global_label "+3.3V"
 		(shape input)
 		(at 165.1 106.68 180)
 		(fields_autoplaced yes)
@@ -10896,7 +10870,7 @@
 			)
 		)
 	)
-	(global_label "+3V3"
+	(global_label "+3.3V"
 		(shape input)
 		(at 186.69 193.04 180)
 		(fields_autoplaced yes)
@@ -17239,7 +17213,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 206.756 266.446 0)
 			(hide yes)
 			(show_name no)
