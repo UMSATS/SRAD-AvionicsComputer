@@ -21,4 +21,5 @@
 	(lib (name "push_button") (type "KiCad") (uri "${KIPRJMOD}/Custom E-CAD Models/push button/TS18_5_15_SL_160_SMT_TR.pretty") (options "") (descr ""))
 	(lib (name "150120SS75000") (type "KiCad") (uri "${KIPRJMOD}/Custom E-CAD Models/150120SS75000.pretty") (options "") (descr ""))
 	(lib (name "NTMFS5C673NT1G-2") (type "KiCad") (uri "${KIPRJMOD}/Custom E-CAD Models/SMD MOSFET/NTMFS5C673NT1G-2.pretty") (options "") (descr ""))
+	(lib (name "RSP_122811_02-2") (type "KiCad") (uri "${KIPRJMOD}/Custom E-CAD Models/RSP_122811_02-2/RSP_122811_02-2.pretty") (options "") (descr ""))
 )
