@@ -1851,6 +1851,184 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Diode:SMAJ10CA"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "D"
+				(at 0 2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "SMAJ10CA"
+				(at 0 -2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Diode_SMD:D_SMA"
+				(at 0 -5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" "https://www.littelfuse.com/media?resourcetype=datasheets&itemid=75e32973-b177-4ee3-a0ff-cedaf1abdb93&filename=smaj-datasheet"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "400W bidirectional Transient Voltage Suppressor, 10.0Vr, SMA(DO-214AC)"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "bidirectional diode TVS voltage suppressor"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "D*SMA*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "SMAJ10CA_0_1"
+				(polyline
+					(pts
+						(xy -2.54 -1.27) (xy 0 0) (xy -2.54 1.27) (xy -2.54 -1.27)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.508 1.27) (xy 0 1.27) (xy 0 -1.27) (xy -0.508 -1.27)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 0) (xy -1.27 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 1.27) (xy 2.54 -1.27) (xy 0 0) (xy 2.54 1.27)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "SMAJ10CA_1_1"
+				(pin passive line
+					(at -3.81 0 0)
+					(length 2.54)
+					(name "A1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 2.54)
+					(name "A2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "LSM6DSV80XTR:LSM6DSV80XTR"
 			(pin_names
 				(offset 0.254)
@@ -7017,6 +7195,415 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Transistor_FET:FDS9435A"
+			(pin_names
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "Q"
+				(at 5.08 1.905 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "FDS9435A"
+				(at 5.08 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
+				(at 5.08 -1.905 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(italic yes)
+					)
+					(justify left)
+				)
+			)
+			(property "Datasheet" "https://www.onsemi.com/pub/Collateral/FDS9435A-D.PDF"
+				(at 5.08 -3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Description" "-5.3A Id, -30V Vds, P-Channel MOSFET, 50mOhm Ron, SO-8"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "P-Channel MOSFET"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "SOIC*3.9x4.9mm*P1.27mm*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "FDS9435A_0_1"
+				(polyline
+					(pts
+						(xy 0.254 1.905) (xy 0.254 -1.905)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.254 0) (xy -2.54 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 2.286) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 1.778) (xy 3.302 1.778) (xy 3.302 -1.778) (xy 0.762 -1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 0.508) (xy 0.762 -0.508)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 -1.27) (xy 0.762 -2.286)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 1.651 0)
+					(radius 2.794)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.286 0) (xy 1.27 0.381) (xy 1.27 -0.381) (xy 2.286 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 2.54) (xy 2.54 1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.54 1.778)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(circle
+					(center 2.54 -1.778)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 -2.54) (xy 2.54 0) (xy 0.762 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.794 -0.508) (xy 2.921 -0.381) (xy 3.683 -0.381) (xy 3.81 -0.254)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.302 -0.381) (xy 2.921 0.254) (xy 3.683 0.254) (xy 3.302 -0.381)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "FDS9435A_1_1"
+				(pin passive line
+					(at 2.54 -5.08 90)
+					(length 2.54)
+					(name "S"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 -5.08 90)
+					(length 2.54)
+					(hide yes)
+					(name "S"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 -5.08 90)
+					(length 2.54)
+					(hide yes)
+					(name "S"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "G"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 5.08 270)
+					(length 2.54)
+					(name "D"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 5.08 270)
+					(length 2.54)
+					(hide yes)
+					(name "D"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 5.08 270)
+					(length 2.54)
+					(hide yes)
+					(name "D"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 5.08 270)
+					(length 2.54)
+					(hide yes)
+					(name "D"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "mmc5983ma:MMC5983MA"
 			(pin_names
 				(offset 0.254)
@@ -9102,10 +9689,16 @@
 		(uuid "42326c3a-228c-4d00-ba6e-93f8492018a5")
 	)
 	(junction
-		(at 298.704 35.56)
+		(at 299.72 44.958)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "4848c7e5-3c91-4115-a326-03372e615274")
+		(uuid "45fd2e58-2c17-4f70-9fd4-4917fe867bab")
+	)
+	(junction
+		(at 311.15 35.56)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "47032622-792a-4f18-943a-03ca60bbab2c")
 	)
 	(junction
 		(at 177.8 106.68)
@@ -9136,6 +9729,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "6eeece27-be26-464e-981b-b38e9d258c2e")
+	)
+	(junction
+		(at 291.592 35.56)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6f91be98-0077-4978-ad5e-2cbbb8a1899f")
 	)
 	(junction
 		(at 361.95 96.52)
@@ -9228,6 +9827,12 @@
 		(uuid "a7e1e7c8-e242-405c-9c36-f38d6ed41b44")
 	)
 	(junction
+		(at 291.592 44.958)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a7eea4da-9627-49f9-9192-8f67eff8cdb0")
+	)
+	(junction
 		(at 361.95 116.84)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -9238,6 +9843,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b11c2010-d9bb-4492-9983-e432ab3cb683")
+	)
+	(junction
+		(at 308.356 35.56)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b6c249d7-ee80-4c1f-9319-f8a44113c06e")
 	)
 	(junction
 		(at 67.31 44.45)
@@ -9381,6 +9992,16 @@
 	)
 	(wire
 		(pts
+			(xy 308.356 35.56) (xy 311.15 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "05c25dd3-96c2-4b08-bb85-2d86259f38f5")
+	)
+	(wire
+		(pts
 			(xy 262.89 199.898) (xy 268.986 199.898)
 		)
 		(stroke
@@ -9511,7 +10132,7 @@
 	)
 	(wire
 		(pts
-			(xy 298.704 43.688) (xy 298.704 45.974)
+			(xy 291.592 43.942) (xy 291.592 44.958)
 		)
 		(stroke
 			(width 0)
@@ -9618,6 +10239,16 @@
 			(type default)
 		)
 		(uuid "3008f904-fffa-49fa-8081-00d3b98e4247")
+	)
+	(wire
+		(pts
+			(xy 299.72 44.958) (xy 308.356 44.958)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "30f5788a-8608-49f1-a813-99d02b81da97")
 	)
 	(wire
 		(pts
@@ -9781,6 +10412,16 @@
 	)
 	(wire
 		(pts
+			(xy 291.592 44.958) (xy 299.72 44.958)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4f750c1b-cc51-4b00-ba4c-b5943e436e05")
+	)
+	(wire
+		(pts
 			(xy 52.07 68.072) (xy 52.07 91.44)
 		)
 		(stroke
@@ -9871,7 +10512,7 @@
 	)
 	(wire
 		(pts
-			(xy 298.704 41.148) (xy 298.704 35.56)
+			(xy 291.592 41.402) (xy 291.592 35.56)
 		)
 		(stroke
 			(width 0)
@@ -10131,6 +10772,26 @@
 	)
 	(wire
 		(pts
+			(xy 308.356 43.18) (xy 308.356 44.958)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8570bce0-36c1-4658-bfae-bc809952bea7")
+	)
+	(wire
+		(pts
+			(xy 291.592 35.56) (xy 294.64 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "878582ce-7d37-4a48-8869-1bd3ef394dd1")
+	)
+	(wire
+		(pts
 			(xy 168.91 118.11) (xy 168.91 115.57)
 		)
 		(stroke
@@ -10158,6 +10819,16 @@
 			(type default)
 		)
 		(uuid "8b1a9a99-16b7-408c-9076-8637e5c57592")
+	)
+	(wire
+		(pts
+			(xy 299.72 43.18) (xy 299.72 44.958)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8c6182f0-49ce-43da-862f-0bb6b678aa18")
 	)
 	(wire
 		(pts
@@ -10361,6 +11032,16 @@
 	)
 	(wire
 		(pts
+			(xy 304.8 35.56) (xy 308.356 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b19189ee-8b3d-4d18-90af-c763fadf2fc2")
+	)
+	(wire
+		(pts
 			(xy 185.42 212.344) (xy 190.5 212.344)
 		)
 		(stroke
@@ -10428,6 +11109,16 @@
 			(type default)
 		)
 		(uuid "bc8c7f11-6444-47bd-b30d-e546242e9a33")
+	)
+	(wire
+		(pts
+			(xy 291.592 44.958) (xy 291.592 46.228)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bdb32a8b-4472-45ae-9023-1a3c06bf1e3c")
 	)
 	(wire
 		(pts
@@ -10531,16 +11222,6 @@
 	)
 	(wire
 		(pts
-			(xy 298.704 35.56) (xy 307.34 35.56)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c3fc3906-c362-4fc8-a5ef-2d6185f00d34")
-	)
-	(wire
-		(pts
 			(xy 367.03 218.44) (xy 372.11 218.44)
 		)
 		(stroke
@@ -10601,7 +11282,7 @@
 	)
 	(wire
 		(pts
-			(xy 297.434 35.56) (xy 298.704 35.56)
+			(xy 289.306 35.56) (xy 291.592 35.56)
 		)
 		(stroke
 			(width 0)
@@ -10798,6 +11479,16 @@
 			(type default)
 		)
 		(uuid "fcad8b08-a8a4-4c97-b373-c8a052c85d64")
+	)
+	(wire
+		(pts
+			(xy 311.15 35.56) (xy 323.596 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fd3b753c-4288-46d5-bfdc-fc0cac426fc4")
 	)
 	(label "VDD"
 		(at 85.09 77.47 0)
@@ -12322,6 +13013,84 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+BATT")
+		(at 311.15 35.56 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0467660a-c7c3-41ba-9725-3d9d72d69633")
+		(property "Reference" "#PWR053"
+			(at 311.15 39.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+7.4VBATT"
+			(at 311.15 30.48 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 311.15 35.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 311.15 35.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+BATT\""
+			(at 311.15 35.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "22956b8b-29e8-42f7-b497-ad6dbb6aaa78")
+		)
+		(instances
+			(project "SRAD_V2"
+				(path "/016ea6e5-09c6-43d4-b6cc-3404e2d65458"
+					(reference "#PWR053")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:Buzzer")
 		(at 356.108 150.368 0)
 		(unit 1)
@@ -12405,7 +13174,7 @@
 	)
 	(symbol
 		(lib_id "power:+BATT")
-		(at 297.434 35.56 90)
+		(at 289.306 35.56 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -12416,7 +13185,7 @@
 		(fields_autoplaced yes)
 		(uuid "14b5e309-7210-47ae-b626-df23877e6bd0")
 		(property "Reference" "#PWR041"
-			(at 301.244 35.56 0)
+			(at 293.116 35.56 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12426,8 +13195,8 @@
 				)
 			)
 		)
-		(property "Value" "+7.4VBATT"
-			(at 296.164 33.02 90)
+		(property "Value" "+7.4V"
+			(at 288.036 33.02 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12437,7 +13206,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 297.434 35.56 0)
+			(at 289.306 35.56 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12448,7 +13217,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 297.434 35.56 0)
+			(at 289.306 35.56 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12459,7 +13228,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+BATT\""
-			(at 297.434 35.56 0)
+			(at 289.306 35.56 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13313,6 +14082,107 @@
 		)
 	)
 	(symbol
+		(lib_id "Transistor_FET:FDS9435A")
+		(at 299.72 38.1 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2744c4de-b4ab-462c-aa16-0931ca39e346")
+		(property "Reference" "Q5"
+			(at 299.72 29.21 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "FDS9435A"
+			(at 299.72 31.75 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
+			(at 301.625 33.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+			)
+		)
+		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/FDS9435A-D.PDF"
+			(at 303.53 33.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Description" "-5.3A Id, -30V Vds, P-Channel MOSFET, 50mOhm Ron, SO-8"
+			(at 299.72 38.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "3"
+			(uuid "088b02e4-5bc6-451e-ae37-bfea90e14682")
+		)
+		(pin "2"
+			(uuid "c9e39708-6438-4f92-aaf2-69d19f049578")
+		)
+		(pin "1"
+			(uuid "0a430b12-952d-432b-ab2b-3faa8a8cdf0e")
+		)
+		(pin "6"
+			(uuid "c491a21a-11f9-4b6a-9302-95341da8a4a8")
+		)
+		(pin "4"
+			(uuid "f89fdf1c-4a5e-498c-9112-26382be8fafd")
+		)
+		(pin "7"
+			(uuid "27a79e0b-916d-43a0-9afd-6ced8e43613e")
+		)
+		(pin "5"
+			(uuid "26f4c67f-af37-4081-85cc-fd1393168538")
+		)
+		(pin "8"
+			(uuid "a60ef440-f2e1-42f7-8824-6778d2307dc8")
+		)
+		(instances
+			(project "SRAD_V2"
+				(path "/016ea6e5-09c6-43d4-b6cc-3404e2d65458"
+					(reference "Q5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+3.3V")
 		(at 22.86 117.856 90)
 		(unit 1)
@@ -13549,7 +14419,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 298.704 45.974 0)
+		(at 291.592 46.228 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -13560,7 +14430,7 @@
 		(fields_autoplaced yes)
 		(uuid "3a98fb01-9a49-4fcc-951d-8cb3b151c016")
 		(property "Reference" "#PWR050"
-			(at 298.704 52.324 0)
+			(at 291.592 52.578 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13571,7 +14441,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 298.704 51.054 0)
+			(at 291.592 51.308 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13581,7 +14451,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 298.704 45.974 0)
+			(at 291.592 46.228 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13592,7 +14462,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 298.704 45.974 0)
+			(at 291.592 46.228 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13603,7 +14473,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 298.704 45.974 0)
+			(at 291.592 46.228 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17342,7 +18212,8 @@
 	)
 	(symbol
 		(lib_id "Screw Terminal:691210910002")
-		(at 303.784 43.688 270)
+		(at 286.512 43.942 90)
+		(mirror x)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -17352,7 +18223,7 @@
 		(dnp no)
 		(uuid "c9c24dea-ef77-4a6b-9cf4-cd518de46ae0")
 		(property "Reference" "J7"
-			(at 302.768 46.228 90)
+			(at 287.528 46.482 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -17362,7 +18233,7 @@
 			)
 		)
 		(property "Value" "691210910002"
-			(at 302.514 47.498 90)
+			(at 287.782 47.752 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17373,7 +18244,7 @@
 			)
 		)
 		(property "Footprint" "Screw_Terminal:691210910002"
-			(at 303.784 43.688 0)
+			(at 286.512 43.942 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17385,7 +18256,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 303.784 43.688 0)
+			(at 286.512 43.942 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17396,7 +18267,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 303.784 43.688 0)
+			(at 286.512 43.942 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17407,7 +18278,7 @@
 			)
 		)
 		(property "DigiKey_Part_Number" "732-691210910002-ND"
-			(at 303.784 43.688 0)
+			(at 286.512 43.942 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17419,7 +18290,7 @@
 			)
 		)
 		(property "SnapEDA_Link" "https://www.snapeda.com/parts/691210910002/W%25C3%25BCrth+Elektronik+Midcom/view-part/?ref=snap"
-			(at 303.784 43.688 0)
+			(at 286.512 43.942 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17431,7 +18302,7 @@
 			)
 		)
 		(property "Description_1" "2 Position Wire to Board Terminal Block Horizontal with Board 0.100 (2.54mm) Through Hole"
-			(at 303.784 43.688 0)
+			(at 286.512 43.942 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17443,7 +18314,7 @@
 			)
 		)
 		(property "MF" "Würth Elektronik"
-			(at 303.784 43.688 0)
+			(at 286.512 43.942 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17455,7 +18326,7 @@
 			)
 		)
 		(property "Package" "None"
-			(at 303.784 43.688 0)
+			(at 286.512 43.942 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17467,7 +18338,7 @@
 			)
 		)
 		(property "Check_prices" "https://www.snapeda.com/parts/691210910002/W%25C3%25BCrth+Elektronik+Midcom/view-part/?ref=eda"
-			(at 303.784 43.688 0)
+			(at 286.512 43.942 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17479,7 +18350,7 @@
 			)
 		)
 		(property "MP" "691210910002"
-			(at 303.784 43.688 0)
+			(at 286.512 43.942 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18214,6 +19085,88 @@
 			(project "SRAD_V2"
 				(path "/016ea6e5-09c6-43d4-b6cc-3404e2d65458"
 					(reference "#PWR015")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:SMAJ10CA")
+		(at 308.356 39.37 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d725c474-a89a-480b-bad5-3bcdbf18a2a4")
+		(property "Reference" "D2"
+			(at 310.642 38.0999 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "SMAJ10CA"
+			(at 310.642 40.6399 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SMA"
+			(at 313.436 39.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.littelfuse.com/media?resourcetype=datasheets&itemid=75e32973-b177-4ee3-a0ff-cedaf1abdb93&filename=smaj-datasheet"
+			(at 308.356 39.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "400W bidirectional Transient Voltage Suppressor, 10.0Vr, SMA(DO-214AC)"
+			(at 308.356 39.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "9a2785ef-6d24-41a6-b170-9931f60e360c")
+		)
+		(pin "1"
+			(uuid "c9e82e8e-7a2b-48fb-afe2-d9e6e86c29ae")
+		)
+		(instances
+			(project "SRAD_V2"
+				(path "/016ea6e5-09c6-43d4-b6cc-3404e2d65458"
+					(reference "D2")
 					(unit 1)
 				)
 			)
@@ -19511,8 +20464,8 @@
 		)
 	)
 	(sheet
-		(at 307.34 19.05)
-		(size 80.01 24.13)
+		(at 323.596 19.05)
+		(size 63.754 24.13)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -19526,7 +20479,7 @@
 		)
 		(uuid "9c8bbba4-8714-49e8-941c-914b77648ac5")
 		(property "Sheetname" "Power Delivery System"
-			(at 325.374 27.178 0)
+			(at 330.2 24.892 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -19537,7 +20490,7 @@
 			)
 		)
 		(property "Sheetfile" "PDS.kicad_sch"
-			(at 338.074 44.958 0)
+			(at 354.33 44.958 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -19558,7 +20511,7 @@
 			)
 		)
 		(pin "VIN" input
-			(at 307.34 35.56 180)
+			(at 323.596 35.56 180)
 			(uuid "b2870f34-3912-46f5-bcc7-ab3774175428")
 			(effects
 				(font
