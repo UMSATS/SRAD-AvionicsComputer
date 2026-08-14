@@ -3562,12 +3562,6 @@
 		(uuid "9b8b2a3c-4f02-4380-acfe-c6416ef03b34")
 	)
 	(junction
-		(at 47.498 42.418)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "9c3956d2-c4f5-418e-a398-0b8bab1b2d75")
-	)
-	(junction
 		(at 83.82 114.808)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3817,7 +3811,7 @@
 	)
 	(wire
 		(pts
-			(xy 47.498 42.418) (xy 61.468 42.418)
+			(xy 42.164 42.418) (xy 61.468 42.418)
 		)
 		(stroke
 			(width 0)
@@ -4337,16 +4331,6 @@
 	)
 	(wire
 		(pts
-			(xy 47.498 50.292) (xy 47.498 52.578)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "87c9bc34-08f5-4c69-9744-1626559e8476")
-	)
-	(wire
-		(pts
 			(xy 56.134 88.138) (xy 63.246 88.138)
 		)
 		(stroke
@@ -4494,16 +4478,6 @@
 			(type default)
 		)
 		(uuid "b654f53d-a6cd-4565-a5bd-5353eafed1c9")
-	)
-	(wire
-		(pts
-			(xy 42.164 42.418) (xy 47.498 42.418)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b8eb2252-c499-4847-a58c-645d8cbcd639")
 	)
 	(wire
 		(pts
@@ -4694,16 +4668,6 @@
 			(type default)
 		)
 		(uuid "e8bd1e0e-51ef-45b4-9a0c-57da87d54e75")
-	)
-	(wire
-		(pts
-			(xy 47.498 42.418) (xy 47.498 47.752)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ea5451c9-04f1-4a17-ba46-7ab032fe9686")
 	)
 	(wire
 		(pts
@@ -8205,171 +8169,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Screw Terminal:691210910002")
-		(at 52.578 50.292 270)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files no)
-		(dnp yes)
-		(uuid "7f625730-6cf8-49f1-b628-0ca257990453")
-		(property "Reference" "J6"
-			(at 51.562 52.832 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "691210910002"
-			(at 51.308 54.102 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Screw_Terminal:691210910002"
-			(at 52.578 50.292 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "Datasheet" ""
-			(at 52.578 50.292 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 52.578 50.292 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "DigiKey_Part_Number" "732-691210910002-ND"
-			(at 52.578 50.292 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "SnapEDA_Link" "https://www.snapeda.com/parts/691210910002/W%25C3%25BCrth+Elektronik+Midcom/view-part/?ref=snap"
-			(at 52.578 50.292 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "Description_1" "2 Position Wire to Board Terminal Block Horizontal with Board 0.100 (2.54mm) Through Hole"
-			(at 52.578 50.292 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "MF" "Würth Elektronik"
-			(at 52.578 50.292 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "Package" "None"
-			(at 52.578 50.292 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "Check_prices" "https://www.snapeda.com/parts/691210910002/W%25C3%25BCrth+Elektronik+Midcom/view-part/?ref=eda"
-			(at 52.578 50.292 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "MP" "691210910002"
-			(at 52.578 50.292 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(pin "2"
-			(uuid "60f6b646-ff94-4380-ba76-989cc89b639b")
-		)
-		(pin "1"
-			(uuid "8b090fff-2fe0-4f11-83d6-7e73a1f92fa1")
-		)
-		(instances
-			(project "SRAD_V2"
-				(path "/016ea6e5-09c6-43d4-b6cc-3404e2d65458/a2059f4c-c92f-483b-9b86-061767cb943d"
-					(reference "J6")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:+BATT")
 		(at 187.96 72.39 270)
 		(unit 1)
@@ -10604,84 +10403,6 @@
 			(project "SRAD_V2"
 				(path "/016ea6e5-09c6-43d4-b6cc-3404e2d65458/a2059f4c-c92f-483b-9b86-061767cb943d"
 					(reference "F1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 47.498 52.578 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "f68888ad-0a48-4548-b026-f1d5d4defce6")
-		(property "Reference" "#PWR049"
-			(at 47.498 58.928 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 47.498 57.658 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 47.498 52.578 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 47.498 52.578 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 47.498 52.578 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "8b9a4c2e-2ba9-4360-be79-d92ffa13787c")
-		)
-		(instances
-			(project "SRAD_V2"
-				(path "/016ea6e5-09c6-43d4-b6cc-3404e2d65458/a2059f4c-c92f-483b-9b86-061767cb943d"
-					(reference "#PWR049")
 					(unit 1)
 				)
 			)
