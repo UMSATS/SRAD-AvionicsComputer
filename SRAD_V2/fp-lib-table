@@ -22,4 +22,6 @@
 	(lib (name "150120SS75000") (type "KiCad") (uri "${KIPRJMOD}/Custom E-CAD Models/150120SS75000.pretty") (options "") (descr ""))
 	(lib (name "NTMFS5C673NT1G-2") (type "KiCad") (uri "${KIPRJMOD}/Custom E-CAD Models/SMD MOSFET/NTMFS5C673NT1G-2.pretty") (options "") (descr ""))
 	(lib (name "RSP_122811_02-2") (type "KiCad") (uri "${KIPRJMOD}/Custom E-CAD Models/RSP_122811_02-2/RSP_122811_02-2.pretty") (options "") (descr ""))
+	(lib (name "VXM7_9032_25M0000000") (type "KiCad") (uri "${KIPRJMOD}/Custom E-CAD Models/VXM7_9032_25M0000000/KiCADv6/VXM7_9032_25M0000000.pretty") (options "") (descr ""))
+	(lib (name "GP-1575-18-4-A-02") (type "KiCad") (uri "${KIPRJMOD}/Custom E-CAD Models/GP-1575-18-4-A-02/KiCADv6/GP-1575-18-4-A-02.pretty") (options "") (descr ""))
 )

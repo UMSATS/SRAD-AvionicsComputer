@@ -19,4 +19,6 @@
 	(lib (name "Red Led") (type "KiCad") (uri "${KIPRJMOD}/Custom E-CAD Models/150120SS75000.pretty/WL-SMCW_1206.kicad_sym") (options "") (descr ""))
 	(lib (name "NTMFS5C673NT1G") (type "KiCad") (uri "${KIPRJMOD}/Custom E-CAD Models/SMD MOSFET/NTMFS5C673NT1G-2.pretty/NTMFS5C673NT1G.kicad_sym") (options "") (descr ""))
 	(lib (name "RSP-122811-02") (type "KiCad") (uri "${KIPRJMOD}/Custom E-CAD Models/RSP_122811_02-2/RSP-122811-02.kicad_sym") (options "") (descr ""))
+	(lib (name "Crystal Osc") (type "KiCad") (uri "${KIPRJMOD}/Custom E-CAD Models/VXM7_9032_25M0000000/KiCADv6/2026-08-18_15-53-17.kicad_sym") (options "") (descr ""))
+	(lib (name "GP-1575-18-4-A-02") (type "KiCad") (uri "${KIPRJMOD}/Custom E-CAD Models/GP-1575-18-4-A-02/KiCADv6/2026-08-19_13-11-11.kicad_sym") (options "") (descr ""))
 )
