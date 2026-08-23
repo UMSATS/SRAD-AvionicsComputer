@@ -24,4 +24,6 @@
 	(lib (name "RSP_122811_02-2") (type "KiCad") (uri "${KIPRJMOD}/Custom E-CAD Models/RSP_122811_02-2/RSP_122811_02-2.pretty") (options "") (descr ""))
 	(lib (name "VXM7_9032_25M0000000") (type "KiCad") (uri "${KIPRJMOD}/Custom E-CAD Models/VXM7_9032_25M0000000/KiCADv6/VXM7_9032_25M0000000.pretty") (options "") (descr ""))
 	(lib (name "GP-1575-18-4-A-02") (type "KiCad") (uri "${KIPRJMOD}/Custom E-CAD Models/GP-1575-18-4-A-02/KiCADv6/GP-1575-18-4-A-02.pretty") (options "") (descr ""))
+	(lib (name "ESD321DPYR") (type "KiCad") (uri "${KIPRJMOD}/Custom E-CAD Models/ESD321DPYR/ESD321DPYR.pretty") (options "") (descr ""))
+	(lib (name "PTVS3V3S1UTR_115") (type "KiCad") (uri "${KIPRJMOD}/Custom E-CAD Models/PTVS3V3S1UTR_115/KiCADv6/PTVS3V3S1UTR_115.pretty") (options "") (descr ""))
 )

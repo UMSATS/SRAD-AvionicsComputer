@@ -784,7 +784,7 @@
         "uuid": "016ea6e5-09c6-43d4-b6cc-3404e2d65458"
       }
     ],
-    "used_designators": "JP1,AE1,C42",
+    "used_designators": "CR5,#PWR60,D2,C19,C42-43,R19,JP1,AE1",
     "variants": []
   },
   "sheets": [
