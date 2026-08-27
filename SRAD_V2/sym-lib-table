@@ -23,4 +23,5 @@
 	(lib (name "GP-1575-18-4-A-02") (type "KiCad") (uri "${KIPRJMOD}/Custom E-CAD Models/GP-1575-18-4-A-02/KiCADv6/2026-08-19_13-11-11.kicad_sym") (options "") (descr ""))
 	(lib (name "ESD321DPYR") (type "KiCad") (uri "${KIPRJMOD}/Custom E-CAD Models/ESD321DPYR/ESD321DPYR.kicad_sym") (options "") (descr ""))
 	(lib (name "PTVS3V3S1UTR_115") (type "KiCad") (uri "${KIPRJMOD}/Custom E-CAD Models/PTVS3V3S1UTR_115/KiCADv6/2026-08-22_14-59-50.kicad_sym") (options "") (descr ""))
+	(lib (name "LSM6DSVTR") (type "KiCad") (uri "${KIPRJMOD}/Custom E-CAD Models/LSM6DSVTR/KiCADv6/2026-08-27_15-49-13.kicad_sym") (options "") (descr ""))
 )
