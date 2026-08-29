@@ -5813,7 +5813,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
 			(at 93.726 158.496 90)
 			(hide yes)
 			(show_name no)
@@ -6532,7 +6532,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(in_pos_files yes)
+		(in_pos_files no)
 		(dnp no)
 		(uuid "270bba85-f355-4620-834e-3531cbee60eb")
 		(property "Reference" "EM3"
@@ -6774,7 +6774,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(in_pos_files yes)
+		(in_pos_files no)
 		(dnp no)
 		(uuid "2b6784bf-66d0-4d2d-ab3f-deedcf4fcad7")
 		(property "Reference" "C12"
@@ -6788,8 +6788,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "2.7mF"
-			(at 52.07 45.974 0)
+		(property "Value" "2200uF"
+			(at 50.292 45.974 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6960,7 +6960,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
 			(at 74.676 158.496 90)
 			(hide yes)
 			(show_name no)
@@ -7984,7 +7984,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(in_pos_files yes)
+		(in_pos_files no)
 		(dnp no)
 		(uuid "7c6b7e06-74f9-4ac8-9a8c-9d4f69abf40b")
 		(property "Reference" "EM1"
@@ -9285,7 +9285,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
 			(at 55.372 157.48 90)
 			(hide yes)
 			(show_name no)
@@ -9741,7 +9741,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(in_pos_files yes)
+		(in_pos_files no)
 		(dnp no)
 		(uuid "c4ac6c40-1861-41ac-93fc-35a807d9ccd6")
 		(property "Reference" "EM4"
@@ -10629,7 +10629,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(in_pos_files yes)
+		(in_pos_files no)
 		(dnp no)
 		(uuid "f9652e2e-7195-492b-8f8e-1394dea72e31")
 		(property "Reference" "EM2"
@@ -10817,7 +10817,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
 			(at 36.322 159.258 90)
 			(hide yes)
 			(show_name no)
