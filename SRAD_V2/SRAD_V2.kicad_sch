@@ -11321,9 +11321,9 @@
 		)
 		(uuid "0770572a-d1c6-42a7-9b36-767f1cab1307")
 	)
-	(text "Reverse voltage protection"
+	(text "Reverse voltage protection + TVS"
 		(exclude_from_sim no)
-		(at 304.292 60.96 0)
+		(at 304.292 71.12 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11480,6 +11480,16 @@
 			)
 		)
 		(uuid "6d65a932-2e7e-4bc2-b2ea-39583bbdd592")
+	)
+	(text "Bidirectional TVS diode"
+		(exclude_from_sim no)
+		(at 182.118 70.358 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "6edb14b6-4f54-47a8-92a2-3660ba3e76f5")
 	)
 	(text "LED indicator"
 		(exclude_from_sim no)
