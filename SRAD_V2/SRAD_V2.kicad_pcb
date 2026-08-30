@@ -127,7 +127,6 @@
 		)
 		(capping no)
 		(filling no)
-		(zone_defaults)
 		(pcbplotparams
 			(layerselection 0x00000000_00000000_5555555d_55555500)
 			(plot_on_all_layers_selection 0x00000000_00000000_00000000_00000000)
@@ -155,8 +154,8 @@
 			(sketchpadsonfab yes)
 			(plotpadnumbers no)
 			(hidednponfab no)
-			(sketchdnponfab yes)
-			(crossoutdnponfab yes)
+			(sketchdnponfab no)
+			(crossoutdnponfab no)
 			(subtractmaskfromsilk no)
 			(outputformat 4)
 			(mirror no)
@@ -18345,7 +18344,7 @@
 			)
 		)
 		(property "Value" "LSM6DSVTR"
-			(at -0.2794 -2.710801 90)
+			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(uuid "f7fca899-abf9-4374-a00f-3cca2b90bff0")
