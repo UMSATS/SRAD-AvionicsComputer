@@ -7986,8 +7986,8 @@
 			(on_board yes)
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "J"
-				(at -2.5418 2.5418 0)
+			(property "Reference" "J3"
+				(at -1.778 3.556 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -7998,7 +7998,7 @@
 				)
 			)
 			(property "Value" "RSP-122811-02"
-				(at -2.5416 -7.6246 0)
+				(at 3.048 3.556 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -8080,8 +8080,8 @@
 			)
 			(symbol "RSP-122811-02_0_0"
 				(rectangle
-					(start -2.54 -5.08)
-					(end 7.62 2.54)
+					(start -2.54 2.54)
+					(end 17.145 -10.795)
 					(stroke
 						(width 0.254)
 						(type default)
@@ -8109,7 +8109,7 @@
 					)
 				)
 				(pin power_in line
-					(at -7.62 -2.54 0)
+					(at -7.62 -6.35 0)
 					(length 5.08)
 					(name "GND"
 						(effects
@@ -8119,6 +8119,44 @@
 						)
 					)
 					(number "2"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -7.62 -8.89 0)
+					(length 5.08)
+					(name "GND"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+			)
+			(symbol "RSP-122811-02_1_0"
+				(pin power_in line
+					(at -7.62 -2.54 0)
+					(length 5.08)
+					(name "SIGNAL"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "3"
 						(effects
 							(font
 								(size 1.016 1.016)
@@ -11673,7 +11711,7 @@
 	)
 	(text "IPEX / UFL connector"
 		(exclude_from_sim no)
-		(at 279.908 224.79 0)
+		(at 285.496 229.362 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11796,6 +11834,12 @@
 		(uuid "15638386-5875-4708-bc87-df3f16cb1123")
 	)
 	(junction
+		(at 268.986 217.424)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "17c96b5c-9a00-4297-9097-84e5692b9f8a")
+	)
+	(junction
 		(at 85.09 81.28)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -11836,6 +11880,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "261b84b3-a458-4eff-8456-3ae6c8ac97ea")
+	)
+	(junction
+		(at 268.986 225.298)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "29ff54f3-6261-4fbf-beee-8ad630bdc3f5")
 	)
 	(junction
 		(at 76.2 44.45)
@@ -13067,16 +13117,6 @@
 	)
 	(wire
 		(pts
-			(xy 266.954 218.948) (xy 266.954 240.284)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "556aa33c-95e5-4615-9a41-e842327861c4")
-	)
-	(wire
-		(pts
 			(xy 27.178 262.89) (xy 23.114 262.89)
 		)
 		(stroke
@@ -13187,6 +13227,26 @@
 	)
 	(wire
 		(pts
+			(xy 131.826 248.92) (xy 118.11 248.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5f04cfb4-b6ee-4e6f-9fd4-e95e7dc674e8")
+	)
+	(wire
+		(pts
+			(xy 268.986 222.758) (xy 268.986 225.298)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5f35fb8d-b862-42cf-9bf1-4f7b8d9f67e5")
+	)
+	(wire
+		(pts
 			(xy 352.552 181.864) (xy 360.68 181.864)
 		)
 		(stroke
@@ -13224,16 +13284,6 @@
 			(type default)
 		)
 		(uuid "629dfde4-3ebd-4425-b65a-faf38fa41355")
-	)
-	(wire
-		(pts
-			(xy 268.986 216.408) (xy 268.986 217.424)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "62e1f826-0ffc-4791-96cb-358e86ed5956")
 	)
 	(wire
 		(pts
@@ -13334,16 +13384,6 @@
 			(type default)
 		)
 		(uuid "6991e064-5609-4d80-95e2-ec9449a797d8")
-	)
-	(wire
-		(pts
-			(xy 268.986 218.948) (xy 266.954 218.948)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6a14a234-5a91-4e93-9a97-7e9212d31c83")
 	)
 	(wire
 		(pts
@@ -14117,6 +14157,16 @@
 	)
 	(wire
 		(pts
+			(xy 266.954 225.298) (xy 268.986 225.298)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c6f645ab-c268-46e0-adad-522aa332ad09")
+	)
+	(wire
+		(pts
 			(xy 27.94 86.36) (xy 27.94 76.2)
 		)
 		(stroke
@@ -14144,6 +14194,16 @@
 			(type default)
 		)
 		(uuid "c964c2a0-48c4-45af-bb82-d2062b98ea5e")
+	)
+	(wire
+		(pts
+			(xy 268.986 216.408) (xy 268.986 217.424)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cafd4988-4ecb-4bc5-80a7-ae49e9757900")
 	)
 	(wire
 		(pts
@@ -14184,6 +14244,16 @@
 			(type default)
 		)
 		(uuid "ceb54e0d-babc-4082-9678-51a3a6e17726")
+	)
+	(wire
+		(pts
+			(xy 266.954 240.284) (xy 266.954 225.298)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cef11a20-d317-4a24-9200-2906645ef72f")
 	)
 	(wire
 		(pts
@@ -14284,6 +14354,16 @@
 			(type default)
 		)
 		(uuid "df289d28-5e08-4e5e-aa49-bd90da284968")
+	)
+	(wire
+		(pts
+			(xy 268.986 217.424) (xy 268.986 218.948)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e1918c10-b65a-4927-ac08-355f24612772")
 	)
 	(wire
 		(pts
@@ -14596,6 +14676,54 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+			)
+		)
+	)
+	(global_label "ADC1"
+		(shape input)
+		(at 118.11 99.06 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "0af9fbff-3b80-4f26-9550-9d8c680cd290")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 125.9333 99.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "GPIO3"
+		(shape input)
+		(at 52.07 226.06 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "0eb07ef4-ff64-4d6d-b5a0-aa5eb71130d4")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 43.4 226.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 			)
 		)
 	)
@@ -15583,6 +15711,30 @@
 			)
 		)
 	)
+	(global_label "GPS_FIX_LED"
+		(shape input)
+		(at 118.11 256.54 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "9122c3f1-5346-43ec-8257-4b446876f737")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 133.1299 256.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
 	(global_label "GPS_SDA"
 		(shape input)
 		(at 196.596 214.884 180)
@@ -16015,6 +16167,30 @@
 			)
 		)
 	)
+	(global_label "GPIO2"
+		(shape input)
+		(at 52.07 137.16 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "bff870e2-d5a2-4bf4-9706-20e6218ace11")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 43.4 137.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
 	(global_label "BAROMETER_SCLK"
 		(shape input)
 		(at 118.11 104.14 0)
@@ -16324,6 +16500,30 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+			)
+		)
+	)
+	(global_label "GPIO1"
+		(shape input)
+		(at 118.11 254 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "e0d62a8e-5a00-4595-8b22-916a68c9802d")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 126.78 254 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 			)
 		)
 	)
@@ -17305,28 +17505,28 @@
 		(dnp no)
 		(uuid "21a44d9f-ae44-4ad8-893d-4ad14d0f7abf")
 		(property "Reference" "J3"
-			(at 285.75 216.4079 0)
+			(at 274.828 212.852 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify left bottom)
 			)
 		)
 		(property "Value" "RSP-122811-02"
-			(at 271.526 211.836 0)
+			(at 279.654 212.852 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify left bottom)
 			)
 		)
-		(property "Footprint" "RSP_122811_02-2:SAMTEC_RSP-122811-02"
+		(property "Footprint" "RSP-122811-02:SAMTEC_RSP-122811-02"
 			(at 276.606 216.408 0)
 			(hide yes)
 			(show_name no)
@@ -17401,6 +17601,12 @@
 		)
 		(pin "2"
 			(uuid "c3fbc4ed-44cf-4927-97f0-a37d9d5bd02c")
+		)
+		(pin "4"
+			(uuid "562959d6-2144-4539-92e2-fbf5c453902e")
+		)
+		(pin "3"
+			(uuid "ef6543ce-12fc-4ba4-9bd9-f0e57a2ecec0")
 		)
 		(instances
 			(project "SRAD_V2"
@@ -18482,7 +18688,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "MBR1020VL"
+		(property "Value" "SMF10CA"
 			(at 184.15 52.5144 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18536,6 +18742,86 @@
 			(project "SRAD_V2"
 				(path "/016ea6e5-09c6-43d4-b6cc-3404e2d65458"
 					(reference "D7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 141.986 248.92 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "36df8912-2c5c-468e-9280-010c2305904d")
+		(property "Reference" "R20"
+			(at 141.986 242.824 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Value" "806R"
+			(at 141.986 245.364 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 141.986 248.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 141.986 248.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 141.986 248.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "a11dbf7e-b56d-4512-baad-c69d91413fa7")
+		)
+		(pin "2"
+			(uuid "b2afdb95-5478-4dc5-adb2-07a7cf586696")
+		)
+		(instances
+			(project "SRAD_V2"
+				(path "/016ea6e5-09c6-43d4-b6cc-3404e2d65458"
+					(reference "R20")
 					(unit 1)
 				)
 			)
@@ -22175,6 +22461,86 @@
 		)
 	)
 	(symbol
+		(lib_id "Red Led:WL-SMCW_1206")
+		(at 136.906 248.92 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "91af5344-55e4-4202-925d-6e4c5e9b674d")
+		(property "Reference" "LED1"
+			(at 135.636 245.872 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "WL-SMCW_1206"
+			(at 136.652 251.46 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "150120SS75000:WL-SMCW_1206"
+			(at 136.906 248.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Datasheet" ""
+			(at 136.906 248.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 136.906 248.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "fcb29f2d-8988-454d-8b65-49fee9fc05d6")
+		)
+		(pin "1"
+			(uuid "da51d479-1130-4fc3-a5b1-88267fc6a39d")
+		)
+		(instances
+			(project "SRAD_V2"
+				(path "/016ea6e5-09c6-43d4-b6cc-3404e2d65458"
+					(reference "LED1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:FerriteBead")
 		(at 133.35 73.66 90)
 		(unit 1)
@@ -22267,7 +22633,7 @@
 		(fields_autoplaced yes)
 		(uuid "94e4a499-c94b-4741-8d9d-d323ace30309")
 		(property "Reference" "D8"
-			(at 302.006 51.4984 90)
+			(at 300.99 51.4984 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -22277,8 +22643,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "MBR1020VL"
-			(at 302.006 54.0384 90)
+		(property "Value" "SMF10CA"
+			(at 300.99 54.0384 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -24396,7 +24762,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "SD05C-01F"
+		(property "Value" "STS321050B100"
 			(at 363.22 164.0839 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25204,6 +25570,85 @@
 			(project "SRAD_V2"
 				(path "/016ea6e5-09c6-43d4-b6cc-3404e2d65458"
 					(reference "#PWR018")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 144.526 248.92 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "db33d938-c15a-42d7-8019-302e583b0422")
+		(property "Reference" "#PWR064"
+			(at 150.876 248.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 148.082 248.9199 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 144.526 248.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 144.526 248.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 144.526 248.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "0c7680d1-32ce-4b40-8558-f1b88b035d21")
+		)
+		(instances
+			(project "SRAD_V2"
+				(path "/016ea6e5-09c6-43d4-b6cc-3404e2d65458"
+					(reference "#PWR064")
 					(unit 1)
 				)
 			)
@@ -26272,7 +26717,7 @@
 		(fields_autoplaced yes)
 		(uuid "f689f44a-a018-46b3-acd0-972c410d0dea")
 		(property "Reference" "D5"
-			(at 355.092 166.6239 90)
+			(at 355.6 166.6239 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -26282,8 +26727,8 @@
 				(justify right)
 			)
 		)
-		(property "Value" "SD05C-01F"
-			(at 355.092 169.1639 90)
+		(property "Value" "STS321050B100"
+			(at 355.6 169.1639 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
