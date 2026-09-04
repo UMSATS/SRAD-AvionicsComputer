@@ -50,7 +50,7 @@
         "silk_text_thickness": 0.1,
         "silk_text_upright": false,
         "zones": {
-          "min_clearance": 0.2
+          "min_clearance": 0.2032
         }
       },
       "diff_pair_dimensions": [
@@ -58,6 +58,11 @@
           "gap": 0.0,
           "via_gap": 0.0,
           "width": 0.0
+        },
+        {
+          "gap": 0.3302,
+          "via_gap": 0.3302,
+          "width": 0.30734
         }
       ],
       "drc_exclusions": [],
@@ -198,6 +203,7 @@
         0.254,
         0.4064,
         0.635,
+        0.889,
         1.27,
         2.54,
         5.08
@@ -515,6 +521,21 @@
         "via_diameter": 0.6,
         "via_drill": 0.3,
         "wire_width": 6
+      },
+      {
+        "clearance": 0.1524,
+        "diff_pair_gap": 0.254,
+        "diff_pair_width": 0.254,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.3,
+        "name": "USB Differential Pair",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 0,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.254,
+        "tuning_profile": "",
+        "via_diameter": 0.6,
+        "via_drill": 0.3
       }
     ],
     "meta": {
@@ -522,7 +543,20 @@
     },
     "net_colors": null,
     "netclass_assignments": null,
-    "netclass_patterns": []
+    "netclass_patterns": [
+      {
+        "netclass": "Default",
+        "pattern": ""
+      },
+      {
+        "netclass": "USB Differential Pair",
+        "pattern": "USB_OTG_FS_D+"
+      },
+      {
+        "netclass": "USB Differential Pair",
+        "pattern": "USB_OTG_FS_D-"
+      }
+    ]
   },
   "pcbnew": {
     "last_paths": {
@@ -784,7 +818,7 @@
         "uuid": "016ea6e5-09c6-43d4-b6cc-3404e2d65458"
       }
     ],
-    "used_designators": "",
+    "used_designators": "J6-7,#PWR64-71,H1-4",
     "variants": []
   },
   "sheets": [
