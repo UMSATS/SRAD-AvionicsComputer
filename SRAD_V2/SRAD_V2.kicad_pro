@@ -818,7 +818,7 @@
         "uuid": "016ea6e5-09c6-43d4-b6cc-3404e2d65458"
       }
     ],
-    "used_designators": "J6-7,#PWR64-71,H1-4",
+    "used_designators": "R24,LED3,#PWR72",
     "variants": []
   },
   "sheets": [
