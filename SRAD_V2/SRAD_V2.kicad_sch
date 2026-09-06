@@ -13073,7 +13073,7 @@
 	)
 	(wire
 		(pts
-			(xy 311.15 48.514) (xy 318.77 48.514)
+			(xy 311.15 48.514) (xy 319.024 48.514)
 		)
 		(stroke
 			(width 0)
@@ -28707,8 +28707,8 @@
 		)
 	)
 	(sheet
-		(at 318.77 37.338)
-		(size 61.468 24.13)
+		(at 319.024 37.338)
+		(size 61.214 24.13)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -28722,7 +28722,7 @@
 		)
 		(uuid "9c8bbba4-8714-49e8-941c-914b77648ac5")
 		(property "Sheetname" "Power Delivery System"
-			(at 323.596 43.18 0)
+			(at 323.088 42.926 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -28733,7 +28733,7 @@
 			)
 		)
 		(property "Sheetfile" "PDS.kicad_sch"
-			(at 340.868 62.992 0)
+			(at 324.104 58.42 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -28754,7 +28754,7 @@
 			)
 		)
 		(pin "VIN" input
-			(at 318.77 48.514 180)
+			(at 319.024 48.514 180)
 			(uuid "b2870f34-3912-46f5-bcc7-ab3774175428")
 			(effects
 				(font

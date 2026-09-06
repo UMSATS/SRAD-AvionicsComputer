@@ -25,4 +25,5 @@
 	(lib (name "PTVS3V3S1UTR_115") (type "KiCad") (uri "${KIPRJMOD}/Custom E-CAD Models/PTVS3V3S1UTR_115/KiCADv6/2026-08-22_14-59-50.kicad_sym") (options "") (descr ""))
 	(lib (name "LSM6DSVTR") (type "KiCad") (uri "${KIPRJMOD}/Custom E-CAD Models/LSM6DSVTR/KiCADv6/2026-08-27_15-49-13.kicad_sym") (options "") (descr ""))
 	(lib (name "S02B-XASS-1") (type "KiCad") (uri "${KIPRJMOD}/Custom E-CAD Models/S02B-XASS-1/2026-08-28_14-47-22.kicad_sym") (options "") (descr ""))
+	(lib (name "TS941ILT") (type "KiCad") (uri "${KIPRJMOD}/Custom E-CAD Models/TS941ILT/KiCADv6/2026-09-06_14-41-37.kicad_sym") (options "") (descr ""))
 )
