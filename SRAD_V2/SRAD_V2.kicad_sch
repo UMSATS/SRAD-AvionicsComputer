@@ -17026,7 +17026,40 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor, small symbol"
+		(property "Description" "CAP CER 1UF 16V X7R 0603"
+			(at 379.476 221.996 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Name" "KEMET"
+			(at 379.476 221.996 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Part_Number" "C0603C105K4RACTU"
+			(at 379.476 221.996 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey Link" "https://www.digikey.ca/en/products/detail/kemet/C0603C105K4RACTU/2199788"
 			(at 379.476 221.996 0)
 			(hide yes)
 			(show_name no)
@@ -17217,7 +17250,7 @@
 		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "0fbfd69a-0637-4d29-8d15-d265c190cb37")
 		(property "Reference" "H3"
@@ -17264,6 +17297,17 @@
 		)
 		(property "Description" "Mounting Hole with connection"
 			(at 261.366 276.606 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey Link" ""
+			(at 261.366 276.606 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17340,7 +17384,40 @@
 				)
 			)
 		)
-		(property "Description" "Resistor, small symbol"
+		(property "Description" "RES SMD 4.7K OHM 1% 1/3W 0603"
+			(at 282.702 163.322 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Name" "Vishay Dale"
+			(at 282.702 163.322 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Part_Number" "CRCW06034K70FKEAHP"
+			(at 282.702 163.322 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey Link" "https://www.digikey.ca/en/products/detail/vishay-dale/CRCW06034K70FKEAHP/2222257"
 			(at 282.702 163.322 0)
 			(hide yes)
 			(show_name no)
@@ -17376,7 +17453,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(in_pos_files no)
-		(dnp no)
+		(dnp yes)
 		(uuid "14345792-d71a-4a57-b311-b50bbe121286")
 		(property "Reference" "BZ1"
 			(at 301.244 132.588 90)
@@ -17424,6 +17501,39 @@
 		)
 		(property "Description" "Buzzer, polarized"
 			(at 299.466 139.192 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Name" "Challenge Electronics"
+			(at 299.466 139.192 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Part_Number" "CI12E-05T230-C-6"
+			(at 299.466 139.192 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey Link" "https://www.digikey.ca/en/products/detail/challenge-electronics/CI12E-05T230-C-6/21262928"
+			(at 299.466 139.192 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17895,7 +18005,40 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor, small symbol"
+		(property "Description" "10 µF ±10% 25V Ceramic Capacitor X7R 1206 (3216 Metric)"
+			(at 183.642 215.392 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Name" "TDK"
+			(at 183.642 215.392 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Part_Number" "CGA5L1X7R1E106K160DC"
+			(at 183.642 215.392 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey Link" "https://www.digikey.com/en/products/detail/tdk/CGA5L1X7R1E106K160DC/22106123"
 			(at 183.642 215.392 0)
 			(hide yes)
 			(show_name no)
@@ -18022,7 +18165,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "RSP-122811-02"
+		(property "Value" ""
 			(at 279.654 212.852 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18056,7 +18199,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "CONN IPEX MHF3 RCP STR 50OHM SMD"
 			(at 276.606 216.408 0)
 			(hide yes)
 			(show_name no)
@@ -18091,7 +18234,7 @@
 				(justify bottom)
 			)
 		)
-		(property "MANUFACTURER" "SAMTEC"
+		(property "Manufacturer_Name" "Samtec Inc."
 			(at 276.606 216.408 0)
 			(hide yes)
 			(show_name no)
@@ -18100,7 +18243,28 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify bottom)
+			)
+		)
+		(property "Manufacturer_Part_Number" "RSP-122811-02"
+			(at 276.606 216.408 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey Link" "https://www.digikey.ca/en/products/detail/samtec-inc/RSP-122811-02/6678589"
+			(at 276.606 216.408 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -18254,8 +18418,41 @@
 				)
 			)
 		)
-		(property "Description" "Resistor, small symbol"
+		(property "Description" "806 Ohms ±0.1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Thin Film"
 			(at 286.004 149.352 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Name" "YAGEO"
+			(at 286.004 149.352 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Part_Number" "RT0603BRD07806RL"
+			(at 286.004 149.352 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey Link" "https://www.digikey.ca/en/products/detail/yageo/RT0603BRD07806RL/1072652"
+			(at 286.004 149.352 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18301,7 +18498,7 @@
 				)
 			)
 		)
-		(property "Value" "MSS1P5-M3/89A"
+		(property "Value" ""
 			(at 302.006 152.4 0)
 			(hide yes)
 			(show_name no)
@@ -18336,7 +18533,40 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "DIODE SCHOTTKY 50V 1A DO219AD"
+			(at 296.926 148.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Name" "Vishay General Semiconductor - Diodes Division"
+			(at 296.926 148.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Part_Number" "MSS1P5-M3/89A"
+			(at 296.926 148.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey Link" "https://www.digikey.ca/en/products/detail/vishay-general-semiconductor-diodes-division/mss1p5-m3-89a/2071754"
 			(at 296.926 148.59 0)
 			(hide yes)
 			(show_name no)
@@ -18451,7 +18681,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(in_pos_files no)
-		(dnp no)
+		(dnp yes)
 		(uuid "24d6afd1-d9b8-4636-8881-41472994337d")
 		(property "Reference" "J7"
 			(at 149.352 166.878 0)
@@ -18496,6 +18726,17 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x04, script generated"
+			(at 150.368 175.768 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey Link" ""
 			(at 150.368 175.768 0)
 			(hide yes)
 			(show_name no)
@@ -18739,7 +18980,40 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor, small symbol"
+		(property "Description" "12 pF ±1% 50V Ceramic Capacitor C0G, NP0 0402 (1005 Metric)"
+			(at 44.958 265.43 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Name" "Murata Electronics"
+			(at 44.958 265.43 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Part_Number" "GRM1555C1H120FA01J"
+			(at 44.958 265.43 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey Link" "https://www.digikey.ca/en/products/detail/murata-electronics/GRM1555C1H120FA01J/4420263"
 			(at 44.958 265.43 0)
 			(hide yes)
 			(show_name no)
@@ -18821,7 +19095,40 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "CRYSTAL 25.0000MHZ SMD"
+			(at 21.844 260.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Name" "Microchip Technology"
+			(at 21.844 260.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Part_Number" "VXM7-9032-25M0000000"
+			(at 21.844 260.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey Link" "https://www.digikey.ca/en/products/detail/microchip-technology/VXM7-9032-25M0000000/13175115"
 			(at 21.844 260.35 0)
 			(hide yes)
 			(show_name no)
@@ -18909,7 +19216,40 @@
 				)
 			)
 		)
-		(property "Description" "Resistor, small symbol"
+		(property "Description" "RES SMD 10K OHM 0.1% 1/10W 0603"
+			(at 149.86 100.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Name" "Bourns Inc."
+			(at 149.86 100.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Part_Number" "CRT0603-BY-1002ELF"
+			(at 149.86 100.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey Link" "https://www.digikey.ca/en/products/detail/bourns-inc/crt0603-by-1002elf/1775019"
 			(at 149.86 100.33 0)
 			(hide yes)
 			(show_name no)
@@ -19035,7 +19375,7 @@
 				)
 			)
 		)
-		(property "Value" "100n"
+		(property "Value" "100nF"
 			(at 31.75 79.248 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19067,8 +19407,41 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor, small symbol"
+		(property "Description" "CAP CER 0.1UF 50V X7R 0603"
 			(at 31.75 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Name" "KEMET"
+			(at 31.75 76.2 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Part_Number" "C0603C104K5RAC3121"
+			(at 31.75 76.2 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey Link" "https://www.digikey.ca/en/products/detail/kemet/C0603C104K5RAC3121/16680122?gclsrc=aw.ds&gad_source=1&gad_campaignid=17348075909&gbraid=0AAAAADrbLlg1q0whI5uxY39igKdJtyvmY&gclid=Cj0KCQiA7rDMBhCjARIsAGDBuEACcvE_IUWsAryUaP235cBsp-bYcxMiFpW8ODy3MSe36KDxJNpRn_oaAvgaEALw_wcB"
+			(at 31.75 76.2 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19149,7 +19522,40 @@
 				)
 			)
 		)
-		(property "Description" "Resistor, small symbol"
+		(property "Description" "RES SMD 4.7K OHM 1% 1/3W 0603"
+			(at 369.062 153.924 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Name" "Vishay Dale"
+			(at 369.062 153.924 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Part_Number" "CRCW06034K70FKEAHP"
+			(at 369.062 153.924 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey Link" "https://www.digikey.ca/en/products/detail/vishay-dale/CRCW06034K70FKEAHP/2222257"
 			(at 369.062 153.924 0)
 			(hide yes)
 			(show_name no)
@@ -19231,7 +19637,40 @@
 				)
 			)
 		)
-		(property "Description" "Resistor, small symbol"
+		(property "Description" "RES SMD 4.7K OHM 1% 1/3W 0603"
+			(at 200.66 208.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Name" "Vishay Dale"
+			(at 200.66 208.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Part_Number" "CRCW06034K70FKEAHP"
+			(at 200.66 208.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey Link" "https://www.digikey.ca/en/products/detail/vishay-dale/CRCW06034K70FKEAHP/2222257"
 			(at 200.66 208.28 0)
 			(hide yes)
 			(show_name no)
@@ -19280,7 +19719,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "SMF10CA"
+		(property "Value" "TVS diode"
 			(at 184.15 52.5144 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19313,8 +19752,41 @@
 				)
 			)
 		)
-		(property "Description" "20V, 1A, 340 mV, Schottky Diode Rectifier, SOD-123F"
+		(property "Description" "TVS DIODE 10VWM 17VC SOD123F"
 			(at 181.102 51.562 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Name" "Littelfuse Inc."
+			(at 181.102 51.562 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Part_Number" "SMF10CA"
+			(at 181.102 51.562 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey Link" "https://www.digikey.ca/en/products/detail/littelfuse-inc/SMF10CA/11206210"
+			(at 181.102 51.562 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19392,8 +19864,41 @@
 				)
 			)
 		)
-		(property "Description" "Resistor, small symbol"
+		(property "Description" "806 Ohms ±0.1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Thin Film"
 			(at 144.78 248.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Name" "YAGEO"
+			(at 144.78 248.92 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Part_Number" "RT0603BRD07806RL"
+			(at 144.78 248.92 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey Link" "https://www.digikey.ca/en/products/detail/yageo/RT0603BRD07806RL/1072652"
+			(at 144.78 248.92 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19595,7 +20100,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "MMBT3904LT3G"
+		(property "Value" "NPN BJT"
 			(at 299.72 159.0039 0)
 			(hide yes)
 			(show_name no)
@@ -19632,7 +20137,7 @@
 				(justify left)
 			)
 		)
-		(property "Description" "0.2A Ic, 40V Vce, Small Signal NPN Transistor, SOT-23"
+		(property "Description" "TRANS NPN 40V 0.2A SOT23-3"
 			(at 294.386 157.734 0)
 			(hide yes)
 			(show_name no)
@@ -19655,6 +20160,39 @@
 			)
 		)
 		(property "Sim.Pins" "1=B 2=E 3=C"
+			(at 294.386 157.734 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Name" "onsemi"
+			(at 294.386 157.734 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Part_Number" "MMBT3904LT3G"
+			(at 294.386 157.734 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey Link" "https://www.digikey.ca/en/products/detail/onsemi/mmbt3904lt3g/919602"
 			(at 294.386 157.734 0)
 			(hide yes)
 			(show_name no)
@@ -19706,7 +20244,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "STM32F767ZIT6"
+		(property "Value" ""
 			(at 89.7733 269.24 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19741,6 +20279,39 @@
 			)
 		)
 		(property "Description" "STMicroelectronics Arm Cortex-M7 MCU, 2048KB flash, 512KB RAM, 216 MHz, 1.7-3.6V, 114 GPIO, LQFP144"
+			(at 85.09 175.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Name" "STMicroelectronics"
+			(at 85.09 175.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Part_Number" "STM32F767ZIT6"
+			(at 85.09 175.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey Link" "https://www.digikey.ca/en/products/detail/stmicroelectronics/STM32F767ZIT6/6004736"
 			(at 85.09 175.26 0)
 			(hide yes)
 			(show_name no)
@@ -20256,6 +20827,39 @@
 				)
 			)
 		)
+		(property "Manufacturer_Name" "GCT"
+			(at 330.708 159.004 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Part_Number" "USB4105-GF-A"
+			(at 330.708 159.004 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey Link" "https://www.digikey.ca/en/products/detail/gct/USB4105-GF-A/11198441"
+			(at 330.708 159.004 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "A6"
 			(uuid "6815d16b-3d9c-4b79-9e78-0e79ed8423b8")
 		)
@@ -20496,7 +21100,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100n"
+		(property "Value" "100nF"
 			(at 69.85 48.2662 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20529,7 +21133,40 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor, small symbol"
+		(property "Description" "CAP CER 0.1UF 50V X7R 0603"
+			(at 67.31 46.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Name" "KEMET"
+			(at 67.31 46.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Part_Number" "C0603C104K5RAC3121"
+			(at 67.31 46.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey Link" "https://www.digikey.ca/en/products/detail/kemet/C0603C104K5RAC3121/16680122?gclsrc=aw.ds&gad_source=1&gad_campaignid=17348075909&gbraid=0AAAAADrbLlg1q0whI5uxY39igKdJtyvmY&gclid=Cj0KCQiA7rDMBhCjARIsAGDBuEACcvE_IUWsAryUaP235cBsp-bYcxMiFpW8ODy3MSe36KDxJNpRn_oaAvgaEALw_wcB"
 			(at 67.31 46.99 0)
 			(hide yes)
 			(show_name no)
@@ -20576,7 +21213,7 @@
 				)
 			)
 		)
-		(property "Value" "MBRA340"
+		(property "Value" "Schottky Diode"
 			(at 304.546 45.72 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20609,6 +21246,39 @@
 			)
 		)
 		(property "Description" "40V 3A Schottky Barrier Rectifier Diode, SMA(DO-214AC)"
+			(at 304.038 48.514 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Name" "onsemi"
+			(at 304.038 48.514 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Part_Number" "MBRA340T3G"
+			(at 304.038 48.514 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey Link" "https://www.digikey.ca/en/products/detail/onsemi/MBRA340T3G/918606"
 			(at 304.038 48.514 0)
 			(hide yes)
 			(show_name no)
@@ -20655,7 +21325,7 @@
 				)
 			)
 		)
-		(property "Value" "MMC5983MA"
+		(property "Value" ""
 			(at 223.52 96.52 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20689,7 +21359,40 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "SEN MR I2C/SPI 16-LGA"
+			(at 223.52 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Name" "Memsic Inc."
+			(at 223.52 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Part_Number" "MMC5983MA"
+			(at 223.52 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey Link" "https://www.digikey.ca/en/products/detail/memsic-inc/mmc5983ma/10452795"
 			(at 223.52 111.76 0)
 			(hide yes)
 			(show_name no)
@@ -20766,7 +21469,7 @@
 		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "53b1e626-2a8d-4cf8-96e1-bfcc8430578f")
 		(property "Reference" "H4"
@@ -20822,6 +21525,17 @@
 				)
 			)
 		)
+		(property "Digikey Link" ""
+			(at 261.366 263.906 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "c9e5a04a-a108-4537-b70f-c5a6a4ebfd17")
 		)
@@ -20856,7 +21570,7 @@
 				)
 			)
 		)
-		(property "Value" "AS5F31G04SND-08LIN"
+		(property "Value" ""
 			(at 343.916 206.756 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20889,7 +21603,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "IC FLASH 1GBIT SPI/QUAD 8LGA"
 			(at 343.916 224.536 0)
 			(hide yes)
 			(show_name no)
@@ -20901,18 +21615,6 @@
 			)
 		)
 		(property "PARTREV" "1.0"
-			(at 343.916 224.536 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "MANUFACTURER" "Alliance Memory, Inc."
 			(at 343.916 224.536 0)
 			(hide yes)
 			(show_name no)
@@ -20946,6 +21648,39 @@
 					(size 1.27 1.27)
 				)
 				(justify bottom)
+			)
+		)
+		(property "Manufacturer_Name" "Alliance Memory, Inc."
+			(at 343.916 224.536 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Part_Number" "AS5F31G04SND-08LIN"
+			(at 343.916 224.536 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey Link" "https://www.digikey.com/en/products/detail/alliance-memory-inc/AS5F31G04SND-08LIN/13282909"
+			(at 343.916 224.536 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "7"
@@ -21080,7 +21815,7 @@
 				)
 			)
 		)
-		(property "Value" "MS5607-02BA"
+		(property "Value" ""
 			(at 344.932 115.824 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21114,6 +21849,39 @@
 			)
 		)
 		(property "Description" "Barometric pressure sensor, 20cm resolution, 10 to 1200 mbar, I2C and SPI interface up to 20MHz, LGA-8"
+			(at 347.98 106.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Name" "TE Connectivity Measurement Specialties"
+			(at 347.98 106.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Part_Number" "MS560702BA03-50"
+			(at 347.98 106.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey Link" "https://www.digikey.ca/en/products/detail/te-connectivity-measurement-specialties/MS560702BA03-50/4700931"
 			(at 347.98 106.68 0)
 			(hide yes)
 			(show_name no)
@@ -21259,7 +22027,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100n"
+		(property "Value" "100nF"
 			(at 78.74 48.2662 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21292,7 +22060,40 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor, small symbol"
+		(property "Description" "CAP CER 0.1UF 50V X7R 0603"
+			(at 76.2 46.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Name" "KEMET"
+			(at 76.2 46.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Part_Number" "C0603C104K5RAC3121"
+			(at 76.2 46.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey Link" "https://www.digikey.ca/en/products/detail/kemet/C0603C104K5RAC3121/16680122?gclsrc=aw.ds&gad_source=1&gad_campaignid=17348075909&gbraid=0AAAAADrbLlg1q0whI5uxY39igKdJtyvmY&gclid=Cj0KCQiA7rDMBhCjARIsAGDBuEACcvE_IUWsAryUaP235cBsp-bYcxMiFpW8ODy3MSe36KDxJNpRn_oaAvgaEALw_wcB"
 			(at 76.2 46.99 0)
 			(hide yes)
 			(show_name no)
@@ -21460,6 +22261,39 @@
 				)
 			)
 		)
+		(property "Manufacturer_Name" "Murata Electronics"
+			(at 260.35 201.168 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Part_Number" "LQG15HS27NH02D"
+			(at 260.35 201.168 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey Link" "https://www.digikey.ca/en/products/detail/murata-electronics/lqg15hs27nh02d/6798538"
+			(at 260.35 201.168 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "24860097-a9ac-49a9-9e80-0165048c0cdb")
 		)
@@ -21484,7 +22318,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(in_pos_files no)
-		(dnp no)
+		(dnp yes)
 		(uuid "671efbed-29a5-4a74-a289-5891d66b5ceb")
 		(property "Reference" "J2"
 			(at 169.9261 57.658 0)
@@ -21497,7 +22331,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "S02B-XASS-1LFSN"
+		(property "Value" ""
 			(at 162.814 42.672 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21532,7 +22366,40 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "CONN HEADER R/A 2POS 2.5MM"
+			(at 177.546 53.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Name" "JST Sales America Inc."
+			(at 177.546 53.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Part_Number" "S02B-XASS-1"
+			(at 177.546 53.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey Link" "https://www.digikey.ca/en/products/detail/jst-sales-america-inc/S02B-XASS-1/1634785"
 			(at 177.546 53.34 0)
 			(hide yes)
 			(show_name no)
@@ -21581,7 +22448,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100n"
+		(property "Value" "100nF"
 			(at 116.84 48.2662 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21614,7 +22481,40 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor, small symbol"
+		(property "Description" "CAP CER 0.1UF 50V X7R 0603"
+			(at 114.3 46.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Name" "KEMET"
+			(at 114.3 46.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Part_Number" "C0603C104K5RAC3121"
+			(at 114.3 46.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey Link" "https://www.digikey.ca/en/products/detail/kemet/C0603C104K5RAC3121/16680122?gclsrc=aw.ds&gad_source=1&gad_campaignid=17348075909&gbraid=0AAAAADrbLlg1q0whI5uxY39igKdJtyvmY&gclid=Cj0KCQiA7rDMBhCjARIsAGDBuEACcvE_IUWsAryUaP235cBsp-bYcxMiFpW8ODy3MSe36KDxJNpRn_oaAvgaEALw_wcB"
 			(at 114.3 46.99 0)
 			(hide yes)
 			(show_name no)
@@ -21693,8 +22593,41 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor, small symbol"
+		(property "Description" "47 pF ±5% 25V Ceramic Capacitor C0G, NP0 0402 (1005 Metric)"
 			(at 243.078 217.424 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Name" "KEMET"
+			(at 243.078 217.424 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Part_Number" "C0402C470J3GACTU"
+			(at 243.078 217.424 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey Link" "https://www.digikey.ca/en/products/detail/kemet/C0402C470J3GACTU/1933626?_gl=1*1hxukqs*_up*MQ..*_gs*MQ..&gclid=Cj0KCQjw16_UBhCqARIsAIdOaXyMhEiOiwR8T8i8MEtuXbYo7oE8rDeytRujSsgkC9tMiZ1oiGeBNX8aAi3cEALw_wcB&gclsrc=aw.ds&gbraid=0AAAAADrbLlgX-xSIJliQOg8Fcd7nMwFr2"
+			(at 243.078 217.424 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21931,7 +22864,40 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor, small symbol"
+		(property "Description" "10 µF ±10% 25V Ceramic Capacitor X7R 1206 (3216 Metric)"
+			(at 142.748 46.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Name" "TDK"
+			(at 142.748 46.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Part_Number" "CGA5L1X7R1E106K160DC"
+			(at 142.748 46.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey Link" "https://www.digikey.com/en/products/detail/tdk/CGA5L1X7R1E106K160DC/22106123"
 			(at 142.748 46.99 0)
 			(hide yes)
 			(show_name no)
@@ -21980,7 +22946,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100n"
+		(property "Value" "100nF"
 			(at 135.636 48.2662 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22013,7 +22979,40 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor, small symbol"
+		(property "Description" "CAP CER 0.1UF 50V X7R 0603"
+			(at 133.096 46.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Name" "KEMET"
+			(at 133.096 46.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Part_Number" "C0603C104K5RAC3121"
+			(at 133.096 46.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey Link" "https://www.digikey.ca/en/products/detail/kemet/C0603C104K5RAC3121/16680122?gclsrc=aw.ds&gad_source=1&gad_campaignid=17348075909&gbraid=0AAAAADrbLlg1q0whI5uxY39igKdJtyvmY&gclid=Cj0KCQiA7rDMBhCjARIsAGDBuEACcvE_IUWsAryUaP235cBsp-bYcxMiFpW8ODy3MSe36KDxJNpRn_oaAvgaEALw_wcB"
 			(at 133.096 46.99 0)
 			(hide yes)
 			(show_name no)
@@ -22062,7 +23061,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100n"
+		(property "Value" "100nF"
 			(at 52.07 48.2662 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22095,7 +23094,40 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor, small symbol"
+		(property "Description" "CAP CER 0.1UF 50V X7R 0603"
+			(at 49.53 46.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Name" "KEMET"
+			(at 49.53 46.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Part_Number" "C0603C104K5RAC3121"
+			(at 49.53 46.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey Link" "https://www.digikey.ca/en/products/detail/kemet/C0603C104K5RAC3121/16680122?gclsrc=aw.ds&gad_source=1&gad_campaignid=17348075909&gbraid=0AAAAADrbLlg1q0whI5uxY39igKdJtyvmY&gclid=Cj0KCQiA7rDMBhCjARIsAGDBuEACcvE_IUWsAryUaP235cBsp-bYcxMiFpW8ODy3MSe36KDxJNpRn_oaAvgaEALw_wcB"
 			(at 49.53 46.99 0)
 			(hide yes)
 			(show_name no)
@@ -22174,8 +23206,41 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor, small symbol"
+		(property "Description" "CAP CER 0.1UF 50V X7R 0603"
 			(at 186.69 171.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Name" "KEMET"
+			(at 186.69 171.45 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Part_Number" "C0603C104K5RAC3121"
+			(at 186.69 171.45 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey Link" "https://www.digikey.ca/en/products/detail/kemet/C0603C104K5RAC3121/16680122?gclsrc=aw.ds&gad_source=1&gad_campaignid=17348075909&gbraid=0AAAAADrbLlg1q0whI5uxY39igKdJtyvmY&gclid=Cj0KCQiA7rDMBhCjARIsAGDBuEACcvE_IUWsAryUaP235cBsp-bYcxMiFpW8ODy3MSe36KDxJNpRn_oaAvgaEALw_wcB"
+			(at 186.69 171.45 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22255,7 +23320,40 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor, small symbol"
+		(property "Description" "CAP CER 0.1UF 50V X7R 0603"
+			(at 370.84 106.426 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Name" "KEMET"
+			(at 370.84 106.426 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Part_Number" "C0603C104K5RAC3121"
+			(at 370.84 106.426 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey Link" "https://www.digikey.ca/en/products/detail/kemet/C0603C104K5RAC3121/16680122?gclsrc=aw.ds&gad_source=1&gad_campaignid=17348075909&gbraid=0AAAAADrbLlg1q0whI5uxY39igKdJtyvmY&gclid=Cj0KCQiA7rDMBhCjARIsAGDBuEACcvE_IUWsAryUaP235cBsp-bYcxMiFpW8ODy3MSe36KDxJNpRn_oaAvgaEALw_wcB"
 			(at 370.84 106.426 0)
 			(hide yes)
 			(show_name no)
@@ -22414,7 +23512,40 @@
 				)
 			)
 		)
-		(property "Description" "Resistor, small symbol"
+		(property "Description" "RES SMD 4.7K OHM 1% 1/3W 0603"
+			(at 380.238 151.384 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Name" "Vishay Dale"
+			(at 380.238 151.384 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Part_Number" "CRCW06034K70FKEAHP"
+			(at 380.238 151.384 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey Link" "https://www.digikey.ca/en/products/detail/vishay-dale/CRCW06034K70FKEAHP/2222257"
 			(at 380.238 151.384 0)
 			(hide yes)
 			(show_name no)
@@ -22574,7 +23705,40 @@
 				)
 			)
 		)
-		(property "Description" "Resistor, small symbol"
+		(property "Description" "RES SMD 4.7K OHM 1% 1/3W 0603"
+			(at 198.12 200.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Name" "Vishay Dale"
+			(at 198.12 200.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Part_Number" "CRCW06034K70FKEAHP"
+			(at 198.12 200.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey Link" "https://www.digikey.ca/en/products/detail/vishay-dale/CRCW06034K70FKEAHP/2222257"
 			(at 198.12 200.66 0)
 			(hide yes)
 			(show_name no)
@@ -22780,7 +23944,7 @@
 				)
 			)
 		)
-		(property "Value" "TS18-5-15-SL-160-SMT-TR"
+		(property "Value" ""
 			(at 34.036 61.722 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22813,7 +23977,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "SWITCH TACTILE SPST-NO 0.05A 12V"
 			(at 34.036 67.056 0)
 			(hide yes)
 			(show_name no)
@@ -22848,7 +24012,7 @@
 				(justify bottom)
 			)
 		)
-		(property "MANUFACTURER" "Same Sky"
+		(property "Manufacturer_Name" "Aratas (Formerly Omron Components)"
 			(at 34.036 67.056 0)
 			(hide yes)
 			(show_name no)
@@ -22857,7 +24021,28 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify bottom)
+			)
+		)
+		(property "Manufacturer_Part_Number" "B3U-1100P"
+			(at 34.036 67.056 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey Link" "https://www.digikey.ca/en/products/detail/omron-electronics-inc-emc-div/B3U-1100P/1534339?gclsrc=aw.ds&gad_source=1&gad_campaignid=20780226435&gbraid=0AAAAADrbLlhigUewfTb8mK6OhjsB7meoS&gclid=Cj0KCQjw3K7RBhDJARIsAKRtP5R7dVQ07YzF7EXIhwHAkjq9IMuGPjKNSOY7ituiBSODv-AcsrWpKvsaAub2EALw_wcB"
+			(at 34.036 67.056 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "4"
@@ -23092,7 +24277,40 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor, small symbol"
+		(property "Description" "CAP CER 1UF 16V X7R 0603"
+			(at 362.204 106.426 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Name" "KEMET"
+			(at 362.204 106.426 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Part_Number" "C0603C105K4RACTU"
+			(at 362.204 106.426 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey Link" "https://www.digikey.ca/en/products/detail/kemet/C0603C105K4RACTU/2199788"
 			(at 362.204 106.426 0)
 			(hide yes)
 			(show_name no)
@@ -23141,7 +24359,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100n"
+		(property "Value" "100nF"
 			(at 125.73 48.2662 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23174,7 +24392,40 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor, small symbol"
+		(property "Description" "CAP CER 0.1UF 50V X7R 0603"
+			(at 123.19 46.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Name" "KEMET"
+			(at 123.19 46.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Part_Number" "C0603C104K5RAC3121"
+			(at 123.19 46.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey Link" "https://www.digikey.ca/en/products/detail/kemet/C0603C104K5RAC3121/16680122?gclsrc=aw.ds&gad_source=1&gad_campaignid=17348075909&gbraid=0AAAAADrbLlg1q0whI5uxY39igKdJtyvmY&gclid=Cj0KCQiA7rDMBhCjARIsAGDBuEACcvE_IUWsAryUaP235cBsp-bYcxMiFpW8ODy3MSe36KDxJNpRn_oaAvgaEALw_wcB"
 			(at 123.19 46.99 0)
 			(hide yes)
 			(show_name no)
@@ -23253,8 +24504,41 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor, small symbol"
+		(property "Description" "10 µF ±10% 25V Ceramic Capacitor X7R 1206 (3216 Metric)"
 			(at 251.46 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Name" "TDK"
+			(at 251.46 119.38 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Part_Number" "CGA5L1X7R1E106K160DC"
+			(at 251.46 119.38 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey Link" "https://www.digikey.com/en/products/detail/tdk/CGA5L1X7R1E106K160DC/22106123"
+			(at 251.46 119.38 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23379,7 +24663,7 @@
 				)
 			)
 		)
-		(property "Value" "WL-SMCW_1206"
+		(property "Value" "LED"
 			(at 135.89 254 0)
 			(hide yes)
 			(show_name no)
@@ -23413,7 +24697,40 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "RED SMD LED"
+			(at 136.906 248.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Name" "Würth Elektronik"
+			(at 136.906 248.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Part_Number" "150120SS75000"
+			(at 136.906 248.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey Link" "https://www.digikey.ca/en/products/detail/würth-elektronik/150120SS75000/4489942?_gl=1*tss2ya*_up*MQ..*_gs*MQ..&gclid=CjwKCAjwmozTBhAeEiwAkEGZzqe_o2wpaarXONfQu-dhrFqJHlamK6FMhtTFnaXi7Dbwy7shfc37BxoCcBYQAvD_BwE&gclsrc=aw.ds&gbraid=0AAAAADrbLlglpOdliYVQPWco_erh8BcCD"
 			(at 136.906 248.92 0)
 			(hide yes)
 			(show_name no)
@@ -23504,6 +24821,39 @@
 				)
 			)
 		)
+		(property "Manufacturer_Name" "Bourns Inc."
+			(at 130.81 73.66 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Part_Number" "MH1608-121Y"
+			(at 130.81 73.66 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey Link" "https://www.digikey.ca/en/products/detail/bourns-inc/MH1608-121Y/2563311?gclsrc=aw.ds&gad_source=1&gad_campaignid=20572521725&gbraid=0AAAAADrbLlhG6-IjpD0pYAwdY7rtH8PJi&gclid=Cj0KCQjw3K7RBhDJARIsAKRtP5R8p4OUXDyE_poRZN4hjI0L3FsyffEIO5CO9zbOr_d_MZ_PRTxHU1oaAojYEALw_wcB"
+			(at 130.81 73.66 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "8e759af7-f84a-404a-845b-ddc3b97b4293")
 		)
@@ -23541,7 +24891,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "SMF10CA"
+		(property "Value" "TVS diode"
 			(at 300.99 54.356 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23574,8 +24924,41 @@
 				)
 			)
 		)
-		(property "Description" "20V, 1A, 340 mV, Schottky Diode Rectifier, SOD-123F"
+		(property "Description" "TVS DIODE 10VWM 17VC SOD123F"
 			(at 298.958 53.086 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Name" "Littelfuse Inc."
+			(at 298.958 53.086 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Part_Number" "SMF10CA"
+			(at 298.958 53.086 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey Link" "https://www.digikey.ca/en/products/detail/littelfuse-inc/SMF10CA/11206210"
+			(at 298.958 53.086 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23610,7 +24993,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(in_pos_files no)
-		(dnp no)
+		(dnp yes)
 		(uuid "99858fd4-b61c-4468-bbce-60af42c88f93")
 		(property "Reference" "J6"
 			(at 149.352 148.336 0)
@@ -23655,6 +25038,17 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x04, script generated"
+			(at 150.368 157.226 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey Link" ""
 			(at 150.368 157.226 0)
 			(hide yes)
 			(show_name no)
@@ -23821,7 +25215,40 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor, small symbol"
+		(property "Description" "CAP CER 0.1UF 50V X7R 0603"
+			(at 369.316 221.996 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Name" "KEMET"
+			(at 369.316 221.996 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Part_Number" "C0603C104K5RAC3121"
+			(at 369.316 221.996 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey Link" "https://www.digikey.ca/en/products/detail/kemet/C0603C104K5RAC3121/16680122?gclsrc=aw.ds&gad_source=1&gad_campaignid=17348075909&gbraid=0AAAAADrbLlg1q0whI5uxY39igKdJtyvmY&gclid=Cj0KCQiA7rDMBhCjARIsAGDBuEACcvE_IUWsAryUaP235cBsp-bYcxMiFpW8ODy3MSe36KDxJNpRn_oaAvgaEALw_wcB"
 			(at 369.316 221.996 0)
 			(hide yes)
 			(show_name no)
@@ -23978,8 +25405,41 @@
 				)
 			)
 		)
-		(property "Description" "Resistor, small symbol"
+		(property "Description" "806 Ohms ±0.1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Thin Film"
 			(at 286.004 157.734 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Name" "YAGEO"
+			(at 286.004 157.734 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Part_Number" "RT0603BRD07806RL"
+			(at 286.004 157.734 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey Link" "https://www.digikey.ca/en/products/detail/yageo/RT0603BRD07806RL/1072652"
+			(at 286.004 157.734 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24136,8 +25596,41 @@
 				)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" "RES SMD 10K OHM 0.1% 1/10W 0603"
 			(at 29.21 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Name" "Bourns Inc."
+			(at 29.21 93.98 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Part_Number" "CRT0603-BY-1002ELF"
+			(at 29.21 93.98 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey Link" "https://www.digikey.ca/en/products/detail/bourns-inc/crt0603-by-1002elf/1775019"
+			(at 29.21 93.98 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24372,8 +25865,41 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor, small symbol"
+		(property "Description" "CAP CER 0.1UF 50V X7R 0603"
 			(at 213.36 175.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Name" "KEMET"
+			(at 213.36 175.26 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Part_Number" "C0603C104K5RAC3121"
+			(at 213.36 175.26 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey Link" "https://www.digikey.ca/en/products/detail/kemet/C0603C104K5RAC3121/16680122?gclsrc=aw.ds&gad_source=1&gad_campaignid=17348075909&gbraid=0AAAAADrbLlg1q0whI5uxY39igKdJtyvmY&gclid=Cj0KCQiA7rDMBhCjARIsAGDBuEACcvE_IUWsAryUaP235cBsp-bYcxMiFpW8ODy3MSe36KDxJNpRn_oaAvgaEALw_wcB"
+			(at 213.36 175.26 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24451,8 +25977,41 @@
 				)
 			)
 		)
-		(property "Description" "Resistor, small symbol"
+		(property "Description" "RES 10 OHM 5% 1/2W 1206"
 			(at 233.68 198.882 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Name" "YAGEO"
+			(at 233.68 198.882 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Part_Number" "RC1206JR-7W10RL"
+			(at 233.68 198.882 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey Link" "https://www.digikey.ca/en/products/detail/yageo/RC1206JR-7W10RL/12698862?gclsrc=aw.ds&gad_source=1&gad_campaignid=23192198598&gbraid=0AAAAADrbLljuq8zsgQOzDJqUH_I0QkL-n&gclid=Cj0KCQjw16_UBhCqARIsAIdOaXyElcgStGI96tr9DUO7vTatItxtE-tBIzqw6KT11nlbI2tqgQ9d9N0aAlJyEALw_wcB"
+			(at 233.68 198.882 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24737,7 +26296,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "MAX-M10S"
+		(property "Value" ""
 			(at 221.234 236.474 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24771,6 +26330,39 @@
 			)
 		)
 		(property "Description" "GNSS Module MAX M10, VCC 1.65V to 3.6V"
+			(at 219.202 217.424 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Name" "u-blox"
+			(at 219.202 217.424 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Part_Number" "MAX-M10S-00B"
+			(at 219.202 217.424 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey Link" "https://www.digikey.ca/en/products/detail/u-blox/MAX-M10S-00B/15712906"
 			(at 219.202 217.424 0)
 			(hide yes)
 			(show_name no)
@@ -24853,7 +26445,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(in_pos_files no)
-		(dnp no)
+		(dnp yes)
 		(uuid "b3ceb6d5-f603-4773-821a-080b5a3b149b")
 		(property "Reference" "J4"
 			(at 287.7821 58.674 0)
@@ -24866,7 +26458,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "S02B-XASS-1LFSN"
+		(property "Value" ""
 			(at 281.432 42.926 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24901,7 +26493,40 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "CONN HEADER R/A 2POS 2.5MM"
+			(at 295.402 54.356 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Name" "JST Sales America Inc."
+			(at 295.402 54.356 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Part_Number" "S02B-XASS-1"
+			(at 295.402 54.356 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey Link" "https://www.digikey.ca/en/products/detail/jst-sales-america-inc/S02B-XASS-1/1634785"
 			(at 295.402 54.356 0)
 			(hide yes)
 			(show_name no)
@@ -25059,7 +26684,40 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor, small symbol"
+		(property "Description" "CAP CER 1UF 16V X7R 0603"
+			(at 243.078 172.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Name" "KEMET"
+			(at 243.078 172.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Part_Number" "C0603C105K4RACTU"
+			(at 243.078 172.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey Link" "https://www.digikey.ca/en/products/detail/kemet/C0603C105K4RACTU/2199788"
 			(at 243.078 172.72 0)
 			(hide yes)
 			(show_name no)
@@ -25107,7 +26765,7 @@
 				)
 			)
 		)
-		(property "Value" "SLW-913535-2A-SMT"
+		(property "Value" ""
 			(at 27.94 105.918 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25140,7 +26798,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "SWITCH SLIDE DPDT 0.1A 12V"
 			(at 27.94 116.84 0)
 			(hide yes)
 			(show_name no)
@@ -25187,7 +26845,7 @@
 				(justify bottom)
 			)
 		)
-		(property "MANUFACTURER" "Same Sky"
+		(property "Manufacturer_Name" "Same Sky (Formerly CUI Devices)"
 			(at 27.94 116.84 0)
 			(hide yes)
 			(show_name no)
@@ -25196,7 +26854,28 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify bottom)
+			)
+		)
+		(property "Manufacturer_Part_Number" "SLW-913535-2A-SMT"
+			(at 27.94 116.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey Link" "https://www.digikey.ca/en/products/detail/omron-electronics-inc-emc-div/B3U-1100P/1534339?gclsrc=aw.ds&gad_source=1&gad_campaignid=20780226435&gbraid=0AAAAADrbLlhigUewfTb8mK6OhjsB7meoS&gclid=Cj0KCQjw3K7RBhDJARIsAKRtP5R7dVQ07YzF7EXIhwHAkjq9IMuGPjKNSOY7ituiBSODv-AcsrWpKvsaAub2EALw_wcB"
+			(at 27.94 116.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -25327,7 +27006,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100n"
+		(property "Value" "100nF"
 			(at 43.18 48.2662 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25360,7 +27039,40 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor, small symbol"
+		(property "Description" "CAP CER 0.1UF 50V X7R 0603"
+			(at 40.64 46.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Name" "KEMET"
+			(at 40.64 46.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Part_Number" "C0603C104K5RAC3121"
+			(at 40.64 46.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey Link" "https://www.digikey.ca/en/products/detail/kemet/C0603C104K5RAC3121/16680122?gclsrc=aw.ds&gad_source=1&gad_campaignid=17348075909&gbraid=0AAAAADrbLlg1q0whI5uxY39igKdJtyvmY&gclid=Cj0KCQiA7rDMBhCjARIsAGDBuEACcvE_IUWsAryUaP235cBsp-bYcxMiFpW8ODy3MSe36KDxJNpRn_oaAvgaEALw_wcB"
 			(at 40.64 46.99 0)
 			(hide yes)
 			(show_name no)
@@ -25442,7 +27154,40 @@
 				)
 			)
 		)
-		(property "Description" "Resistor, small symbol"
+		(property "Description" "RES SMD 4.7K OHM 1% 1/3W 0603"
+			(at 149.86 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Name" "Vishay Dale"
+			(at 149.86 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Part_Number" "CRCW06034K70FKEAHP"
+			(at 149.86 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey Link" "https://www.digikey.ca/en/products/detail/vishay-dale/CRCW06034K70FKEAHP/2222257"
 			(at 149.86 91.44 0)
 			(hide yes)
 			(show_name no)
@@ -25490,8 +27235,9 @@
 				(justify right)
 			)
 		)
-		(property "Value" "PTVS3V3S1UTR_115"
-			(at 383.794 62.23 90)
+		(property "Value" "TVS diode"
+			(at 386.842 61.722 90)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -25525,8 +27271,41 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "TVS DIODE 3.3VWM 8VC SOD123W"
 			(at 383.794 53.848 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Name" "Nexperia USA Inc."
+			(at 383.794 53.848 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Part_Number" "PTVS3V3S1UTR,115"
+			(at 383.794 53.848 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey Link" "https://www.digikey.ca/en/products/detail/nexperia-usa-inc/PTVS3V3S1UTR-115/2780299"
+			(at 383.794 53.848 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25595,7 +27374,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://yageogroup.com/content/datasheet/asset/file/KEM_C1002_X7R_SMD"
 			(at 119.38 76.2 0)
 			(hide yes)
 			(show_name no)
@@ -25606,7 +27385,40 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor, small symbol"
+		(property "Description" "CAP CER 1UF 16V X7R 0603"
+			(at 119.38 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Name" "KEMET"
+			(at 119.38 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Part_Number" "C0603C105K4RACTU"
+			(at 119.38 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey Link" "https://www.digikey.ca/en/products/detail/kemet/C0603C105K4RACTU/2199788"
 			(at 119.38 76.2 0)
 			(hide yes)
 			(show_name no)
@@ -25642,7 +27454,7 @@
 		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "c63d977f-d7fd-43cd-b505-6855ee9e6d1f")
 		(property "Reference" "JP1"
 			(at 390.144 51.054 0)
@@ -25698,6 +27510,17 @@
 				)
 			)
 		)
+		(property "Digikey Link" ""
+			(at 390.144 53.848 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "561deda0-5901-4cde-a0fd-8f6c5cb067b0")
 		)
@@ -25736,7 +27559,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100n"
+		(property "Value" "100nF"
 			(at 87.63 48.2662 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25769,7 +27592,40 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor, small symbol"
+		(property "Description" "CAP CER 0.1UF 50V X7R 0603"
+			(at 85.09 46.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Name" "KEMET"
+			(at 85.09 46.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Part_Number" "C0603C104K5RAC3121"
+			(at 85.09 46.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey Link" "https://www.digikey.ca/en/products/detail/kemet/C0603C104K5RAC3121/16680122?gclsrc=aw.ds&gad_source=1&gad_campaignid=17348075909&gbraid=0AAAAADrbLlg1q0whI5uxY39igKdJtyvmY&gclid=Cj0KCQiA7rDMBhCjARIsAGDBuEACcvE_IUWsAryUaP235cBsp-bYcxMiFpW8ODy3MSe36KDxJNpRn_oaAvgaEALw_wcB"
 			(at 85.09 46.99 0)
 			(hide yes)
 			(show_name no)
@@ -25850,7 +27706,40 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor, small symbol"
+		(property "Description" "CAP CER 0.1UF 50V X7R 0603"
+			(at 173.482 215.392 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Name" "KEMET"
+			(at 173.482 215.392 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Part_Number" "C0603C104K5RAC3121"
+			(at 173.482 215.392 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey Link" "https://www.digikey.ca/en/products/detail/kemet/C0603C104K5RAC3121/16680122?gclsrc=aw.ds&gad_source=1&gad_campaignid=17348075909&gbraid=0AAAAADrbLlg1q0whI5uxY39igKdJtyvmY&gclid=Cj0KCQiA7rDMBhCjARIsAGDBuEACcvE_IUWsAryUaP235cBsp-bYcxMiFpW8ODy3MSe36KDxJNpRn_oaAvgaEALw_wcB"
 			(at 173.482 215.392 0)
 			(hide yes)
 			(show_name no)
@@ -25975,7 +27864,7 @@
 				)
 			)
 		)
-		(property "Value" "WL-SMCW_1206"
+		(property "Value" "LED"
 			(at 134.62 273.812 0)
 			(hide yes)
 			(show_name no)
@@ -26009,7 +27898,40 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "RED SMD LED"
+			(at 135.636 268.732 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Name" "Würth Elektronik"
+			(at 135.636 268.732 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Part_Number" "150120SS75000"
+			(at 135.636 268.732 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey Link" "https://www.digikey.ca/en/products/detail/würth-elektronik/150120SS75000/4489942?_gl=1*tss2ya*_up*MQ..*_gs*MQ..&gclid=CjwKCAjwmozTBhAeEiwAkEGZzqe_o2wpaarXONfQu-dhrFqJHlamK6FMhtTFnaXi7Dbwy7shfc37BxoCcBYQAvD_BwE&gclsrc=aw.ds&gbraid=0AAAAADrbLlglpOdliYVQPWco_erh8BcCD"
 			(at 135.636 268.732 0)
 			(hide yes)
 			(show_name no)
@@ -26057,8 +27979,9 @@
 				(justify right)
 			)
 		)
-		(property "Value" "STS321050B100"
+		(property "Value" "TVS diode"
 			(at 363.982 165.354 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -26092,6 +28015,39 @@
 		)
 		(property "Description" "5V, 450W Discrete Bidirectional TVS Diode, SOD-323"
 			(at 360.68 162.814 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Name" "Eaton - Electronics Division"
+			(at 360.68 162.814 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Part_Number" "STS321050B100"
+			(at 360.68 162.814 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey Link" "https://www.digikey.ca/en/products/detail/eaton-electronics-division/STS321050B100/13280469"
+			(at 360.68 162.814 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -26250,7 +28206,40 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor, small symbol"
+		(property "Description" "12 pF ±1% 50V Ceramic Capacitor C0G, NP0 0402 (1005 Metric)"
+			(at 22.86 263.144 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Name" "Murata Electronics"
+			(at 22.86 263.144 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Part_Number" "GRM1555C1H120FA01J"
+			(at 22.86 263.144 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey Link" "https://www.digikey.ca/en/products/detail/murata-electronics/GRM1555C1H120FA01J/4420263"
 			(at 22.86 263.144 0)
 			(hide yes)
 			(show_name no)
@@ -26331,7 +28320,40 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor, small symbol"
+		(property "Description" "CAP CER 0.1UF 50V X7R 0603"
+			(at 171.45 114.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Name" "KEMET"
+			(at 171.45 114.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Part_Number" "C0603C104K5RAC3121"
+			(at 171.45 114.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey Link" "https://www.digikey.ca/en/products/detail/kemet/C0603C104K5RAC3121/16680122?gclsrc=aw.ds&gad_source=1&gad_campaignid=17348075909&gbraid=0AAAAADrbLlg1q0whI5uxY39igKdJtyvmY&gclid=Cj0KCQiA7rDMBhCjARIsAGDBuEACcvE_IUWsAryUaP235cBsp-bYcxMiFpW8ODy3MSe36KDxJNpRn_oaAvgaEALw_wcB"
 			(at 171.45 114.3 0)
 			(hide yes)
 			(show_name no)
@@ -26459,7 +28481,7 @@
 				)
 			)
 		)
-		(property "Value" "LSM6DSVTR"
+		(property "Value" ""
 			(at 212.852 143.51 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -26493,7 +28515,40 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "INEMO INERTIAL MODULE: 3D ACCELE"
+			(at 192.532 149.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Name" "STMicroelectronics"
+			(at 192.532 149.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Part_Number" "LSM6DSVTR"
+			(at 192.532 149.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey Link" "https://www.digikey.ca/en/products/detail/stmicroelectronics/LSM6DSVTR/17038915"
 			(at 192.532 149.86 0)
 			(hide yes)
 			(show_name no)
@@ -26666,7 +28721,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 109.22 76.2 0)
 			(hide yes)
 			(show_name no)
@@ -26688,7 +28743,40 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor, small symbol"
+		(property "Description" "10000 pF ±10% 16V Ceramic Capacitor X7R 0402 (1005 Metric)"
+			(at 109.22 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Name" "Murata Electronics"
+			(at 109.22 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Part_Number" "GRM155R71C103KA01D"
+			(at 109.22 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey Link" "https://www.digikey.ca/en/products/detail/murata-electronics/GRM155R71C103KA01D/587215"
 			(at 109.22 76.2 0)
 			(hide yes)
 			(show_name no)
@@ -26723,7 +28811,7 @@
 		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "d8602139-7260-47c3-87d5-bcc8e9367d9a")
 		(property "Reference" "H1"
@@ -26770,6 +28858,17 @@
 		)
 		(property "Description" "Mounting Hole with connection"
 			(at 245.618 264.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey Link" ""
+			(at 245.618 264.16 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -27080,7 +29179,40 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor, small symbol"
+		(property "Description" "CAP CER 1UF 16V X7R 0603"
+			(at 180.34 114.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Name" "KEMET"
+			(at 180.34 114.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Part_Number" "C0603C105K4RACTU"
+			(at 180.34 114.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey Link" "https://www.digikey.ca/en/products/detail/kemet/C0603C105K4RACTU/2199788"
 			(at 180.34 114.3 0)
 			(hide yes)
 			(show_name no)
@@ -27207,7 +29339,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100n"
+		(property "Value" "100nF"
 			(at 97.79 48.2662 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -27240,7 +29372,40 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor, small symbol"
+		(property "Description" "CAP CER 0.1UF 50V X7R 0603"
+			(at 95.25 46.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Name" "KEMET"
+			(at 95.25 46.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Part_Number" "C0603C104K5RAC3121"
+			(at 95.25 46.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey Link" "https://www.digikey.ca/en/products/detail/kemet/C0603C104K5RAC3121/16680122?gclsrc=aw.ds&gad_source=1&gad_campaignid=17348075909&gbraid=0AAAAADrbLlg1q0whI5uxY39igKdJtyvmY&gclid=Cj0KCQiA7rDMBhCjARIsAGDBuEACcvE_IUWsAryUaP235cBsp-bYcxMiFpW8ODy3MSe36KDxJNpRn_oaAvgaEALw_wcB"
 			(at 95.25 46.99 0)
 			(hide yes)
 			(show_name no)
@@ -27355,7 +29520,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(in_pos_files no)
-		(dnp no)
+		(dnp yes)
 		(uuid "e45a7920-c1bf-4a5b-8c61-2e65a324288f")
 		(property "Reference" "J1"
 			(at 147.574 125.73 0)
@@ -27400,6 +29565,17 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x04, script generated"
+			(at 148.59 134.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey Link" ""
 			(at 148.59 134.62 0)
 			(hide yes)
 			(show_name no)
@@ -27768,7 +29944,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100n"
+		(property "Value" "100nF"
 			(at 60.96 48.2662 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -27801,7 +29977,40 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor, small symbol"
+		(property "Description" "CAP CER 0.1UF 50V X7R 0603"
+			(at 58.42 46.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Name" "KEMET"
+			(at 58.42 46.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Part_Number" "C0603C104K5RAC3121"
+			(at 58.42 46.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey Link" "https://www.digikey.ca/en/products/detail/kemet/C0603C104K5RAC3121/16680122?gclsrc=aw.ds&gad_source=1&gad_campaignid=17348075909&gbraid=0AAAAADrbLlg1q0whI5uxY39igKdJtyvmY&gclid=Cj0KCQiA7rDMBhCjARIsAGDBuEACcvE_IUWsAryUaP235cBsp-bYcxMiFpW8ODy3MSe36KDxJNpRn_oaAvgaEALw_wcB"
 			(at 58.42 46.99 0)
 			(hide yes)
 			(show_name no)
@@ -27848,7 +30057,7 @@
 				)
 			)
 		)
-		(property "Value" "WL-SMCW_1206"
+		(property "Value" "LED"
 			(at 200.152 271.526 0)
 			(hide yes)
 			(show_name no)
@@ -27882,7 +30091,40 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "RED SMD LED"
+			(at 201.676 266.446 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Name" "Würth Elektronik"
+			(at 201.676 266.446 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Part_Number" "150120SS75000"
+			(at 201.676 266.446 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey Link" "https://www.digikey.ca/en/products/detail/würth-elektronik/150120SS75000/4489942?_gl=1*tss2ya*_up*MQ..*_gs*MQ..&gclid=CjwKCAjwmozTBhAeEiwAkEGZzqe_o2wpaarXONfQu-dhrFqJHlamK6FMhtTFnaXi7Dbwy7shfc37BxoCcBYQAvD_BwE&gclsrc=aw.ds&gbraid=0AAAAADrbLlglpOdliYVQPWco_erh8BcCD"
 			(at 201.676 266.446 0)
 			(hide yes)
 			(show_name no)
@@ -27962,8 +30204,41 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor, small symbol"
+		(property "Description" "CAP CER 1UF 16V X7R 0603"
 			(at 302.006 164.592 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Name" "KEMET"
+			(at 302.006 164.592 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Part_Number" "C0603C105K4RACTU"
+			(at 302.006 164.592 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey Link" "https://www.digikey.ca/en/products/detail/kemet/C0603C105K4RACTU/2199788"
+			(at 302.006 164.592 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -28011,7 +30286,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100n"
+		(property "Value" "100nF"
 			(at 106.68 48.2662 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -28044,7 +30319,40 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor, small symbol"
+		(property "Description" "CAP CER 0.1UF 50V X7R 0603"
+			(at 104.14 46.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Name" "KEMET"
+			(at 104.14 46.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Part_Number" "C0603C104K5RAC3121"
+			(at 104.14 46.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey Link" "https://www.digikey.ca/en/products/detail/kemet/C0603C104K5RAC3121/16680122?gclsrc=aw.ds&gad_source=1&gad_campaignid=17348075909&gbraid=0AAAAADrbLlg1q0whI5uxY39igKdJtyvmY&gclid=Cj0KCQiA7rDMBhCjARIsAGDBuEACcvE_IUWsAryUaP235cBsp-bYcxMiFpW8ODy3MSe36KDxJNpRn_oaAvgaEALw_wcB"
 			(at 104.14 46.99 0)
 			(hide yes)
 			(show_name no)
@@ -28125,7 +30433,40 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor, small symbol"
+		(property "Description" "CAP CER 1UF 16V X7R 0603"
+			(at 139.7 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Name" "KEMET"
+			(at 139.7 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Part_Number" "C0603C105K4RACTU"
+			(at 139.7 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey Link" "https://www.digikey.ca/en/products/detail/kemet/C0603C105K4RACTU/2199788"
 			(at 139.7 76.2 0)
 			(hide yes)
 			(show_name no)
@@ -28173,7 +30514,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "STS321050B100"
+		(property "Value" "TVS diode"
 			(at 355.6 169.1639 90)
 			(hide yes)
 			(show_name no)
@@ -28209,6 +30550,39 @@
 		)
 		(property "Description" "5V, 450W Discrete Bidirectional TVS Diode, SOD-323"
 			(at 352.552 167.894 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Name" "Eaton - Electronics Division"
+			(at 352.552 167.894 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Part_Number" "STS321050B100"
+			(at 352.552 167.894 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey Link" "https://www.digikey.ca/en/products/detail/eaton-electronics-division/STS321050B100/13280469"
+			(at 352.552 167.894 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -28443,8 +30817,41 @@
 				)
 			)
 		)
-		(property "Description" "Resistor, small symbol"
+		(property "Description" "806 Ohms ±0.1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Thin Film"
 			(at 206.756 266.446 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Name" "YAGEO"
+			(at 206.756 266.446 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Part_Number" "RT0603BRD07806RL"
+			(at 206.756 266.446 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey Link" "https://www.digikey.ca/en/products/detail/yageo/RT0603BRD07806RL/1072652"
+			(at 206.756 266.446 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -28522,8 +30929,41 @@
 				)
 			)
 		)
-		(property "Description" "Resistor, small symbol"
+		(property "Description" "806 Ohms ±0.1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Thin Film"
 			(at 143.51 268.732 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Name" "YAGEO"
+			(at 143.51 268.732 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Part_Number" "RT0603BRD07806RL"
+			(at 143.51 268.732 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey Link" "https://www.digikey.ca/en/products/detail/yageo/RT0603BRD07806RL/1072652"
+			(at 143.51 268.732 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -28557,7 +30997,7 @@
 		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "fdcd5edb-170d-4ae8-92ca-31b2ca4b2804")
 		(property "Reference" "H2"
@@ -28604,6 +31044,17 @@
 		)
 		(property "Description" "Mounting Hole with connection"
 			(at 245.618 276.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey Link" ""
+			(at 245.618 276.86 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -28680,7 +31131,40 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor, small symbol"
+		(property "Description" "10000 pF ±10% 16V Ceramic Capacitor X7R 0402 (1005 Metric)"
+			(at 247.65 203.708 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Name" "Murata Electronics"
+			(at 247.65 203.708 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Part_Number" "GRM155R71C103KA01D"
+			(at 247.65 203.708 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey Link" "https://www.digikey.ca/en/products/detail/murata-electronics/GRM155R71C103KA01D/587215"
 			(at 247.65 203.708 0)
 			(hide yes)
 			(show_name no)

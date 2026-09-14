@@ -29,4 +29,6 @@
 	(lib (name "S02B-XASS-1") (type "KiCad") (uri "${KIPRJMOD}/Custom E-CAD Models/S02B-XASS-1/S02B-XASS-1.pretty") (options "") (descr ""))
 	(lib (name "Screw_Terminal") (type "KiCad") (uri "${KIPRJMOD}/Custom E-CAD Models/Footprints/Screw_Terminal.pretty") (options "") (descr ""))
 	(lib (name "TS941ILT") (type "KiCad") (uri "${KIPRJMOD}/Custom E-CAD Models/TS941ILT/KiCADv6/TS941ILT.pretty") (options "") (descr ""))
+	(lib (name "pcbway") (type "KiCad") (uri "${KIPRJMOD}/pcbway.pretty") (options "") (descr ""))
+	(lib (name "KiCad_logo") (type "KiCad") (uri "${KIPRJMOD}/KiCad_logo.pretty") (options "") (descr ""))
 )

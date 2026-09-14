@@ -3272,8 +3272,8 @@
 		(uuid "a7a1c698-abfa-46c0-a08f-ba7f953f83cd")
 	)
 	(rectangle
-		(start 23.368 29.464)
-		(end 96.52 65.532)
+		(start 27.178 40.64)
+		(end 75.184 66.294)
 		(stroke
 			(width 0)
 			(type solid)
@@ -3386,6 +3386,16 @@
 			)
 		)
 		(uuid "95fb009c-9bd2-4c54-89b2-c4c7d686acc1")
+	)
+	(text "May put a P-channel MOSFET\nbefore the capacitor:"
+		(exclude_from_sim no)
+		(at 43.688 46.482 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "ac300700-7bff-41e8-a705-1b8b129f2a6b")
 	)
 	(text "Source"
 		(exclude_from_sim no)
@@ -3799,13 +3809,13 @@
 	)
 	(wire
 		(pts
-			(xy 42.164 42.418) (xy 61.468 42.418)
+			(xy 61.976 48.768) (xy 61.976 49.784)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "1825c4a8-e36d-47b4-8fd6-272aabe4d2b6")
+		(uuid "1bf6b4f1-6b0c-4751-a625-d8164c559dea")
 	)
 	(wire
 		(pts
@@ -5686,12 +5696,12 @@
 	)
 	(hierarchical_label "+BATT"
 		(shape input)
-		(at 42.164 42.418 180)
+		(at 61.976 48.768 90)
 		(effects
 			(font
 				(size 1.016 1.016)
 			)
-			(justify right)
+			(justify left)
 		)
 		(uuid "d897ab5c-85d3-40e8-8b2b-3cc58aef0303")
 	)
@@ -5772,7 +5782,40 @@
 				)
 			)
 		)
-		(property "Description" "Resistor, small symbol"
+		(property "Description" "RES SMD 10K OHM 0.1% 1/10W 0603"
+			(at 131.826 84.328 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Name" "Bourns Inc."
+			(at 131.826 84.328 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Part_Number" "CRT0603-BY-1002ELF"
+			(at 131.826 84.328 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey Link" "https://www.digikey.ca/en/products/detail/bourns-inc/crt0603-by-1002elf/1775019"
 			(at 131.826 84.328 0)
 			(hide yes)
 			(show_name no)
@@ -5853,7 +5896,40 @@
 				)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" "RES 10 OHM 5% 1/2W 1206"
+			(at 90.17 160.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Name" "YAGEO"
+			(at 90.17 160.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Part_Number" "RC1206JR-7W10RL"
+			(at 90.17 160.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey Link" "https://www.digikey.ca/en/products/detail/yageo/RC1206JR-7W10RL/12698862?gclsrc=aw.ds&gad_source=1&gad_campaignid=23192198598&gbraid=0AAAAADrbLljuq8zsgQOzDJqUH_I0QkL-n&gclid=Cj0KCQjw16_UBhCqARIsAIdOaXyElcgStGI96tr9DUO7vTatItxtE-tBIzqw6KT11nlbI2tqgQ9d9N0aAlJyEALw_wcB"
 			(at 90.17 160.02 0)
 			(hide yes)
 			(show_name no)
@@ -5934,7 +6010,40 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor, small symbol"
+		(property "Description" "CAP CER 0.1UF 50V X7R 0603"
+			(at 181.61 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Name" "KEMET"
+			(at 181.61 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Part_Number" "C0603C104K5RAC3121"
+			(at 181.61 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey Link" "https://www.digikey.ca/en/products/detail/kemet/C0603C104K5RAC3121/16680122?gclsrc=aw.ds&gad_source=1&gad_campaignid=17348075909&gbraid=0AAAAADrbLlg1q0whI5uxY39igKdJtyvmY&gclid=Cj0KCQiA7rDMBhCjARIsAGDBuEACcvE_IUWsAryUaP235cBsp-bYcxMiFpW8ODy3MSe36KDxJNpRn_oaAvgaEALw_wcB"
 			(at 181.61 77.47 0)
 			(hide yes)
 			(show_name no)
@@ -6060,7 +6169,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "MSS1P5-M3/89A"
+		(property "Value" ""
 			(at 62.23 110.49 0)
 			(hide yes)
 			(show_name no)
@@ -6095,8 +6204,41 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "DIODE SCHOTTKY 50V 1A DO219AD"
 			(at 58.42 115.57 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Name" "Vishay General Semiconductor - Diodes Division"
+			(at 58.42 115.57 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Part_Number" "MSS1P5-M3/89A"
+			(at 58.42 115.57 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey Link" "https://www.digikey.ca/en/products/detail/vishay-general-semiconductor-diodes-division/mss1p5-m3-89a/2071754"
+			(at 58.42 115.57 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6254,7 +6396,40 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor, small symbol"
+		(property "Description" "10 µF ±10% 25V Ceramic Capacitor X7R 1206 (3216 Metric)"
+			(at 110.49 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Name" "TDK"
+			(at 110.49 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Part_Number" "CGA5L1X7R1E106K160DC"
+			(at 110.49 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey Link" "https://www.digikey.com/en/products/detail/tdk/CGA5L1X7R1E106K160DC/22106123"
 			(at 110.49 86.36 0)
 			(hide yes)
 			(show_name no)
@@ -6335,7 +6510,40 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor, small symbol"
+		(property "Description" "CAP CER 0.1UF 50V X7R 0603"
+			(at 172.72 48.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Name" "KEMET"
+			(at 172.72 48.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Part_Number" "C0603C104K5RAC3121"
+			(at 172.72 48.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey Link" "https://www.digikey.ca/en/products/detail/kemet/C0603C104K5RAC3121/16680122?gclsrc=aw.ds&gad_source=1&gad_campaignid=17348075909&gbraid=0AAAAADrbLlg1q0whI5uxY39igKdJtyvmY&gclid=Cj0KCQiA7rDMBhCjARIsAGDBuEACcvE_IUWsAryUaP235cBsp-bYcxMiFpW8ODy3MSe36KDxJNpRn_oaAvgaEALw_wcB"
 			(at 172.72 48.26 0)
 			(hide yes)
 			(show_name no)
@@ -6382,7 +6590,7 @@
 				)
 			)
 		)
-		(property "Value" "TMCS1108A2UQDR"
+		(property "Value" ""
 			(at 70.866 73.914 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6416,7 +6624,40 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "SENSOR CURRENT HALL EFFECT 8SOIC"
+			(at 49.53 78.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Name" "Texas Instruments"
+			(at 49.53 78.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Part_Number" "TMCS1108A2UQDR"
+			(at 49.53 78.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey Link" "https://www.digikey.ca/en/products/detail/texas-instruments/TMCS1108A2UQDR/13692878"
 			(at 49.53 78.74 0)
 			(hide yes)
 			(show_name no)
@@ -6549,7 +6790,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(in_pos_files no)
-		(dnp no)
+		(dnp yes)
 		(uuid "270bba85-f355-4620-834e-3531cbee60eb")
 		(property "Reference" "EM3"
 			(at 65.786 114.3 90)
@@ -6561,7 +6802,7 @@
 				)
 			)
 		)
-		(property "Value" "691210910002"
+		(property "Value" ""
 			(at 66.04 115.57 90)
 			(hide yes)
 			(show_name no)
@@ -6595,7 +6836,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "TERM BLOCK 2P HORIZON 2.54MM PCB"
 			(at 64.77 111.76 0)
 			(hide yes)
 			(show_name no)
@@ -6688,6 +6929,39 @@
 					(size 1.27 1.27)
 				)
 				(justify bottom)
+			)
+		)
+		(property "Manufacturer_Name" "Würth Elektronik"
+			(at 64.77 111.76 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Part_Number" "691210910002"
+			(at 64.77 111.76 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey Link" "https://www.digikey.ca/en/products/detail/würth-elektronik/691210910002/10668428"
+			(at 64.77 111.76 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "2"
@@ -6784,17 +7058,17 @@
 	)
 	(symbol
 		(lib_id "Device:C_Polarized")
-		(at 61.468 46.228 0)
+		(at 61.976 53.594 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(in_pos_files no)
-		(dnp no)
+		(dnp yes)
 		(uuid "2b6784bf-66d0-4d2d-ab3f-deedcf4fcad7")
 		(property "Reference" "C43"
-			(at 64.516 45.212 0)
+			(at 65.024 52.578 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6805,7 +7079,7 @@
 			)
 		)
 		(property "Value" "2200uF"
-			(at 64.516 47.244 0)
+			(at 65.024 54.61 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6816,7 +7090,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_THT:CP_Radial_D10.0mm_P5.00mm"
-			(at 62.4332 50.038 0)
+			(at 62.9412 57.404 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6827,7 +7101,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 61.468 46.228 0)
+			(at 61.976 53.594 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6837,8 +7111,41 @@
 				)
 			)
 		)
-		(property "Description" "Polarized capacitor"
-			(at 61.468 46.228 0)
+		(property "Description" "CAP ALUM POLY 2200UF 20% 16V TH"
+			(at 61.976 53.594 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Name" "KEMET"
+			(at 61.976 53.594 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Part_Number" "A750MW228M1CAAE010"
+			(at 61.976 53.594 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey Link" "https://www.digikey.ca/en/products/detail/kemet/A750MW228M1CAAE010/13420077"
+			(at 61.976 53.594 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6930,6 +7237,39 @@
 				)
 			)
 		)
+		(property "Manufacturer_Name" "Bourns Inc."
+			(at 58.42 130.81 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Part_Number" "SF-1206SP500M-2"
+			(at 58.42 130.81 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey Link" "https://www.digikey.ca/en/products/detail/bourns-inc/sf-1206sp500m-2/8548151"
+			(at 58.42 130.81 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "e21fb685-f536-4d70-9b84-eacf6e35f3fd")
 		)
@@ -7000,7 +7340,40 @@
 				)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" "RES 10 OHM 5% 1/2W 1206"
+			(at 69.85 160.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Name" "YAGEO"
+			(at 69.85 160.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Part_Number" "RC1206JR-7W10RL"
+			(at 69.85 160.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey Link" "https://www.digikey.ca/en/products/detail/yageo/RC1206JR-7W10RL/12698862?gclsrc=aw.ds&gad_source=1&gad_campaignid=23192198598&gbraid=0AAAAADrbLljuq8zsgQOzDJqUH_I0QkL-n&gclid=Cj0KCQjw16_UBhCqARIsAIdOaXyElcgStGI96tr9DUO7vTatItxtE-tBIzqw6KT11nlbI2tqgQ9d9N0aAlJyEALw_wcB"
 			(at 69.85 160.02 0)
 			(hide yes)
 			(show_name no)
@@ -7048,7 +7421,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "NTMFS5C673NT1G"
+		(property "Value" "MOSFET N-CH"
 			(at 88.138 142.748 0)
 			(hide yes)
 			(show_name no)
@@ -7083,7 +7456,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "MOSFET N-CH 60V 14A/50A 5DFN"
 			(at 95.25 148.082 0)
 			(hide yes)
 			(show_name no)
@@ -7154,7 +7527,7 @@
 				(justify bottom)
 			)
 		)
-		(property "MANUFACTURER" "Onsemi"
+		(property "Manufacturer_Name" "onsemi"
 			(at 95.25 148.082 0)
 			(hide yes)
 			(show_name no)
@@ -7163,7 +7536,28 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify bottom)
+			)
+		)
+		(property "Manufacturer_Part_Number" "NTMFS5C673NT1G"
+			(at 95.25 148.082 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey Link" "https://www.digikey.ca/en/products/detail/onsemi/ntmfs5c673nt1g/12525778"
+			(at 95.25 148.082 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -7212,7 +7606,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "NTMFS5C673NT1G"
+		(property "Value" "MOSFET N-CH"
 			(at 36.068 146.05 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7246,7 +7640,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "MOSFET N-CH 60V 14A/50A 5DFN"
 			(at 36.83 148.082 0)
 			(hide yes)
 			(show_name no)
@@ -7317,7 +7711,7 @@
 				(justify bottom)
 			)
 		)
-		(property "MANUFACTURER" "Onsemi"
+		(property "Manufacturer_Name" "onsemi"
 			(at 36.83 148.082 0)
 			(hide yes)
 			(show_name no)
@@ -7326,7 +7720,28 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify bottom)
+			)
+		)
+		(property "Manufacturer_Part_Number" "NTMFS5C673NT1G"
+			(at 36.83 148.082 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey Link" "https://www.digikey.ca/en/products/detail/onsemi/ntmfs5c673nt1g/12525778"
+			(at 36.83 148.082 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -7454,7 +7869,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "NTMFS5C673NT1G"
+		(property "Value" "MOSFET N-CH"
 			(at 47.244 142.748 0)
 			(hide yes)
 			(show_name no)
@@ -7489,7 +7904,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "MOSFET N-CH 60V 14A/50A 5DFN"
 			(at 55.88 148.082 0)
 			(hide yes)
 			(show_name no)
@@ -7560,7 +7975,7 @@
 				(justify bottom)
 			)
 		)
-		(property "MANUFACTURER" "Onsemi"
+		(property "Manufacturer_Name" "onsemi"
 			(at 55.88 148.082 0)
 			(hide yes)
 			(show_name no)
@@ -7569,7 +7984,28 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify bottom)
+			)
+		)
+		(property "Manufacturer_Part_Number" "NTMFS5C673NT1G"
+			(at 55.88 148.082 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey Link" "https://www.digikey.ca/en/products/detail/onsemi/ntmfs5c673nt1g/12525778"
+			(at 55.88 148.082 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -7651,7 +8087,40 @@
 				)
 			)
 		)
-		(property "Description" "Resistor, small symbol"
+		(property "Description" "RES SMD 10K OHM 0.1% 1/10W 0603"
+			(at 131.826 39.624 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Name" "Bourns Inc."
+			(at 131.826 39.624 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Part_Number" "CRT0603-BY-1002ELF"
+			(at 131.826 39.624 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey Link" "https://www.digikey.ca/en/products/detail/bourns-inc/crt0603-by-1002elf/1775019"
 			(at 131.826 39.624 0)
 			(hide yes)
 			(show_name no)
@@ -7699,7 +8168,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "NTMFS5C673NT1G"
+		(property "Value" "MOSFET N-CH"
 			(at 66.294 142.748 0)
 			(hide yes)
 			(show_name no)
@@ -7734,7 +8203,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "MOSFET N-CH 60V 14A/50A 5DFN"
 			(at 74.93 148.082 0)
 			(hide yes)
 			(show_name no)
@@ -7805,7 +8274,7 @@
 				(justify bottom)
 			)
 		)
-		(property "MANUFACTURER" "Onsemi"
+		(property "Manufacturer_Name" "onsemi"
 			(at 74.93 148.082 0)
 			(hide yes)
 			(show_name no)
@@ -7814,7 +8283,28 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify bottom)
+			)
+		)
+		(property "Manufacturer_Part_Number" "NTMFS5C673NT1G"
+			(at 74.93 148.082 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey Link" "https://www.digikey.ca/en/products/detail/onsemi/ntmfs5c673nt1g/12525778"
+			(at 74.93 148.082 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -8006,7 +8496,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(in_pos_files no)
-		(dnp no)
+		(dnp yes)
 		(uuid "7c6b7e06-74f9-4ac8-9a8c-9d4f69abf40b")
 		(property "Reference" "EM1"
 			(at 28.956 114.3 90)
@@ -8018,7 +8508,7 @@
 				)
 			)
 		)
-		(property "Value" "691210910002"
+		(property "Value" ""
 			(at 29.21 115.57 90)
 			(hide yes)
 			(show_name no)
@@ -8052,7 +8542,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "TERM BLOCK 2P HORIZON 2.54MM PCB"
 			(at 27.94 111.76 0)
 			(hide yes)
 			(show_name no)
@@ -8145,6 +8635,39 @@
 					(size 1.27 1.27)
 				)
 				(justify bottom)
+			)
+		)
+		(property "Manufacturer_Name" "Würth Elektronik"
+			(at 27.94 111.76 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Part_Number" "691210910002"
+			(at 27.94 111.76 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey Link" "https://www.digikey.ca/en/products/detail/würth-elektronik/691210910002/10668428"
+			(at 27.94 111.76 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "2"
@@ -8386,6 +8909,39 @@
 				)
 			)
 		)
+		(property "Manufacturer_Name" "Bourns Inc."
+			(at 77.47 130.556 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Part_Number" "SF-1206SP500M-2"
+			(at 77.47 130.556 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey Link" "https://www.digikey.ca/en/products/detail/bourns-inc/sf-1206sp500m-2/8548151"
+			(at 77.47 130.556 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "14566991-80b2-4b31-b09e-cd459d68c69d")
 		)
@@ -8423,7 +8979,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "MSS1P5-M3/89A"
+		(property "Value" ""
 			(at 81.28 110.49 0)
 			(hide yes)
 			(show_name no)
@@ -8458,8 +9014,41 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "DIODE SCHOTTKY 50V 1A DO219AD"
 			(at 77.47 115.57 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Name" "Vishay General Semiconductor - Diodes Division"
+			(at 77.47 115.57 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Part_Number" "MSS1P5-M3/89A"
+			(at 77.47 115.57 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey Link" "https://www.digikey.ca/en/products/detail/vishay-general-semiconductor-diodes-division/mss1p5-m3-89a/2071754"
+			(at 77.47 115.57 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8506,7 +9095,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "MSS1P5-M3/89A"
+		(property "Value" ""
 			(at 101.6 110.49 0)
 			(hide yes)
 			(show_name no)
@@ -8541,8 +9130,41 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "DIODE SCHOTTKY 50V 1A DO219AD"
 			(at 97.79 115.57 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Name" "Vishay General Semiconductor - Diodes Division"
+			(at 97.79 115.57 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Part_Number" "MSS1P5-M3/89A"
+			(at 97.79 115.57 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey Link" "https://www.digikey.ca/en/products/detail/vishay-general-semiconductor-diodes-division/mss1p5-m3-89a/2071754"
+			(at 97.79 115.57 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8590,7 +9212,7 @@
 				)
 			)
 		)
-		(property "Value" "NCV81071BZR2G"
+		(property "Value" ""
 			(at 145.415 68.5449 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8717,6 +9339,17 @@
 					(size 1.27 1.27)
 				)
 				(justify left top)
+			)
+		)
+		(property "Digikey Link" "https://www.digikey.ca/en/products/detail/onsemi/NCV81071BZR2G/25602407"
+			(at 133.35 72.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "5"
@@ -8934,7 +9567,7 @@
 				(justify left top)
 			)
 		)
-		(property "Value" "NCV81071BZR2G"
+		(property "Value" ""
 			(at 138.684 39.624 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9076,6 +9709,17 @@
 				(justify left top)
 			)
 		)
+		(property "Digikey Link" "https://www.digikey.ca/en/products/detail/onsemi/NCV81071BZR2G/25602407"
+			(at 133.35 43.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "6"
 			(uuid "28f0a05c-3c6c-42e9-9720-0244d87f2200")
 		)
@@ -9165,8 +9809,41 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor, small symbol"
+		(property "Description" "10 µF ±10% 25V Ceramic Capacitor X7R 1206 (3216 Metric)"
 			(at 46.99 97.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Name" "TDK"
+			(at 46.99 97.79 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Part_Number" "CGA5L1X7R1E106K160DC"
+			(at 46.99 97.79 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey Link" "https://www.digikey.com/en/products/detail/tdk/CGA5L1X7R1E106K160DC/22106123"
+			(at 46.99 97.79 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9244,8 +9921,41 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor, small symbol"
+		(property "Description" "10 µF ±10% 25V Ceramic Capacitor X7R 1206 (3216 Metric)"
 			(at 46.99 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Name" "TDK"
+			(at 46.99 88.9 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Part_Number" "CGA5L1X7R1E106K160DC"
+			(at 46.99 88.9 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey Link" "https://www.digikey.com/en/products/detail/tdk/CGA5L1X7R1E106K160DC/22106123"
+			(at 46.99 88.9 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9325,7 +10035,40 @@
 				)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" "RES 10 OHM 5% 1/2W 1206"
+			(at 50.8 160.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Name" "YAGEO"
+			(at 50.8 160.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Part_Number" "RC1206JR-7W10RL"
+			(at 50.8 160.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey Link" "https://www.digikey.ca/en/products/detail/yageo/RC1206JR-7W10RL/12698862?gclsrc=aw.ds&gad_source=1&gad_campaignid=23192198598&gbraid=0AAAAADrbLljuq8zsgQOzDJqUH_I0QkL-n&gclid=Cj0KCQjw16_UBhCqARIsAIdOaXyElcgStGI96tr9DUO7vTatItxtE-tBIzqw6KT11nlbI2tqgQ9d9N0aAlJyEALw_wcB"
 			(at 50.8 160.02 0)
 			(hide yes)
 			(show_name no)
@@ -9418,6 +10161,39 @@
 				)
 			)
 		)
+		(property "Manufacturer_Name" "Bourns Inc."
+			(at 97.79 130.81 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Part_Number" "SF-1206SP500M-2"
+			(at 97.79 130.81 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey Link" "https://www.digikey.ca/en/products/detail/bourns-inc/sf-1206sp500m-2/8548151"
+			(at 97.79 130.81 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "e4c618d2-d759-442a-a011-1e7d42482732")
 		)
@@ -9488,7 +10264,40 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor, small symbol"
+		(property "Description" "CAP CER 0.1UF 50V X7R 0603"
+			(at 100.33 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Name" "KEMET"
+			(at 100.33 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Part_Number" "C0603C104K5RAC3121"
+			(at 100.33 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey Link" "https://www.digikey.ca/en/products/detail/kemet/C0603C104K5RAC3121/16680122?gclsrc=aw.ds&gad_source=1&gad_campaignid=17348075909&gbraid=0AAAAADrbLlg1q0whI5uxY39igKdJtyvmY&gclid=Cj0KCQiA7rDMBhCjARIsAGDBuEACcvE_IUWsAryUaP235cBsp-bYcxMiFpW8ODy3MSe36KDxJNpRn_oaAvgaEALw_wcB"
 			(at 100.33 86.36 0)
 			(hide yes)
 			(show_name no)
@@ -9569,7 +10378,40 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor, small symbol"
+		(property "Description" "10 µF ±10% 25V Ceramic Capacitor X7R 1206 (3216 Metric)"
+			(at 182.88 48.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Name" "TDK"
+			(at 182.88 48.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Part_Number" "CGA5L1X7R1E106K160DC"
+			(at 182.88 48.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey Link" "https://www.digikey.com/en/products/detail/tdk/CGA5L1X7R1E106K160DC/22106123"
 			(at 182.88 48.26 0)
 			(hide yes)
 			(show_name no)
@@ -9674,7 +10516,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 61.468 50.038 0)
+		(at 61.976 57.404 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -9685,7 +10527,7 @@
 		(fields_autoplaced yes)
 		(uuid "c1a4ca4b-0997-4962-9252-d6108920eddb")
 		(property "Reference" "#PWR051"
-			(at 61.468 56.388 0)
+			(at 61.976 63.754 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9696,7 +10538,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 61.468 55.118 0)
+			(at 61.976 62.484 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9706,7 +10548,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 61.468 50.038 0)
+			(at 61.976 57.404 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9717,7 +10559,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 61.468 50.038 0)
+			(at 61.976 57.404 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9728,7 +10570,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 61.468 50.038 0)
+			(at 61.976 57.404 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9759,7 +10601,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(in_pos_files no)
-		(dnp no)
+		(dnp yes)
 		(uuid "c4ac6c40-1861-41ac-93fc-35a807d9ccd6")
 		(property "Reference" "EM4"
 			(at 86.106 114.3 90)
@@ -9771,7 +10613,7 @@
 				)
 			)
 		)
-		(property "Value" "691210910002"
+		(property "Value" ""
 			(at 86.36 105.41 90)
 			(hide yes)
 			(show_name no)
@@ -9805,7 +10647,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "TERM BLOCK 2P HORIZON 2.54MM PCB"
 			(at 85.09 109.22 0)
 			(hide yes)
 			(show_name no)
@@ -9898,6 +10740,39 @@
 					(size 1.27 1.27)
 				)
 				(justify bottom)
+			)
+		)
+		(property "Manufacturer_Name" "Würth Elektronik"
+			(at 85.09 109.22 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Part_Number" "691210910002"
+			(at 85.09 109.22 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey Link" "https://www.digikey.ca/en/products/detail/würth-elektronik/691210910002/10668428"
+			(at 85.09 109.22 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "2"
@@ -10048,7 +10923,40 @@
 				)
 			)
 		)
-		(property "Description" "Resistor, small symbol"
+		(property "Description" "RES SMD 10K OHM 0.1% 1/10W 0603"
+			(at 131.826 69.342 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Name" "Bourns Inc."
+			(at 131.826 69.342 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Part_Number" "CRT0603-BY-1002ELF"
+			(at 131.826 69.342 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey Link" "https://www.digikey.ca/en/products/detail/bourns-inc/crt0603-by-1002elf/1775019"
 			(at 131.826 69.342 0)
 			(hide yes)
 			(show_name no)
@@ -10206,7 +11114,40 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor, small symbol"
+		(property "Description" "CAP CER 1UF 16V X7R 0603"
+			(at 91.44 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Name" "KEMET"
+			(at 91.44 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Part_Number" "C0603C105K4RACTU"
+			(at 91.44 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey Link" "https://www.digikey.ca/en/products/detail/kemet/C0603C105K4RACTU/2199788"
 			(at 91.44 86.36 0)
 			(hide yes)
 			(show_name no)
@@ -10287,7 +11228,40 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor, small symbol"
+		(property "Description" "10 µF ±10% 25V Ceramic Capacitor X7R 1206 (3216 Metric)"
+			(at 172.72 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Name" "TDK"
+			(at 172.72 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Part_Number" "CGA5L1X7R1E106K160DC"
+			(at 172.72 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey Link" "https://www.digikey.com/en/products/detail/tdk/CGA5L1X7R1E106K160DC/22106123"
 			(at 172.72 77.47 0)
 			(hide yes)
 			(show_name no)
@@ -10335,7 +11309,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "MSS1P5-M3/89A"
+		(property "Value" ""
 			(at 44.45 110.49 0)
 			(hide yes)
 			(show_name no)
@@ -10370,8 +11344,41 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "DIODE SCHOTTKY 50V 1A DO219AD"
 			(at 40.64 115.57 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Name" "Vishay General Semiconductor - Diodes Division"
+			(at 40.64 115.57 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Part_Number" "MSS1P5-M3/89A"
+			(at 40.64 115.57 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey Link" "https://www.digikey.ca/en/products/detail/vishay-general-semiconductor-diodes-division/mss1p5-m3-89a/2071754"
+			(at 40.64 115.57 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10542,6 +11549,39 @@
 				)
 			)
 		)
+		(property "Manufacturer_Name" "Bourns Inc."
+			(at 39.37 130.556 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Part_Number" "SF-1206SP500M-2"
+			(at 39.37 130.556 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey Link" "https://www.digikey.ca/en/products/detail/bourns-inc/sf-1206sp500m-2/8548151"
+			(at 39.37 130.556 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "ac686d9b-19e7-4f68-bcaf-18a6a261e035")
 		)
@@ -10612,7 +11652,40 @@
 				)
 			)
 		)
-		(property "Description" "Resistor, small symbol"
+		(property "Description" "RES SMD 10K OHM 0.1% 1/10W 0603"
+			(at 131.826 55.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Name" "Bourns Inc."
+			(at 131.826 55.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Part_Number" "CRT0603-BY-1002ELF"
+			(at 131.826 55.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey Link" "https://www.digikey.ca/en/products/detail/bourns-inc/crt0603-by-1002elf/1775019"
 			(at 131.826 55.88 0)
 			(hide yes)
 			(show_name no)
@@ -10647,7 +11720,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(in_pos_files no)
-		(dnp no)
+		(dnp yes)
 		(uuid "f9652e2e-7195-492b-8f8e-1394dea72e31")
 		(property "Reference" "EM2"
 			(at 46.736 114.3 90)
@@ -10659,7 +11732,7 @@
 				)
 			)
 		)
-		(property "Value" "691210910002"
+		(property "Value" ""
 			(at 46.99 105.41 90)
 			(hide yes)
 			(show_name no)
@@ -10693,7 +11766,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "TERM BLOCK 2P HORIZON 2.54MM PCB"
 			(at 45.72 109.22 0)
 			(hide yes)
 			(show_name no)
@@ -10788,6 +11861,39 @@
 				(justify bottom)
 			)
 		)
+		(property "Manufacturer_Name" "Würth Elektronik"
+			(at 45.72 109.22 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Part_Number" "691210910002"
+			(at 45.72 109.22 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey Link" "https://www.digikey.ca/en/products/detail/würth-elektronik/691210910002/10668428"
+			(at 45.72 109.22 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "07d212a7-ba5d-497f-96ca-744ea19af906")
 		)
@@ -10858,7 +11964,40 @@
 				)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" "RES 10 OHM 5% 1/2W 1206"
+			(at 31.75 160.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Name" "YAGEO"
+			(at 31.75 160.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Part_Number" "RC1206JR-7W10RL"
+			(at 31.75 160.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey Link" "https://www.digikey.ca/en/products/detail/yageo/RC1206JR-7W10RL/12698862?gclsrc=aw.ds&gad_source=1&gad_campaignid=23192198598&gbraid=0AAAAADrbLljuq8zsgQOzDJqUH_I0QkL-n&gclid=Cj0KCQjw16_UBhCqARIsAIdOaXyElcgStGI96tr9DUO7vTatItxtE-tBIzqw6KT11nlbI2tqgQ9d9N0aAlJyEALw_wcB"
 			(at 31.75 160.02 0)
 			(hide yes)
 			(show_name no)

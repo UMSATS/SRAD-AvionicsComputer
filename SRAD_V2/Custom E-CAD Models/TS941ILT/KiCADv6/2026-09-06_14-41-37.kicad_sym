@@ -112,7 +112,7 @@
 				)
 			)
 			(pin output line
-				(at 15.24 0 180)
+				(at 15.24 -5.08 180)
 				(length 3.81)
 				(name "OUT"
 					(effects
@@ -130,7 +130,7 @@
 				)
 			)
 			(pin power_in line
-				(at 15.24 -5.08 180)
+				(at 15.24 0 180)
 				(length 3.81)
 				(name "VDD"
 					(effects
@@ -148,9 +148,9 @@
 				)
 			)
 			(pin input line
-				(at -16.51 5.08 0)
+				(at -16.51 -5.08 0)
 				(length 3.81)
-				(name "NON-INV._IN."
+				(name "+IN"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -166,9 +166,9 @@
 				)
 			)
 			(pin input line
-				(at -16.51 -3.81 0)
+				(at -16.51 5.08 0)
 				(length 3.81)
-				(name "INV._IN."
+				(name "-IN"
 					(effects
 						(font
 							(size 1.27 1.27)
