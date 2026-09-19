@@ -31,4 +31,5 @@
 	(lib (name "TS941ILT") (type "KiCad") (uri "${KIPRJMOD}/Custom E-CAD Models/TS941ILT/KiCADv6/TS941ILT.pretty") (options "") (descr ""))
 	(lib (name "pcbway") (type "KiCad") (uri "${KIPRJMOD}/pcbway.pretty") (options "") (descr ""))
 	(lib (name "KiCad_logo") (type "KiCad") (uri "${KIPRJMOD}/KiCad_logo.pretty") (options "") (descr ""))
+	(lib (name "PCBWay_big") (type "KiCad") (uri "${KIPRJMOD}/PCBWay_big.pretty") (options "") (descr ""))
 )
