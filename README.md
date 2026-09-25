@@ -2,6 +2,11 @@
 
 This repository contains the schematic, PCB, and supporting design files for the Student Researched and Designed (SRAD) rocket avionics computer.
 
+<p align="center">
+  <img src="Images/SRAD_3D.png" alt="Alt Text" width="400">
+  <img src="Images/SRAD_PCB.png" alt="Alt Text" width="400">
+</p>
+
 ## Project Structure
 
 - **SRAD_V2.kicad_pro** — Main KiCad project file
