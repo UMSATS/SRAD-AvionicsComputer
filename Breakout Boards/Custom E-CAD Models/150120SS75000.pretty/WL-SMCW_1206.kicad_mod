@@ -1,0 +1,233 @@
+(footprint "WL-SMCW_1206"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(descr "<B>WL-SMCW SMT Mono-color Chip LED Waterclear<Br><Br></B>Size: 1206, SMT, 2pins<Br>3.2x1.6x0.68mm(LXWXH)")
+	(property "Reference" "REF**"
+		(at 0 -1.8764 0)
+		(layer "F.SilkS")
+		(uuid "3945c6d8-788a-4018-af1c-2311417bd800")
+		(effects
+			(font
+				(size 0.64 0.64)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "WL-SMCW_1206"
+		(at 0 1.7936 0)
+		(layer "F.Fab")
+		(uuid "484ec129-5872-4873-bbe6-9ea32381ac2a")
+		(effects
+			(font
+				(size 0.64 0.64)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "d6148aaa-9634-47cc-95ad-64c4e4d07407")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "66e7b626-1fd8-4271-b283-c9775db456d3")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_line
+		(start -0.5 0.9)
+		(end 0.5 0.9)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "7f05b84c-29b9-4073-bad3-5c09d80e9463")
+	)
+	(fp_line
+		(start -0.4 -0.9)
+		(end 0.5 -0.9)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "7ace7812-89cd-45e9-9efd-b2940c427eef")
+	)
+	(fp_line
+		(start -0.33 0)
+		(end 0.21 -0.34)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "e072766e-c334-438f-8ad3-f0b5c95d566a")
+	)
+	(fp_line
+		(start 0.21 -0.34)
+		(end 0.21 0.35)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "739eb741-dc63-447d-83de-602a51039abf")
+	)
+	(fp_line
+		(start 0.21 0.35)
+		(end -0.33 0)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "a1dab9a3-5f83-43c3-847f-abe1491d69f7")
+	)
+	(fp_poly
+		(pts
+			(xy -2.4 -1.1) (xy 2.4 -1.1) (xy 2.4 1.1) (xy -2.4 1.1)
+		)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.CrtYd")
+		(uuid "c7579536-4ea9-4b43-874f-803381781872")
+	)
+	(fp_line
+		(start -1.6 0.8)
+		(end -1.6 -0.8)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "697342ab-a7ea-483f-89b8-a4e9689c7685")
+	)
+	(fp_line
+		(start -1.6 0.8)
+		(end 1.6 0.8)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "f1e366a7-cec9-4c80-bc16-ca9a486ba492")
+	)
+	(fp_line
+		(start -0.33 0)
+		(end 0.21 -0.34)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "03e89010-d254-4af7-b562-8d259949ebae")
+	)
+	(fp_line
+		(start 0.21 -0.34)
+		(end 0.21 0.35)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "f67bd2fe-8d35-436d-af73-699b79adfce3")
+	)
+	(fp_line
+		(start 0.21 0.35)
+		(end -0.33 0)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "b7ec7747-7be8-4ac5-8b61-b34bf4abc8ad")
+	)
+	(fp_line
+		(start 1.6 -0.8)
+		(end -1.6 -0.8)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "252d30c8-85d1-4929-9e1d-b1adcec6aa35")
+	)
+	(fp_line
+		(start 1.6 -0.8)
+		(end 1.6 0.8)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "39c90b37-f662-41e9-bc6d-fdf67f822dba")
+	)
+	(fp_text user "+"
+		(at 2.6 0.3 0)
+		(layer "F.SilkS")
+		(uuid "b1744550-f111-4714-a846-9313d9e459f2")
+		(effects
+			(font
+				(size 0.64 0.64)
+				(thickness 0.15)
+			)
+		)
+	)
+	(fp_text user "+"
+		(at 2.6 0.3 0)
+		(layer "F.Fab")
+		(uuid "d7d01db0-dac1-4779-82db-04b50707fa31")
+		(effects
+			(font
+				(size 0.64 0.64)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -1.5 0)
+		(size 1.4 1.5)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_mask_margin 0.102)
+		(uuid "9b71b592-e114-491a-ac98-3a358819db7e")
+	)
+	(pad "2" smd rect
+		(at 1.5 0)
+		(size 1.4 1.5)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_mask_margin 0.102)
+		(uuid "a4cf3272-2766-4595-9962-6cef87fbab6b")
+	)
+	(embedded_fonts no)
+	(model "${KIPRJMOD}/Custom E-CAD Models/150120SS75000.pretty/WL-SMCW_1206.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

@@ -1,0 +1,175 @@
+(footprint "XDCR_AI-3035-TWT-3V-R"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0.632655 -16.545255 0)
+		(layer "F.SilkS")
+		(uuid "53b96621-62ec-4a9e-b4ca-74cedad7a1d5")
+		(effects
+			(font
+				(size 1.003709 1.003709)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "XDCR_AI-3035-TWT-3V-R"
+		(at 10.81601 16.5337 0)
+		(layer "F.Fab")
+		(uuid "3ab983f8-5783-4808-be4c-e6b94cb124b6")
+		(effects
+			(font
+				(size 1.002205 1.002205)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "1bedc0c5-f687-4a77-a560-9b5fa3c88737")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "b766cf5b-68b7-4d19-ad07-e248c899eaa3")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(attr through_hole)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_line
+		(start -17.78 0)
+		(end -16.51 0)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "af18e896-f6a7-4e0b-b5af-b92a2abb80c6")
+	)
+	(fp_line
+		(start -17.145 -0.635)
+		(end -17.145 0.635)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "7bcb7495-920f-4b25-b64a-58788cdb41ae")
+	)
+	(fp_line
+		(start 17.145 0)
+		(end 18.415 0)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "07857e69-980b-451e-b516-f9e9e76ab39f")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 15 0)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "0ae36da7-92f2-400a-97fb-606a6d6f2560")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 15.25 0)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "222b3f4d-7b13-41f1-8ab3-897626588674")
+	)
+	(fp_line
+		(start -17.78 0)
+		(end -16.51 0)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "9ea70911-d8ad-4d85-a559-bb5c696126cc")
+	)
+	(fp_line
+		(start -17.145 -0.635)
+		(end -17.145 0.635)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "5a0ae404-7ad6-4a3c-8441-d21507bb92dd")
+	)
+	(fp_line
+		(start 17.145 0)
+		(end 18.415 0)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "43f27254-97ad-40a6-b207-9eff10bac95b")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 15 0)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "9be5b735-517a-4f49-a29a-de945b0a6c25")
+	)
+	(pad "N" thru_hole circle
+		(at 7.5 0)
+		(size 1.508 1.508)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(solder_mask_margin 0.102)
+		(uuid "d4246ce6-8643-4013-a5c5-8b4e3aeac256")
+	)
+	(pad "P" thru_hole circle
+		(at -7.5 0)
+		(size 1.508 1.508)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(solder_mask_margin 0.102)
+		(uuid "a87ab1d3-ffc2-4017-ae9b-d4d9b5ddae24")
+	)
+	(embedded_fonts no)
+	(model "${KIPRJMOD}/Custom E-CAD Models/3D Models/Buzzer/AI-3035-TWT-3V-R.step"
+		(offset
+			(xyz 0 0 10)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 -0 -0)
+		)
+	)
+)

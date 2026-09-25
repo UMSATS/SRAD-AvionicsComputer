@@ -3248,18 +3248,6 @@
 		)
 	)
 	(rectangle
-		(start 206.756 12.2546)
-		(end 283.464 164.338)
-		(stroke
-			(width 0.254)
-			(type solid)
-		)
-		(fill
-			(type none)
-		)
-		(uuid "05c60c30-ed6a-4b6e-9385-ca55149ba632")
-	)
-	(rectangle
 		(start 124.5783 11.6433)
 		(end 204.3343 162.497)
 		(stroke
@@ -3377,17 +3365,7 @@
 		)
 		(uuid "7c32beb6-4ce4-4dab-82c1-6698c591143a")
 	)
-	(text "LED INDICATORS"
-		(exclude_from_sim no)
-		(at 236.474 18.034 0)
-		(effects
-			(font
-				(size 4.318 4.318)
-			)
-		)
-		(uuid "95fb009c-9bd2-4c54-89b2-c4c7d686acc1")
-	)
-	(text "May put a P-channel MOSFET\nbefore the capacitor:"
+	(text "P-channel MOSFET may be put\nbefore the capacitor:"
 		(exclude_from_sim no)
 		(at 43.688 46.482 0)
 		(effects

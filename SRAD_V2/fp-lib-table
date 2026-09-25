@@ -32,4 +32,6 @@
 	(lib (name "pcbway") (type "KiCad") (uri "${KIPRJMOD}/pcbway.pretty") (options "") (descr ""))
 	(lib (name "KiCad_logo") (type "KiCad") (uri "${KIPRJMOD}/KiCad_logo.pretty") (options "") (descr ""))
 	(lib (name "PCBWay_big") (type "KiCad") (uri "${KIPRJMOD}/PCBWay_big.pretty") (options "") (descr ""))
+	(lib (name "UMSATS_logo") (type "KiCad") (uri "${KIPRJMOD}/UMSATS_logo.pretty") (options "") (descr ""))
+	(lib (name "UMSATS_thick") (type "KiCad") (uri "${KIPRJMOD}/UMSATS_thick.pretty") (options "") (descr ""))
 )
