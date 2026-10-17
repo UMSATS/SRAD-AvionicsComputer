@@ -1,0 +1,753 @@
+(export
+	(version "E")
+	(design
+		(source "C:\\Users\\klydb\\Downloads\\Barometer_breakout.kicad_sch")
+		(date "2026-10-11T13:45:43")
+		(tool "Eeschema 10.0.7")
+		(sheet
+			(number "1")
+			(name "/")
+			(tstamps "/")
+			(title_block
+				(title)
+				(company)
+				(rev)
+				(date)
+				(source "Barometer_breakout.kicad_sch")
+				(comment
+					(number "1")
+					(value "")
+				)
+				(comment
+					(number "2")
+					(value "")
+				)
+				(comment
+					(number "3")
+					(value "")
+				)
+				(comment
+					(number "4")
+					(value "")
+				)
+				(comment
+					(number "5")
+					(value "")
+				)
+				(comment
+					(number "6")
+					(value "")
+				)
+				(comment
+					(number "7")
+					(value "")
+				)
+				(comment
+					(number "8")
+					(value "")
+				)
+				(comment
+					(number "9")
+					(value "")
+				)
+			)
+		)
+	)
+	(components
+		(comp
+			(ref "C30")
+			(value "1uF")
+			(footprint "Capacitor_SMD:C_0603_1608Metric")
+			(description "CAP CER 1UF 16V X7R 0603")
+			(fields
+				(field
+					(name "Manufacturer_Name") "KEMET")
+				(field
+					(name "Manufacturer_Part_Number") "C0603C105K4RACTU")
+				(field
+					(name "Digikey Link") "https://www.digikey.ca/en/products/detail/kemet/C0603C105K4RACTU/2199788")
+				(field
+					(name "Footprint") "Capacitor_SMD:C_0603_1608Metric")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "CAP CER 1UF 16V X7R 0603")
+			)
+			(libsource
+				(lib "Device")
+				(part "C_Small")
+				(description "Unpolarized capacitor, small symbol")
+			)
+			(property
+				(name "Manufacturer_Name")
+				(value "KEMET")
+			)
+			(property
+				(name "Manufacturer_Part_Number")
+				(value "C0603C105K4RACTU")
+			)
+			(property
+				(name "Digikey Link")
+				(value "https://www.digikey.ca/en/products/detail/kemet/C0603C105K4RACTU/2199788")
+			)
+			(property
+				(name "Sheetname")
+				(value "Root")
+			)
+			(property
+				(name "Sheetfile")
+				(value "Barometer_breakout.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "capacitor cap")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "C_*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "7aea934a-5508-4f8b-b1e5-a9b49d2f2099")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "C32")
+			(value "100nF")
+			(footprint "Capacitor_SMD:C_0603_1608Metric")
+			(description "CAP CER 0.1UF 50V X7R 0603")
+			(fields
+				(field
+					(name "Manufacturer_Name") "KEMET")
+				(field
+					(name "Manufacturer_Part_Number") "C0603C104K5RAC3121")
+				(field
+					(name "Digikey Link") "https://www.digikey.ca/en/products/detail/kemet/C0603C104K5RAC3121/16680122?gclsrc=aw.ds&gad_source=1&gad_campaignid=17348075909&gbraid=0AAAAADrbLlg1q0whI5uxY39igKdJtyvmY&gclid=Cj0KCQiA7rDMBhCjARIsAGDBuEACcvE_IUWsAryUaP235cBsp-bYcxMiFpW8ODy3MSe36KDxJNpRn_oaAvgaEALw_wcB")
+				(field
+					(name "Footprint") "Capacitor_SMD:C_0603_1608Metric")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "CAP CER 0.1UF 50V X7R 0603")
+			)
+			(libsource
+				(lib "Device")
+				(part "C_Small")
+				(description "Unpolarized capacitor, small symbol")
+			)
+			(property
+				(name "Manufacturer_Name")
+				(value "KEMET")
+			)
+			(property
+				(name "Manufacturer_Part_Number")
+				(value "C0603C104K5RAC3121")
+			)
+			(property
+				(name "Digikey Link")
+				(value "https://www.digikey.ca/en/products/detail/kemet/C0603C104K5RAC3121/16680122?gclsrc=aw.ds&gad_source=1&gad_campaignid=17348075909&gbraid=0AAAAADrbLlg1q0whI5uxY39igKdJtyvmY&gclid=Cj0KCQiA7rDMBhCjARIsAGDBuEACcvE_IUWsAryUaP235cBsp-bYcxMiFpW8ODy3MSe36KDxJNpRn_oaAvgaEALw_wcB")
+			)
+			(property
+				(name "Sheetname")
+				(value "Root")
+			)
+			(property
+				(name "Sheetfile")
+				(value "Barometer_breakout.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "capacitor cap")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "C_*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "7751c404-7bbd-4128-a4db-2ba1b503da7e")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "IC6")
+			(value "~")
+			(footprint "Package_LGA:LGA-8_3x5mm_P1.25mm")
+			(datasheet "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=showdoc&DocId=Data+Sheet%7FMS5607-02BA03%7FB2%7Fpdf%7FEnglish%7FENG_DS_MS5607-02BA03_B2.pdf%7FCAT-BLPS0035")
+			(description "Barometric pressure sensor, 20cm resolution, 10 to 1200 mbar, I2C and SPI interface up to 20MHz, LGA-8")
+			(fields
+				(field
+					(name "Manufacturer_Name") "TE Connectivity Measurement Specialties")
+				(field
+					(name "Manufacturer_Part_Number") "MS560702BA03-50")
+				(field
+					(name "Digikey Link") "https://www.digikey.ca/en/products/detail/te-connectivity-measurement-specialties/MS560702BA03-50/4700931")
+				(field
+					(name "Footprint") "Package_LGA:LGA-8_3x5mm_P1.25mm")
+				(field
+					(name "Datasheet") "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=showdoc&DocId=Data+Sheet%7FMS5607-02BA03%7FB2%7Fpdf%7FEnglish%7FENG_DS_MS5607-02BA03_B2.pdf%7FCAT-BLPS0035")
+				(field
+					(name "Description") "Barometric pressure sensor, 20cm resolution, 10 to 1200 mbar, I2C and SPI interface up to 20MHz, LGA-8")
+			)
+			(libsource
+				(lib "Sensor_Pressure")
+				(part "MS5607-02BA")
+				(description "Barometric pressure sensor, 20cm resolution, 10 to 1200 mbar, I2C and SPI interface up to 20MHz, LGA-8")
+			)
+			(property
+				(name "Manufacturer_Name")
+				(value "TE Connectivity Measurement Specialties")
+			)
+			(property
+				(name "Manufacturer_Part_Number")
+				(value "MS560702BA03-50")
+			)
+			(property
+				(name "Digikey Link")
+				(value "https://www.digikey.ca/en/products/detail/te-connectivity-measurement-specialties/MS560702BA03-50/4700931")
+			)
+			(property
+				(name "Sheetname")
+				(value "Root")
+			)
+			(property
+				(name "Sheetfile")
+				(value "Barometer_breakout.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "pressure SPI I2C")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "LGA*3x5mm*P1.25mm*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "ba9e5b24-cef2-4a34-ac2f-980a2a5221c4")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "2")
+						)
+						(pin
+							(num "6")
+						)
+						(pin
+							(num "7")
+						)
+						(pin
+							(num "8")
+						)
+						(pin
+							(num "4")
+						)
+						(pin
+							(num "5")
+						)
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "3")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "J16")
+			(value "Conn_01x04_Pin")
+			(footprint "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical")
+			(description "Generic connector, single row, 01x04, script generated")
+			(fields
+				(field
+					(name "Digikey Link")
+				)
+				(field
+					(name "Footprint") "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Generic connector, single row, 01x04, script generated")
+			)
+			(libsource
+				(lib "Connector")
+				(part "Conn_01x04_Pin")
+				(description "Generic connector, single row, 01x04, script generated")
+			)
+			(property
+				(name "Digikey Link")
+				(value "")
+			)
+			(property
+				(name "Sheetname")
+				(value "Root")
+			)
+			(property
+				(name "Sheetfile")
+				(value "Barometer_breakout.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "connector")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "Connector*:*_1x??_*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "e65d132a-5031-4604-88f6-1e28b63fa876")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+						(pin
+							(num "3")
+						)
+						(pin
+							(num "4")
+						)
+					)
+				)
+			)
+		)
+		(comp
+			(ref "J17")
+			(value "Conn_01x04_Pin")
+			(footprint "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical")
+			(description "Generic connector, single row, 01x04, script generated")
+			(fields
+				(field
+					(name "Digikey Link")
+				)
+				(field
+					(name "Footprint") "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical")
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Generic connector, single row, 01x04, script generated")
+			)
+			(libsource
+				(lib "Connector")
+				(part "Conn_01x04_Pin")
+				(description "Generic connector, single row, 01x04, script generated")
+			)
+			(property
+				(name "Digikey Link")
+				(value "")
+			)
+			(property
+				(name "Sheetname")
+				(value "Root")
+			)
+			(property
+				(name "Sheetfile")
+				(value "Barometer_breakout.kicad_sch")
+			)
+			(property
+				(name "ki_keywords")
+				(value "connector")
+			)
+			(property
+				(name "ki_fp_filters")
+				(value "Connector*:*_1x??_*")
+			)
+			(sheetpath
+				(names "/")
+				(tstamps "/")
+			)
+			(tstamps "0fe9eb2d-5d21-47f6-9076-4f2fa7909f9b")
+			(units
+				(unit
+					(name "A")
+					(pins
+						(pin
+							(num "1")
+						)
+						(pin
+							(num "2")
+						)
+						(pin
+							(num "3")
+						)
+						(pin
+							(num "4")
+						)
+					)
+				)
+			)
+		)
+	)
+	(groups)
+	(variants)
+	(libparts
+		(libpart
+			(lib "Connector")
+			(part "Conn_01x04_Pin")
+			(description "Generic connector, single row, 01x04, script generated")
+			(footprints
+				(fp "Connector*:*_1x??_*")
+			)
+			(fields
+				(field
+					(name "Reference") "J")
+				(field
+					(name "Value") "Conn_01x04_Pin")
+				(field
+					(name "Footprint")
+				)
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Generic connector, single row, 01x04, script generated")
+			)
+			(pins
+				(pin
+					(num "1")
+					(name "Pin_1")
+					(type "passive")
+				)
+				(pin
+					(num "2")
+					(name "Pin_2")
+					(type "passive")
+				)
+				(pin
+					(num "3")
+					(name "Pin_3")
+					(type "passive")
+				)
+				(pin
+					(num "4")
+					(name "Pin_4")
+					(type "passive")
+				)
+			)
+		)
+		(libpart
+			(lib "Device")
+			(part "C_Small")
+			(description "Unpolarized capacitor, small symbol")
+			(footprints
+				(fp "C_*")
+			)
+			(fields
+				(field
+					(name "Reference") "C")
+				(field
+					(name "Value") "C_Small")
+				(field
+					(name "Footprint")
+				)
+				(field
+					(name "Datasheet")
+				)
+				(field
+					(name "Description") "Unpolarized capacitor, small symbol")
+			)
+			(pins
+				(pin
+					(num "1")
+					(name "")
+					(type "passive")
+				)
+				(pin
+					(num "2")
+					(name "")
+					(type "passive")
+				)
+			)
+		)
+		(libpart
+			(lib "Sensor_Pressure")
+			(part "MS5607-02BA")
+			(description "Barometric pressure sensor, 20cm resolution, 10 to 1200 mbar, I2C and SPI interface up to 20MHz, LGA-8")
+			(docs "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=showdoc&DocId=Data+Sheet%7FMS5607-02BA03%7FB2%7Fpdf%7FEnglish%7FENG_DS_MS5607-02BA03_B2.pdf%7FCAT-BLPS0035")
+			(footprints
+				(fp "LGA*3x5mm*P1.25mm*")
+			)
+			(fields
+				(field
+					(name "Reference") "U")
+				(field
+					(name "Value") "MS5607-02BA")
+				(field
+					(name "Footprint") "Package_LGA:LGA-8_3x5mm_P1.25mm")
+				(field
+					(name "Datasheet") "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=showdoc&DocId=Data+Sheet%7FMS5607-02BA03%7FB2%7Fpdf%7FEnglish%7FENG_DS_MS5607-02BA03_B2.pdf%7FCAT-BLPS0035")
+				(field
+					(name "Description") "Barometric pressure sensor, 20cm resolution, 10 to 1200 mbar, I2C and SPI interface up to 20MHz, LGA-8")
+			)
+			(pins
+				(pin
+					(num "1")
+					(name "VDD")
+					(type "power_in")
+				)
+				(pin
+					(num "2")
+					(name "PS")
+					(type "input")
+				)
+				(pin
+					(num "3")
+					(name "GND")
+					(type "power_in")
+				)
+				(pin
+					(num "4")
+					(name "CSB")
+					(type "input")
+				)
+				(pin
+					(num "5")
+					(name "CSB")
+					(type "input")
+				)
+				(pin
+					(num "6")
+					(name "SDO")
+					(type "output")
+				)
+				(pin
+					(num "7")
+					(name "SDI/SDA")
+					(type "bidirectional")
+				)
+				(pin
+					(num "8")
+					(name "SCLK")
+					(type "input")
+				)
+			)
+		)
+	)
+	(libraries
+		(library
+			(logical "Connector")
+			(uri "${KICAD10_SYMBOL_DIR}/Connector.kicad_sym")
+		)
+		(library
+			(logical "Device")
+			(uri "${KICAD10_SYMBOL_DIR}/Device.kicad_sym")
+		)
+		(library
+			(logical "Sensor_Pressure")
+			(uri "${KICAD10_SYMBOL_DIR}/Sensor_Pressure.kicad_sym")
+		)
+	)
+	(nets
+		(net
+			(code "1")
+			(name "+3.3V")
+			(class "Default")
+			(node
+				(ref "C30")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "C32")
+				(pin "1")
+				(pintype "passive")
+			)
+			(node
+				(ref "IC6")
+				(pin "1")
+				(pinfunction "VDD_1")
+				(pintype "power_in")
+			)
+			(node
+				(ref "J16")
+				(pin "4")
+				(pinfunction "Pin_4_4")
+				(pintype "passive")
+			)
+			(node
+				(ref "J17")
+				(pin "4")
+				(pinfunction "Pin_4_4")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "2")
+			(name "BAROMETER_MISO")
+			(class "Default")
+			(node
+				(ref "IC6")
+				(pin "6")
+				(pinfunction "SDO_6")
+				(pintype "output")
+			)
+		)
+		(net
+			(code "3")
+			(name "BAROMETER_MOSI")
+			(class "Default")
+			(node
+				(ref "IC6")
+				(pin "7")
+				(pinfunction "SDI/SDA_7")
+				(pintype "bidirectional")
+			)
+		)
+		(net
+			(code "4")
+			(name "BAROMETER_SCLK")
+			(class "Default")
+			(node
+				(ref "IC6")
+				(pin "8")
+				(pinfunction "SCLK_8")
+				(pintype "input")
+			)
+		)
+		(net
+			(code "5")
+			(name "BAR_SPI_CS")
+			(class "Default")
+			(node
+				(ref "IC6")
+				(pin "4")
+				(pinfunction "CSB_4")
+				(pintype "input")
+			)
+			(node
+				(ref "IC6")
+				(pin "5")
+				(pinfunction "CSB_5")
+				(pintype "input")
+			)
+		)
+		(net
+			(code "6")
+			(name "GND")
+			(class "Default")
+			(node
+				(ref "C30")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "C32")
+				(pin "2")
+				(pintype "passive")
+			)
+			(node
+				(ref "IC6")
+				(pin "2")
+				(pinfunction "PS_2")
+				(pintype "input")
+			)
+			(node
+				(ref "IC6")
+				(pin "3")
+				(pinfunction "GND_3")
+				(pintype "power_in")
+			)
+			(node
+				(ref "J16")
+				(pin "2")
+				(pinfunction "Pin_2_2")
+				(pintype "passive")
+			)
+			(node
+				(ref "J17")
+				(pin "2")
+				(pinfunction "Pin_2_2")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "7")
+			(name "unconnected-(J16-Pin_1-Pad1)")
+			(class "Default")
+			(node
+				(ref "J16")
+				(pin "1")
+				(pinfunction "Pin_1_1")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "8")
+			(name "unconnected-(J16-Pin_3-Pad3)")
+			(class "Default")
+			(node
+				(ref "J16")
+				(pin "3")
+				(pinfunction "Pin_3_3")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "9")
+			(name "unconnected-(J17-Pin_1-Pad1)")
+			(class "Default")
+			(node
+				(ref "J17")
+				(pin "1")
+				(pinfunction "Pin_1_1")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "10")
+			(name "unconnected-(J17-Pin_3-Pad3)")
+			(class "Default")
+			(node
+				(ref "J17")
+				(pin "3")
+				(pinfunction "Pin_3_3")
+				(pintype "passive")
+			)
+		)
+	)
+)
