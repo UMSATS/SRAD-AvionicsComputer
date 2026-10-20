@@ -1,6 +1,6 @@
 {
   "board": {
-    "active_layer": 31,
+    "active_layer": 0,
     "active_layer_preset": "",
     "auto_track_width": false,
     "hidden_netclasses": [],
@@ -13,7 +13,7 @@
       "shapes": 0.38999998569488525,
       "tracks": 1.0,
       "vias": 1.0,
-      "zones": 0.47999998927116394
+      "zones": 0.6600000262260437
     },
     "prototype_zone_fills": false,
     "selection_filter": {
@@ -97,9 +97,7 @@
       103,
       74,
       103,
-      103,
-      103,
-      239
+      103
     ],
     "custom_group_rules": [],
     "expanded_rows": [],
