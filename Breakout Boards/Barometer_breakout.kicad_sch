@@ -1117,6 +1117,54 @@
 			)
 		)
 	)
+	(global_label "BAROMETER_MISO"
+		(shape input)
+		(at 220.726 90.424 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "47829b75-40c5-4050-9f00-cdd6d4048f28")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 201.2309 90.424 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "BAROMETER_SCLK"
+		(shape input)
+		(at 220.726 95.504 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "5d385f10-c806-4803-b775-93dbf7887e3f")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 201.0495 95.504 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
 	(global_label "BAROMETER_SCLK"
 		(shape input)
 		(at 129.54 97.536 180)
@@ -1130,6 +1178,54 @@
 		(uuid "5f48e358-22f0-4d7c-9603-1fde4268fda1")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 109.8635 97.536 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "BAR_SPI_CS"
+		(shape input)
+		(at 220.726 87.884 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "6f4689d7-4942-4655-aa87-e37fc6a796d2")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 206.6132 87.884 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "BAROMETER_MOSI"
+		(shape input)
+		(at 220.726 92.964 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "a6c742e6-ec58-4f0a-912b-d4c33f4d7c5c")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 201.2309 92.964 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1359,84 +1455,6 @@
 			(project "breakout_boards"
 				(path "/016ea6e5-09c6-43d4-b6cc-3404e2d65458/537fe4b3-9881-4962-b6c0-760537e4a302"
 					(reference "J17")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+3.3V")
-		(at 220.726 95.504 0)
-		(mirror x)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "22f600f7-2f37-4723-8eec-ac3cc8cccf27")
-		(property "Reference" "#PWR090"
-			(at 220.726 91.694 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "+3.3V"
-			(at 220.472 99.06 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 220.726 95.504 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 220.726 95.504 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 220.726 95.504 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "00a3e16e-e6a0-427e-8e28-5ee8136a6efc")
-		)
-		(instances
-			(project "breakout_boards"
-				(path "/016ea6e5-09c6-43d4-b6cc-3404e2d65458/537fe4b3-9881-4962-b6c0-760537e4a302"
-					(reference "#PWR090")
 					(unit 1)
 				)
 			)
@@ -1954,86 +1972,6 @@
 			(project "breakout_boards"
 				(path "/016ea6e5-09c6-43d4-b6cc-3404e2d65458/537fe4b3-9881-4962-b6c0-760537e4a302"
 					(reference "IC6")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 220.726 90.424 270)
-		(mirror x)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "db1517d5-706c-4b9c-80e9-15ba3f5f49e7")
-		(property "Reference" "#PWR089"
-			(at 214.376 90.424 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 215.646 90.424 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 220.726 90.424 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 220.726 90.424 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 220.726 90.424 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "6ad4f809-d3ba-4a8c-a65a-86eb9b25d7fe")
-		)
-		(instances
-			(project "breakout_boards"
-				(path "/016ea6e5-09c6-43d4-b6cc-3404e2d65458/537fe4b3-9881-4962-b6c0-760537e4a302"
-					(reference "#PWR089")
 					(unit 1)
 				)
 			)
