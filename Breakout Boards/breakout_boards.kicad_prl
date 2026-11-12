@@ -13,7 +13,7 @@
       "shapes": 0.38999998569488525,
       "tracks": 1.0,
       "vias": 1.0,
-      "zones": 0.6600000262260437
+      "zones": 0.47999998927116394
     },
     "prototype_zone_fills": false,
     "selection_filter": {
@@ -33,6 +33,7 @@
       "vias",
       "footprint_text",
       "ratsnest",
+      "grid",
       "footprints_front",
       "footprints_back",
       "footprint_values",
@@ -88,16 +89,16 @@
       9
     ],
     "col_widths": [
-      156,
-      141,
-      103,
+      162,
+      147,
+      91,
+      67,
+      91,
+      91,
+      91,
       71,
-      103,
-      103,
-      103,
-      74,
-      103,
-      103
+      91,
+      91
     ],
     "custom_group_rules": [],
     "expanded_rows": [],
